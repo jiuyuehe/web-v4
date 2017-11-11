@@ -1,0 +1,122 @@
+ * {
+        
+        padding: 0;
+    }
+
+
+    ul li {
+        list-style: none
+    }
+   
+
+    .setting-warp {
+        display: inline-block;
+    }
+
+    .setting-content {
+        display: none;
+        position: absolute;
+        width: 87px;
+        border: 1px solid #ccc;
+        right: 52px;
+        top: 30px;
+    }
+
+    .setting-content li {
+        padding: 8px;
+    }
+
+    .setting-content li:hover {
+        color: white;
+        background: #3385ff;
+    }
+    
+
+    .first-row {
+        float: right;
+        font-size: 14px;
+    }
+    .first-row a:hover {
+        color:#3385ff;
+        
+    }
+    .first-row a{
+        color:black;
+        font-size: 12px;
+    }
+
+    .sencod-row {
+       text-align: center;
+       margin-top: 32px;
+    }
+    
+    .qrcodeCon{
+        text-align: center;
+    }
+    .qrcode-text b {
+        color: #666;
+        font-size: 12px;
+    }
+
+    .input-group input {
+        height: 32px;
+        border: 1px solid gray;
+        width: 544px;
+    }
+    .intro {
+        margin-top: 15%;
+    }
+
+    .input-group span {
+        background-color: #3385ff;
+        color: white;
+        display: inline-block;
+        width: 100px;
+        height: 34px;
+        line-height: 30px;
+        text-align: center;
+        margin-left: -5px;
+    }
+    .list {
+        background: #3385ff;
+        color: white;
+        display: inline-block;
+        width: 68px;
+        height: 22px;
+        line-height: 21px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .link{
+        text-align: center;
+    }
+    .link a {
+        color: #666;
+        font-size: 12px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .copyright p {
+        color: #666;
+        font-size: 12px;
+    }
+    .copyright a {
+        color: #666;
+        font-size: 12px;
+        vertical-align: 2px;
+    }
+    .extr {
+        margin-left: 400px;
+        margin-top: -25px;
+    }
+    #triangle-up {
+        width: 0;
+        height: 0px;
+        display: inline-block;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 8px solid #c3c3c3;
+        margin: -8px 0 0 31px;
+    }
+    

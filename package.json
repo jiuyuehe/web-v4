@@ -1,0 +1,26 @@
+{
+  "name": "web-v4",
+  "version": "1.0.0",
+  "description": "yliyun website",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiuyuehe/web-v4.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiuyuehe/web-v4/issues"
+  },
+  "homepage": "https://github.com/jiuyuehe/web-v4#readme"
+}
