@@ -7,25 +7,9 @@ h3{
     cursor: pointer;
     font-family: 微软雅黑 !important;
 }
-.head{
-    height: 163px;
-    margin: 0 53px;
-}
-.head-center{
-    height: 90px;
-    position: relative;
-    top: 36px;
-}
-
-.logo,
-.text-right,
-.text-right{
-    height: 100%;
-}
-
 .logo img{
-    height: 90px;
-    width: 100%;
+    max-width: 90px;
+    margin: 1rem 0;
 }
 .head a{
     color: #0c1014;
@@ -54,10 +38,6 @@ h3{
 .text-right a span:hover{
     box-shadow: 0px 3px 0px 1px #ccd6cd;
 }
-/* .text-right a span:hover{
-    box-shadow: 0 2px 0;
-
-}  */
 .btn1{
     padding: 0;
     position: relative;
@@ -71,7 +51,7 @@ h3{
 
 /* 新闻部分 */
 .theHeadlines{
-    margin: 0 53px;
+    /* margin: 0 53px; */
     margin-top: 10px;
 }
 .theHeadlines h4{
@@ -95,6 +75,10 @@ h3{
     padding: 0 4px;
     cursor: pointer;
 }
+.spa1:hover{
+    color: #06ca68;
+    border:1px solid #06ca68;
+}
 .more a{
     float: right;
     font-size: 12px;
@@ -110,70 +94,17 @@ h3{
 
 
 .exhibition{
-    /* height: 515px;
-    background: darkseagreen; */
-    margin: 0 53px;
     margin-top: 10px;
     background-color: #fff;
 }
 .case{
     /* height: 550px; */
-    margin: 35px 53px 0 53px;
+    /* margin: 35px 53px 0 53px; */
 }
-/* .b{
-    height: 100%;
-    margin: 0 !important;
-} */
-/* .case-left{
-    height: 100%;
-    background: antiquewhite;
-}
-.case-right{
-    height: 100%;
-    background: aqua;
-} */
-/* .c1,
-.c2,
-.c3{
-    height: 455px;
-}
-.c4,
-.c5{
-    height: 520px;
-}
-.c1{
-    background: bisque;
-}
-.c2{
-    background: aqua;
-}
-.c3{
-    background: #58452f;
-}
-.c4{
-    background: burlywood;
-}
-.c5{
-    background: #c1b6b6;
-} */
 .carouselFigure{
     position: relative;
     margin: 10px 30px 0 30px;
 }
-/* .c{
-    margin: 0 !important;
-}
-.c6{
-    ;
-    background: bisque;
-} */
-
-
-
-
-
-
-
 
 .yli-nav{
     /* width: 60%; */
@@ -197,9 +128,11 @@ h3{
 
 /* 轮播 */
 .carousel{
-    margin:0px 53px 0px 53px;
+    /* margin:0px 53px 0px 53px; */
 } 
-
+.carousel-indicators{
+    bottom: 1rem !important;
+}
 ol.carousel-indicators li{
     background: #06ca68;
 }
@@ -223,12 +156,18 @@ ol.carousel-indicators li{
 .item img {
 	height: 100% !important;
 }
+.carousel-control.left,
+.carousel-control.right{
+    background-image:none !important;
+}
 .carousel a{
-	height: auto;
+    height: auto;
 }
 a.carousel-control.left span,
 a.carousel-control.right span{
     font-size: 30px;
+    color: #62cb68;
+    opacity: 1;
 }
 a.carousel-control.left span:hover,
 a.carousel-control.right span:hover{
@@ -265,7 +204,7 @@ img{
     cursor: pointer;
 }
 .exhibition-main a img:hover{
-    box-shadow: 1px 3px 5px 4px rgba(50,50,50,0.7);
+    box-shadow: 1px 3px 5px 4px rgba(50,50,50,0.3);
 }
 
 
@@ -282,6 +221,7 @@ img{
 
 .a{
     position: relative;
+    padding: 0 !important;
 }
 .case-left,
 .case-right{
@@ -388,7 +328,7 @@ img{
 /* 底部 */
 .foot{
     background-color: #323232;
-    margin: 35px 53px 0 53px;
+    /* margin: 35px 53px 0 53px; */
 }
 .foot-logo{
     margin-left: 3rem;
@@ -419,6 +359,10 @@ img{
     height: 2rem;
     line-height: 0rem;
 }
+.qq,
+.weixin{
+    float: right !important;
+}
 .weixin span,
 .qq span{
     color: #919191;
@@ -441,6 +385,7 @@ img{
 .foot-bottom-right{
     color: #aeaeae;
     font-size: 12px;
+    float: right;
 }
 
 /* .tringle-up{
