@@ -19,6 +19,12 @@ h3{
     color: #06ca68;
     /* text-shadow: 1px 2px 1px #0c1014; */
 }
+.head,
+.slider,
+.case,
+.foot{
+    margin-top: 30px;
+}
 
 
 
@@ -100,6 +106,7 @@ h3{
 .case{
     /* height: 550px; */
     /* margin: 35px 53px 0 53px; */
+    padding: 0 !important;
 }
 .carouselFigure{
     position: relative;
@@ -165,13 +172,9 @@ ol.carousel-indicators li{
 }
 a.carousel-control.left span,
 a.carousel-control.right span{
-    font-size: 30px;
-    color: #62cb68;
+    font-size: 35px;
+    color: #f7f7f7;
     opacity: 1;
-}
-a.carousel-control.left span:hover,
-a.carousel-control.right span:hover{
-    font-size: 50px;
 }
 
 
@@ -220,13 +223,19 @@ img{
 
 
 .a{
-    position: relative;
-    padding: 0 !important;
+     position: relative; 
+    /* padding: 0 !important; */
 }
 .case-left,
 .case-right{
     position: relative;
 }
+/* .case-left{
+    padding-left: 0 !important;
+}
+.case-right{
+    padding-right: 0 !important;
+} */
 
 .setting-warp{
     position: relative;
@@ -313,7 +322,10 @@ img{
     width: auto;
     right: 0;
     bottom: 0;
-
+}
+.horn img{
+    height: 10rem;
+    width: 10rem;
 }
 .case-left a,
 .case-right a{
