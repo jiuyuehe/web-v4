@@ -373,7 +373,8 @@ img{
 }
 .qq,
 .weixin{
-    float: right !important;
+     float: right !important; 
+    text-align: center;
 }
 .weixin span,
 .qq span{
