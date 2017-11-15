@@ -16,26 +16,34 @@
             <div class="col-md-4 freeAdmission">
                 <img src="../img/免费版.png" alt="">
                 <h3>免费版本</h3>
-                <a href=""><span>FRRE</span></a> 
+                <span>FRRE</span>
                 <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
                 <a href=""><button>获取</button></a>
             </div>
-             <div class="col-md-4 enterprise">
+            <div class="col-md-4 enterprise">
                 <img src="../img/企业版.png" alt="">
                 <h3>企业版本</h3>
-                <a href=""><span>申请</span></a> 
+                <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';
+                     document.getElementById('fade').style.display='block'">申请</span>
                 <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
                 <a href=""><button>获取</button></a>
             </div>
             <div class="col-md-4 package">
                 <img src="../img/套餐.png" alt="">
                 <h3>专家安装套餐</h3>
-                <a href=""><span>￥998</span></a> 
+                <span>￥998</span>
                 <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
                 <a href=""><button>获取</button></a>
-            </div> 
+            </div>
         </div>
-    </div>
+        <!-- 弹出的窗口 -->
+        <div id="popup" class="white_content">
+            <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='none';
+              document.getElementById('fade').style.display='none'">关闭窗口</span>
+
+        </div>
+        <div id="fade" class="black_overlay">
+        </div>
 </body>
 <!-- Bootstrap -->
 <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>

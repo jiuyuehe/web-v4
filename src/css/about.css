@@ -493,7 +493,9 @@ img{
 .vrsionDisplay a:hover{
     text-decoration:none;
 }
-.vrsionDisplay img{
+.package img,
+.enterprise img,
+.freeAdmission img{
     height: 123px;
     width: 123px;
     margin-top: 60px;
@@ -521,9 +523,10 @@ img{
     padding: 5px 20px;
     font-size: 24px;
 }
-.vrsionDisplay span:hover{
-    color: #06ca68;
-    border:1px solid #06ca68;
+.enterprise span{
+    border: 1px solid #60c76e;
+    color: #60c76e;
+    cursor: pointer;
 }
 .vrsionDisplay button{
     background-color: #61baff;
@@ -534,4 +537,39 @@ img{
     font-family: 微软雅黑;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+/* 弹窗 */
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=88);
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 55%;
+    height: 55%;
+    padding: 20px;
+    border: 1px solid orange;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}
+.white_content span{
+    float: right;
+    color: #7e7373;
+    cursor: pointer;
+    font-size: 16px;
+    border:0;
 }
