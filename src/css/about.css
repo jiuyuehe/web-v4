@@ -1,6 +1,20 @@
 body{
     background-color: #f7f7f7!important;
 }
+h1.h11{
+    font-size: 20px;
+    font-family: 微软雅黑 !important;
+    color: #06ca68 !important;
+    letter-spacing: 10px;
+    margin: 2PX 0 0 0 !important;
+}
+h1.h12{
+    color: #06ca68;
+    font-family: 微软雅黑;
+    letter-spacing: -1px;
+    font-size: 18px !important;
+    margin: 2px 0 0 0 !important;
+}
 h3{
     text-align: center;
     font-size:24px; 
@@ -8,16 +22,20 @@ h3{
     font-family: 微软雅黑 !important;
 }
 .logo img{
-    max-width: 90px;
-    margin: 1rem 0;
+    float: left;
+    max-width: 70px;
 }
 .head a{
     color: #0c1014;
-    font-size: 14.4px;
+    font-size: 16px;
 }
 .head a:hover{
     color: #06ca68;
     /* text-shadow: 1px 2px 1px #0c1014; */
+}
+.head{
+    /* padding: 0 !important; */
+    /* margin: 0 !important; */
 }
 .head,
 .slider,
@@ -25,9 +43,14 @@ h3{
 .foot{
     margin-top: 30px;
 }
+.slider{
+    padding: 0 !important;
+}
 
 
-
+.text-right{
+    height: 48px;
+}
 .text-right a span{
     border: 1px solid rgba(255,255,255,0.0);
     box-sizing: border-box;
@@ -39,7 +62,7 @@ h3{
     line-height: 30px;
     text-decoration: none;
     position: relative;
-    top: 31px;
+    top: 12px;
 }
 .text-right a span:hover{
     box-shadow: 0px 3px 0px 1px #ccd6cd;
@@ -105,6 +128,7 @@ h3{
 .exhibition{
     margin-top: 10px;
     background-color: #fff;
+    padding: 0 !important;
 }
 .case{
     /* height: 550px; */
@@ -118,7 +142,7 @@ h3{
 
 .yli-nav{
     /* width: 60%; */
-    margin: 32px 2rem 32px 2rem;
+    margin: 16px 2rem 16px 0rem;
 }
 .yli-nav li{
     list-style: none;
@@ -275,10 +299,8 @@ img{
 .text-describe-r{
     background-color: rgba(106,172,64,0.8);
 }
-.case-left-a{
-    /* margin:7rem 0 !important; */
-    height: 100%;
-    width: 100%;
+.case-left a:hover{
+    color: rgb(106,172,64);
 }
 .case-logo{
     /* margin: 4rem 0; */
@@ -340,6 +362,75 @@ img{
     border: 1px solid;
     padding: 0 0.5rem;  
 } 
+
+
+/* .up,
+.pre-sale,
+.customer-service{
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+} */
+.suspension{
+    position: fixed;
+    right: 0;
+    bottom: 40px;
+    height: 300px;
+    width: 100px;
+    border:1px solid #fff;
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+    z-index: 1000;
+}
+.up span{
+    padding: 10px;
+    font-size: 30px;
+    border:1px solid;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    box-sizing: border-box;
+}
+ .up,
+.pre-sale,
+.customer-service{
+    height: 100px;
+} 
+.suspension img,
+.suspension span{
+    position: relative;
+    top: 23px;
+    left: 23px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+    color: #707070;
+    z-index: -1;
+}
+.division{
+    height: 1px;
+    width: 40px;
+    text-align: center;
+    margin: 0 34px;
+    background-color: #706f6f;
+}
+.text-prompt{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    bottom: 37px;
+    left: 23px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #06ca68;
+    opacity: 0.0;
+}
+.text-prompt:hover{
+    opacity: 0.9;
+}
+
+
 /* 底部 */
 .foot{
     background-color: #323232;
@@ -365,6 +456,9 @@ img{
 .foot-links a:hover{
     color: #f1f1f1;
      text-decoration: none; 
+}
+.ul li{
+    list-style: none;
 }
 .td a{
     color: #f1f1f1;
@@ -403,23 +497,10 @@ img{
     font-size: 12px;
 }
 
-/* .tringle-up{
-    position: absolute;
-    width: 0;
-    height: 0px;
-    display: inline-block;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 8px solid #c3c3c3;
-    margin: -8px 0 0 31px;
-    left: -22px;
-    top: 29px;
+/* 产品价格 */
+/* vrsionDisplay */
+.Package,
+.enterprise,
+.freeAdmission{
+    background-color: #f6fbfd;
 }
-.dropdown{
-    position: absolute;
-    list-style: none;
-    padding: 0;
-    border: 1px solid;
-    left: 0px;
-    top: 13px;
-} */
