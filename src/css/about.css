@@ -493,6 +493,13 @@ img{
 .vrsionDisplay a:hover{
     text-decoration:none;
 }
+.vrsionDisplay{
+    background-image: url(../img/渐变蒙版.png);
+}
+.content{
+    margin: 40px !important;
+}
+
 .package img,
 .enterprise img,
 .freeAdmission img{
@@ -504,9 +511,10 @@ img{
 .enterprise,
 .freeAdmission{
     text-align: center;
-    background-color: #f6fbfd;
-    border:2.5px solid rgba(248,247,247,0.7);
+     background-color: #f6fbfd; 
 }
+
+
 .vrsionDisplay p{
     text-align: left;
     margin: 20px;
