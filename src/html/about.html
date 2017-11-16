@@ -12,6 +12,7 @@
     <meta name="category" content="">
 
     <meta name="description" content="一粒云_企业网盘,简称一粒云;专注于提供基于互联网+模式下的企业内部文件存储,管理,共享,全球访问的私有云盘产品和解决方案">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,9 +25,7 @@
             <div class="row">
                 <div class="col-md-2 col-sm-4 left">
                     <div class="logo">
-                        <a href=""><img src="../img/云盘logo.png" alt="">
-                            <h1 class="h11">一粒云</h1>
-                            <h1 class="h12">yliyun.com</h1>
+                        <a href=""><img src="../img/yliyun.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -85,16 +84,15 @@
     <!-- advertisement -->
     <div class="container theHeadlines">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 theHeadlines-left">
                 <div class="new">
-                    <h4 class="h4">一粒云头条:
-                        <a href="" class="titleName">2017-10-01 | 一粒云厦门企业数据存储交流会
+                    <img src="../img/头条.png" alt="">
+                    <a href="" class="titleName">2017-10-01 | 一粒云厦门企业数据存储交流会
                         </a>
-                        <span class="spa1"><a href="">NEW</a></span>
-                    </h4>
+                    <span class="spa1"><a href="">NEW</a></span>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 theHeadlines-right">
                 <div class="more">
                     <a href="">更多
                     <span class="glyphicon glyphicon-chevron-right"></span>
@@ -168,8 +166,8 @@
         </div>
         <div class="division"></div>
         <div class="up">
-            <a href=""><span class="glyphicon glyphicon-chevron-up"></span>
-            <div class="text-prompt">返回<br>顶部</div>
+            <a href=""><img src="../img/返回顶部.png" alt=""></span>
+            <div class="text-prompt1">返回<br>顶部</div>
             </a>
         </div>
     </div>
@@ -207,9 +205,15 @@
                         <div class="col-md-6 col-sm-12">
                             <ul class="foot-links">
                                 <li class="td"><a href="">联系我们</a></li>
-                                <li><a href="">售前邮箱</a></li>
+                                <li id="popup"><a href="">售前邮箱</a>
+                                    <div class="popover fade bottom in" role="tooltip" id="popover" style="display: none;">
+                                        <span class="arrow"></span>
+                                        <div class="popover-content"><a href="">yliyun.com</a></div>
+                                    </div>
+                                    
+                                </li>
                                 <li><a href="">在线联系</a></li>
-                                <li><a href="">中文 | Englishi</a></li>
+                                <li><a href="">中文 | English</a></li>
                                 <li><a href=""><span class="glyphicon glyphicon-earphone"></span>(0755)3394-2625</a></li>
 
                             </ul>
@@ -254,6 +258,13 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#popup").hover(function(){
+  $("#popover").toggle();
+  });
+});
+</script>
 <!-- Bootstrap -->
 <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>

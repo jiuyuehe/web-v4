@@ -22,8 +22,10 @@ h3{
     font-family: 微软雅黑 !important;
 }
 .logo img{
+    max-width: 1150px;
     float: left;
-    max-width: 70px;
+    height: auto;
+    padding: 0 !important;
 }
 .head a{
     color: #0c1014;
@@ -83,10 +85,21 @@ h3{
     /* margin: 0 53px; */
     margin-top: 10px;
 }
-.theHeadlines h4{
+/* .theHeadlines h4{
     color: #b90a0a;
     
     font-size: 24px;
+} */
+.new{
+    line-height: 4rem;
+}
+.theHeadlines-left,
+.theHeadlines-right{
+    padding: 0 !important;
+}
+.new img{
+    height: 25px;
+    width: 120px;
 }
 .titleName{
     font-size: 12px;
@@ -370,7 +383,7 @@ img{
     right: 0;
     bottom: 20px;
     height: 300px;
-    width: 100px;
+    width: 70px;
     border:1px solid #fff;
     border-radius: 10px 0 0 10px;
     background-color: #fff;
@@ -383,12 +396,29 @@ img{
 .pre-sale,
 .customer-service{
     height: 100px;
+}
+.up img{
+    height: 20px !important;
+    width: 35px !important;
+    top: 35px !important;
+    left: 15px !important;
 } 
+.text-prompt1{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.0;
+}
 .suspension img,
 .suspension span{
     position: relative;
     top: 23px;
-    left: 23px;
+    left: 5px;
     height: 60px;
     width: 60px;
     text-align: center;
@@ -401,7 +431,7 @@ img{
     height: 1px;
     width: 40px;
     text-align: center;
-    margin: 0 34px;
+    margin: 0 15px;
     background-color: #706f6f;
 }
 .text-prompt{
@@ -409,12 +439,13 @@ img{
     width: 60px;
     position: relative;
     bottom: 37px;
-    left: 23px;
+    left: 5px;
     font-size: 22px;
     text-align: center;
     background-color: #fff;
     opacity: 0.0;
 }
+.text-prompt1:hover,
 .text-prompt:hover{
     opacity: 1;
     text-decoration: none;
@@ -440,6 +471,9 @@ img{
 .foot-links{
     padding: 0;
 }
+.foot-links li{
+    line-height: 28px;
+}
 .foot-links a{
     color: #aeaeae;
     font-family: 微软雅黑;
@@ -456,8 +490,8 @@ img{
     list-style: none;
 }
 .td{
-    height: 2rem;
-    line-height: 0rem;
+    height: 4rem;
+     line-height: 0rem; 
 }
 .qq,
 .weixin{
@@ -479,6 +513,13 @@ img{
 .qq img:hover{
     box-shadow: 0px 2px 5px 2px rgb(152,150,147);
 }
+.qq a:hover,
+.weixin a:hover{
+    text-decoration: none !important;
+}
+.foot-bottom{
+    margin-bottom: 2em;
+}
 .foot-bottom-left{
     margin-left: 3rem;
     color: #aeaeae;
@@ -499,7 +540,6 @@ img{
 .content{
     margin: 40px !important;
 }
-
 .package img,
 .enterprise img,
 .freeAdmission img{
@@ -511,7 +551,7 @@ img{
 .enterprise,
 .freeAdmission{
     text-align: center;
-     background-color: #f6fbfd; 
+    background-color: rgba(246, 251, 253,0.8);  
 }
 
 
@@ -580,4 +620,26 @@ img{
     cursor: pointer;
     font-size: 16px;
     border:0;
+}
+
+#popover{
+    display: block;
+    position: relative;
+    width: 150px;
+    margin-top: 0 !important;
+}
+#popover span{
+    left: 18%;
+}
+.arrow{
+    left: 18%;
+}
+.popover-content{
+    padding: 0 !important;
+}
+.popover-content a{
+    color: blue;
+}
+.popover-content a:hover{
+    color: blue;
 }
