@@ -15,7 +15,7 @@ fis.match('*', {
     release: false,
     __RESOURCE_MAP: true,
     deploy: fis.plugin('local-deliver', {
-        to: 'f:/site4/^'
+        to: 'f:/web4/^'
     })
 })
     .match("/app/(**).{js,coffee}", {
@@ -29,6 +29,15 @@ fis.match('*', {
             wrapAll: true
         })
     })
+
+    .match("/node_modules/bootstrap/dist/**", {
+        release: '${prefix}/$&'
+    })
+
+    .match("/node_modules/jquery/dist/*.min.js", {
+        release: '${prefix}/$&'
+    })
+
     .match("/assets/**", {
         release: '${prefix}/$&'
     })
@@ -55,7 +64,7 @@ fis.match('*', {
         release: '${prefix}/$&'
     })
 
-    .match("/src/(*.{html, htm, php})", {
+    .match("/pages/(*.{html, htm, php})", {
         useCache: false,
         release: '${prefix}/$1'
     })
@@ -68,6 +77,7 @@ fis.match('*', {
             wrapAll: true
         })
     })
+
     .match("::packager", {
         spriter: fis.plugin('csssprites', {
             htmlUseSprite: true,
