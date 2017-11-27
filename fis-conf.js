@@ -15,7 +15,7 @@ fis.match('*', {
     release: false,
     __RESOURCE_MAP: true,
     deploy: fis.plugin('local-deliver', {
-        to: 'f:/web4/^'
+        to: 'C:/web-v4/^'
     })
 })
     .match("/app/(**).{js,coffee}", {
@@ -43,7 +43,7 @@ fis.match('*', {
     })
     .match("/assets/css/(**).{css,less}", {
         useSprite: false,
-        spriteRelease: '${prefix}/assets/img/$1.png',
+        spriteRelease: '${prefix}/assets/images/$1.png',
         release: '${prefix}/$&'
     })
     .match('*.less', {

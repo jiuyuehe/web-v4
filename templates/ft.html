@@ -1,16 +1,21 @@
-<div class="gototop">
-
-    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-    <br>
-
-    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=380627112&site=qq&menu=yes" >售前QQ</a>
-    <br>
-
-    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2941390949&site=qq&menu=yes" >售后QQ</a>
-
-
-
-
+<div class="suspension">
+    <div class="pre-sale">
+        <a href=""><img src="../assets/images/qq1.png" alt="">
+            <div class="text-prompt">售前<br>QQ</div>
+            </a>
+    </div>
+    <div class="division"></div>
+    <div class="customer-service">
+        <a href=""><img src="../assets/images/qq2.png" alt="">
+            <div class="text-prompt">售后<br>QQ</div>
+            </a>
+    </div>
+    <div class="division"></div>
+    <div class="up">
+        <a href=""><img src="../assets/images/返回顶部.png" alt=""></span>
+            <div class="text-prompt1">返回<br>顶部</div>
+            </a>
+    </div>
 </div>
 
 <!-- jQuery -->
@@ -21,17 +26,11 @@
 
 
 
-
-
-
-<!--百度统计-->
-<script type="application/javascript">
-    var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?19cc5894e92704746f7b92fec1837367";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
+<script>
+    $(document).ready(function () {
+        $("#popup").hover(function () {
+            $("#popover").toggle();
+        });
+    });
 
 </script>
