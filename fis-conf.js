@@ -34,7 +34,7 @@ fis.match('*', {
         release: '${prefix}/$&'
     })
 
-    .match("/node_modules/jquery/dist/*.min.js", {
+    .match("/node_modules/jquery/dist/**", {
         release: '${prefix}/$&'
     })
 

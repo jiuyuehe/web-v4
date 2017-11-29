@@ -2,163 +2,168 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>产品价格</title>
-    <!-- Bootstrap -->
-    <script type="text/javascript" src=""></script>
-    <link rel="stylesheet" href="../assets/css/about.css">
-    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="import" href="../templates/h.html?__inline" />
 </head>
 
 <body>
     <!-- head -->
-    <nav class="navbar navbar-default head" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
-			        <span class="sr-only">切换导航</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-		        </button>
-                <a class="navbar-brand" href="#"><img src="../assets/images/yliyun.png" alt=""></a>
-            </div>
-            <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">首页</a></li>
-                    <li><a href="product.html">产品</a></li>
-                    <li><a href="productPrice.html">产品价格</a></li>
-                    <li><a href="#">合作案例</a></li>
-                    <li><a href="#">关于我们</a></li>
-                </ul>
-                <li class="head-right"><a href="">体验产品</a></li>
-            </div>
-        </div>
-    </nav>
-    <div class="container vrsionDisplay">
-        <div class="row content">
-            <div class="col-md-4 freeAdmission">
-                <img src="../assets/images/免费版.png" alt="">
-                <h3>免费版本</h3>
-                <span>FRRE</span>
-                <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
-                <a href=""><button>获取</button></a>
-            </div>
-            <div class="col-md-4 enterprise">
-                <img src="../assets/images/企业版.png" alt="">
-                <h3>企业版本</h3>
-                <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';
+    <link rel="import" href="../templates/nav.html?__inline" />
+   <!--  -->
+    <div class="gtco-container2">
+        <div class="vrsionDisplay">
+            <div class="row content">
+                <div class="col-md-4 freeAdmission">
+                    <img src="../assets/images/免费版.png" alt="">
+                    <h3>免费版本</h3>
+                    <span>FRRE</span>
+                    <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
+                    <a href=""><button>获取</button></a>
+                </div>
+                <div class="col-md-4 enterprise">
+                    <img src="../assets/images/企业版.png" alt="">
+                    <h3>企业版本</h3>
+                    <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';
                      document.getElementById('fade').style.display='block'">申请</span>
-                <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
-                <a href=""><button>获取</button></a>
-            </div>
-            <div class="col-md-4 package">
-                <img src="../assets/images/套餐.png" alt="">
-                <h3>专家安装套餐</h3>
-                <span>￥998</span>
-                <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
-                <a href=""><button>获取</button></a>
-            </div>
+                    <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
+                    <a href=""><button>获取</button></a>
+                </div>
+                <div class="col-md-4 package">
+                    <img src="../assets/images/套餐.png" alt="">
+                    <h3>专家安装套餐</h3>
+                    <span>￥998</span>
+                    <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
+                    <a href=""><button>获取</button></a>
+                </div>
 
-        </div>
-        <!-- 弹出的窗口 -->
-        <div id="popup" class="white_content">
-            <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='none';
+            </div>
+            <!-- 弹出的窗口 -->
+            <div id="popup" class="white_content">
+                <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='none';
               document.getElementById('fade').style.display='none'">关闭窗口</span>
 
+            </div>
+            <div id="fade" class="black_overlay"></div>
         </div>
-        <div id="fade" class="black_overlay"></div>
+    </div>
+    <!-- guide -->
+    <div class="gtco-container guide">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 guide-pa">
+                <div class="subTitle">
+                    <h5>特性版本</h5>
+                    </small>
+                </div>
+                <div class="tab-page">
+                    <ul id="myTab" class="nav nav-tabs inline-block">
+                        <li class="active tabe"><a href="#edition1" data-toggle="tab">2.4</a></li>
+                        <li class="tabe"><a href="#edition2" data-toggle="tab">2.6</a></li>
+                        <li class="tabe"><a href="#edition3" data-toggle="tab">3.0</a></li>
+                        <li class="tabe"><a href="#edition4" data-toggle="tab">3.2</a></li>
+                        <li class="tabe"><a href="#edition5" data-toggle="tab">3.4</a></li>
+                        <li class="tabe"><a href="#edition6" data-toggle="tab">3.5</a></li>
+                        <li class="tabe"><a href="#edition7" data-toggle="tab">3.6</a></li>
+                    </ul>
+
+                    <div id="myTabContent" class="inline-block abs">
+                        <div class="tab-pane fade active in" id="edition1">
+                            <ul class="abs-content">
+                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
+                                <li>2、可按文件夹上传文件夹</li>
+                                <li>3、后台空间管理、磁盘预警、空间清理</li>
+                                <li>4、系统各服务状态（重启服务）</li>
+                                <li>5、产看用户权限，方便管理公司员工</li>
+                                <li>6、AD域功能正常使用</li>
+                                <li>7、日志导出</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade " id="edition2">
+                            <ul class="abs-content">
+                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
+                                <li>2、可按文件夹上传文件夹</li>
+                                <li>3、后台空间管理、磁盘预警、空间清理</li>
+                                <li>4、系统各服务状态（重启服务）</li>
+                                <li>5、产看用户权限，方便管理公司员工</li>
+                                <li>6、AD域功能正常使用</li>
+                                <li>7、日志导出</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="edition3">
+                            <ul class="abs-content">
+                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
+                                <li>2、可按文件夹上传文件夹</li>
+                                <li>3、后台空间管理、磁盘预警、空间清理</li>
+                                <li>4、系统各服务状态（重启服务）</li>
+                                <li>5、产看用户权限，方便管理公司员工</li>
+                                <li>6、AD域功能正常使用</li>
+                                <li>7、日志导出</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="edition4">
+                            <ul class="abs-content">
+                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
+                                <li>2、可按文件夹上传文件夹</li>
+                                <li>3、后台空间管理、磁盘预警、空间清理</li>
+                                <li>4、系统各服务状态（重启服务）</li>
+                                <li>5、产看用户权限，方便管理公司员工</li>
+                                <li>6、AD域功能正常使用</li>
+                                <li>7、日志导出</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="edition5">
+                            <ul class="abs-content">
+                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
+                                <li>2、可按文件夹上传文件夹</li>
+                                <li>3、后台空间管理、磁盘预警、空间清理</li>
+                                <li>4、系统各服务状态（重启服务）</li>
+                                <li>5、产看用户权限，方便管理公司员工</li>
+                                <li>6、AD域功能正常使用</li>
+                                <li>7、日志导出</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="edition6">
+                            <ul class="abs-content">
+                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
+                                <li>2、可按文件夹上传文件夹</li>
+                                <li>3、后台空间管理、磁盘预警、空间清理</li>
+                                <li>4、系统各服务状态（重启服务）</li>
+                                <li>5、产看用户权限，方便管理公司员工</li>
+                                <li>6、AD域功能正常使用</li>
+                                <li>7、日志导出</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="edition7">
+                            <ul class="abs-content">
+                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
+                                <li>2、可按文件夹上传文件夹</li>
+                                <li>3、后台空间管理、磁盘预警、空间清理</li>
+                                <li>4、系统各服务状态（重启服务）</li>
+                                <li>5、产看用户权限，方便管理公司员工</li>
+                                <li>6、AD域功能正常使用</li>
+                                <li>7、日志导出</li>
+                                <li class="zip">
+                                    <img src="../assets/images/zip.png" class="pull-left" alt="">
+                                    <p class="pull-right">yliyun-263-office.tar.gz</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 guide-pa">
+                <div class="subTitle">
+                    <h5>解决问题</h5>
+                </div>
+                <h4>基础的数据存储需求</h4>
+                <div class="storage"><img src="../assets/images/storage.png" alt=""></div>
+            </div>
+        </div>
     </div>
     <!-- foot -->
-    <div class="container foot">
-        <div class="container">
-            <div class="row foot-top">
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                    <div class="foot-logo"><img src="../assets/images/foot-logo.png" alt=""></div>
-                </div>
-            </div>
-            <div class="row foot-in">
-                <div class="col-md-7">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <ul class="foot-links">
-                                <li class="td"><a href="">快速链接</a></li>
-                                <li><a href="">主页</a></li>
-                                <li><a href="product.html">产品</a></li>
-                                <li><a href="productPrice.html">产品价格</a></li>
-                                <li><a href="">合作案例</a></li>
-                                <li><a href="">行业方案</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <ul class="foot-links">
-                                <li class="td"><a href="">了解一粒云</a></li>
-                                <li><a href="">关于我们</a></li>
-                                <li><a href="">官方博客</a></li>
-                                <li><a href="">猎云网专访</a></li>
-                                <li><a href="">华为扶持基金</a></li>
-
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <ul class="foot-links">
-                                <li class="td"><a href="">联系我们</a></li>
-                                <li id="popup"><a href="">售前邮箱</a>
-                                    <div class="popover fade bottom in" role="tooltip" id="popover" style="display: none;">
-                                        <span class="arrow"></span>
-                                        <div class="popover-content"><a href="">yliyun.com</a></div>
-                                    </div>
-
-                                </li>
-                                <li><a href="">在线联系</a></li>
-                                <li><a href="">中文 | English</a></li>
-                                <li><a href=""><span class="glyphicon glyphicon-earphone"></span>(0755)3394-2625</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-2" style="float:right"></div>
-                        <div class="col-md-4 col-sm-8 qq">
-
-                            <a href="">
-                                <img src="../assets/images/qq.png" alt="">
-                                <span>一粒云QQ群</span>
-                            </a>
-
-                        </div>
-                        <div class="col-md-4 col-sm-8 weixin">
-
-                            <a href="">
-                                <img src="../assets/images/weixin.png" alt="">
-                                <span>一粒云微信</span>
-                            </a>
-
-                        </div>
-                        <div class="col-md-2" style="float:right"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row foot-bottom">
-                <div class="col-md-8">
-                    <div class="foot-bottom-left">
-                        <span>©2017 深圳一粒云科技有限公司 ALL Right Reserved | 联系邮箱 : <a class="text-primary" href="">service@yliyun.com</a> | 粤ICP备 15088058号</span>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="foot-bottom-right">
-                        <span>提升管理技巧，提炼数据价值，打造企业数据保险箱</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <link rel="import" href="../templates/footer.html?__inline" />
+    <link rel="import" href="../templates/ft.html?__inline" />
 </body>
-<!-- Bootstrap -->
-<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
