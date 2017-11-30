@@ -34,13 +34,18 @@ fis.match('*', {
         release: '${prefix}/$&'
     })
 
-    .match("/node_modules/jquery/dist/**", {
+    .match("/node_modules/jquery/dist/*.min.js", {
         release: '${prefix}/$&'
     })
 
     .match("/assets/**", {
         release: '${prefix}/$&'
     })
+
+    .match('/images/(*.{png,gif})',{
+        release:'/assets/images/$1$2'
+    })
+    
     .match("/assets/css/(**).{css,less}", {
         useSprite: false,
         spriteRelease: '${prefix}/assets/images/$1.png',
@@ -53,7 +58,7 @@ fis.match('*', {
     .match('/assets/fonts/**', {
         release: '${prefix}/$&'
     })
-    .match("/assets/img/**", {
+    .match("/assets/images/**", {
         release: '${prefix}/$&'
     })
     //.match('*.png', {

@@ -25,7 +25,7 @@ ol.carousel-indicators li{
 } 
 .carousel-inner h3{
     position: absolute;
-    bottom: 6em;
+    bottom: 4em;
     width: 100%;
     text-align: center;
     color: #fbfffc;
@@ -255,7 +255,7 @@ a.carousel-control.right span{
     text-decoration:none;
 }
 .vrsionDisplay{
-    background-image: url(../img/渐变蒙版.png);
+    background-image: url(../images/渐变蒙版.png);
 }
 .gtco-container2{
     max-width: 94%;
@@ -277,7 +277,7 @@ a.carousel-control.right span{
 .enterprise,
 .freeAdmission{
     text-align: center;
-    background-image: url(../img/bg.png);  
+    background-image: url(../images/bg.png);  
 }
 .vrsionDisplay p{
     text-align: left;
@@ -441,7 +441,7 @@ h4{
 /*合作案例  */
 /*  */
 .bg-anli{
-    background-image: url(../img/anli-bg.png);
+    background-image: url(../images/anli-bg.png);
 }
 .frame{
     border:7px solid; 
@@ -485,7 +485,7 @@ h2.anli-h2{
 /*关于我们  */
 /*  */
 .synopses-bg{
-     background-image: url(../img/bg-gy.png); 
+     background-image: url(../images/bg-gy.png); 
 }
 .synopses-conten{
     width: 70%;
