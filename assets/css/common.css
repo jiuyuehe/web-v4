@@ -15,6 +15,49 @@ h3{
     cursor: pointer;
     font-family: 微软雅黑 !important;
 }
+/*  */
+#active2 {
+
+    .index-wrap & {
+      > li:first-child > a {
+        color: #ffffff;
+        
+      }
+    }
+
+    .about-wrap & {
+      > li:nth-child() > a {
+        color: #ffffff;
+       
+      }
+    }
+    .product-wrap & {
+      > li:nth-child(2) > a {
+        color: #ffffff;  
+      }
+    }
+
+    .productPrice-wrap & {
+      > li:nth-child(3) > a {
+        color: #ffffff;  
+      }
+    }
+
+    .cooperationCase-wrap & {
+      > li:nth-child(4) > a {
+        color: #ffffff;   
+      }
+    }
+
+    .us-wrap & {
+      > li:nth-child(5) > a {
+        color: #ffffff;
+        
+      }
+    }
+
+}
+
 /* nav */
 .navbar-default{
     background-color: #f7f7f7 !important;
@@ -31,7 +74,7 @@ h3{
     font-family: 微软雅黑;
     font-size: 16px;
     font-weight: bold;
-    color: #000 !important;
+    /* color: #000 !important; */
     padding: 10px 15px !important;
 }
  .head ul li a:hover{
@@ -175,6 +218,7 @@ h3{
     border-radius: 10px 0 0 10px;
     background-color: #fff;
     z-index: 1000;
+    box-shadow: -1px 0px 1px #9d9494;
 }
 .suspension a:hover{
     text-decoration: none;

@@ -12,9 +12,8 @@
     </div>
     <div class="division"></div>
     <div class="up">
-        <a href=""><img src="../assets/images/返回顶部.png" alt=""></span>
-            <div class="text-prompt1">返回<br>顶部</div>
-        </a>
+        <a href=""><img src="../assets/images/返回顶部.png" alt=""></a>
+        <div class="text-prompt1">返回<br>顶部</div>
     </div>
 </div>
 
@@ -25,11 +24,14 @@
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
-
+<!--鼠标的进入，移出事件  -->
 <script>
     $(document).ready(function () {
         $("#popup").hover(function () {
             $("#popover").toggle();
+        });
+        $("#btn-fadeToggle").click(function () {
+            $("#tc").fadeToggle("slow");
         });
     });
 

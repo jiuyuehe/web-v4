@@ -1,5 +1,5 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>产品价格</title>
@@ -13,150 +13,154 @@
     <div class="gtco-container2">
         <div class="vrsionDisplay">
             <div class="row content">
-                <div class="col-md-4 freeAdmission">
-                    <img src="../assets/images/免费版.png" alt="">
-                    <h3>免费版本</h3>
-                    <span>FRRE</span>
-                    <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
-                    <a href=""><button>获取</button></a>
+                <div class="col-md-4">
+                    <div class="freeAdmission">
+                        <img src="../assets/images/免费版.png" alt="">
+                        <h3>免费版本</h3>
+                        <span>FRRE</span>
+
+                        <p>包含所有功能</p>
+                        <p>单机、自助部署</p>
+                        <p>10个账户，永久免费</p>
+                        <p><a href="">免费版本有其他限制吗</a></p>
+                        <p><a href="">已经安装点击获得永久授权</a></p>
+
+                        <button id="btn-fadeToggle">自助安装</button>
+                    </div>
                 </div>
-                <div class="col-md-4 enterprise">
-                    <img src="../assets/images/企业版.png" alt="">
-                    <h3>企业版本</h3>
-                    <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';
+                <div class="col-md-4">
+                    <div class="enterprise">
+                        <img src="../assets/images/企业版.png" alt="">
+                        <h3>企业版本</h3>
+                        <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';
                      document.getElementById('fade').style.display='block'">申请</span>
-                    <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
-                    <a href=""><button>获取</button></a>
+
+                        <p>按账号数收费、多种部署方式</p>
+                        <p>支持企业级定制、包含所有功能</p>
+                        <p>专业售后团队维护、开放平台API</p>
+                        <br>
+                        <p></p><br>
+
+                        <a href=""><button>获取</button></a>
+                    </div>
                 </div>
-                <div class="col-md-4 package">
-                    <img src="../assets/images/套餐.png" alt="">
-                    <h3>专家安装套餐</h3>
-                    <span>￥998</span>
-                    <p>免费版本提供包含所有功能，单机自助部署。10个账户，永久免费。只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能解决您的XXX问题。免费版本提供XXXX，只需要XXX就能</p>
-                    <a href=""><button>获取</button></a>
+                <div class="col-md-4">
+                    <div class="package">
+                        <img src="../assets/images/套餐.png" alt="">
+                        <h3>专家安装套餐</h3>
+                        <span>￥998</span>
+
+                        <p>专业工程师部署</p>
+                        <p>手册、文档、文件管理规范</p>
+                        <p>包含一年VIP服务、高枕无忧</p>
+                        <p>赠送20个永久免费账户</p>
+                        <p>仅需998元、获取原价300元大礼包</p>
+
+                        <a href=""><button>获取</button></a>
+                    </div>
                 </div>
 
             </div>
             <!-- 弹出的窗口 -->
             <div id="popup" class="white_content">
                 <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='none';
-              document.getElementById('fade').style.display='none'">关闭窗口</span>
+                document.getElementById('fade').style.display='none'">关闭窗口</span>
 
             </div>
             <div id="fade" class="black_overlay"></div>
         </div>
+        <!--自助安装窗口  -->
+        <div class="tc-block" id="tc" style="display:none">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 text-center tc-step">
+                    <div class="tc-content">
+                        <h2>关注获取下载密码</h2>
+                        <img class="tc-weixin" src="../assets/images/weixin.png" alt="">
+                        <p class="text-left">关注公众号获取密码、下载链接、最新版本</p>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 text-center tc-step">
+                    <div class="tc-content">
+                        <h2>查看安装手册并测试</h2>
+                        <img src="../assets/images/测试.png" alt="">
+                        <p>下载查看安装包，完成后进行文件上传、下载测试。默认登录账户密码admin,yliyun123</p>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 text-center tc-step" style="border-right:0px solid">
+                    <div class="tc-content">
+                        <h2>申请永久授权</h2>
+                        <img src="../assets/images/授权.png" alt="">
+                        <p>填写表格申请10个账号的永久授权</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- guide -->
-    <div class="gtco-container guide">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 guide-pa">
-                <div class="subTitle">
-                    <h5>特性版本</h5>
-                    </small>
-                </div>
-                <div class="tab-page">
+     <div class="gtco-container">
+        <h2 class="h3">版本特性</h2>
+        <div class="guide">
+            <div class="row">
+                <div class="col-md-1">
                     <ul id="myTab" class="nav nav-tabs inline-block">
-                        <li class="active tabe"><a href="#edition1" data-toggle="tab">2.4</a></li>
-                        <li class="tabe"><a href="#edition2" data-toggle="tab">2.6</a></li>
-                        <li class="tabe"><a href="#edition3" data-toggle="tab">3.0</a></li>
-                        <li class="tabe"><a href="#edition4" data-toggle="tab">3.2</a></li>
-                        <li class="tabe"><a href="#edition5" data-toggle="tab">3.4</a></li>
-                        <li class="tabe"><a href="#edition6" data-toggle="tab">3.5</a></li>
-                        <li class="tabe"><a href="#edition7" data-toggle="tab">3.6</a></li>
+                        <li class="active tabe"><a href="#edition1" data-toggle="tab">3.6</a></li>
+                        <li class="tabe"><a href="#edition2" data-toggle="tab">3.5</a></li>
+                        <li class="tabe"><a href="#edition3" data-toggle="tab">3.4</a></li>
+                        <li class="tabe"><a href="#edition4" data-toggle="tab">3.3</a></li>
+                        <li class="tabe"><a href="#edition5" data-toggle="tab">3.3</a></li>
+                        <li class="tabe"><a href="#edition6" data-toggle="tab">3.2</a></li>
+                        <li class="tabe"><a href="#edition7" data-toggle="tab">3.0</a></li>
+                        <li class="tabe"><a href="#edition8" data-toggle="tab">2.4</a></li>
+                        <li class="tabe"><a href="#edition9" data-toggle="tab">2.0</a></li>
                     </ul>
-
+                </div>
+                <div class="col-md-11">
                     <div id="myTabContent" class="inline-block abs">
                         <div class="tab-pane fade active in" id="edition1">
-                            <ul class="abs-content">
-                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
-                                <li>2、可按文件夹上传文件夹</li>
-                                <li>3、后台空间管理、磁盘预警、空间清理</li>
-                                <li>4、系统各服务状态（重启服务）</li>
-                                <li>5、产看用户权限，方便管理公司员工</li>
-                                <li>6、AD域功能正常使用</li>
-                                <li>7、日志导出</li>
+                            <ul class="row tx-content">
+                                <li class="col-md-4 banb-tx">
+                                    <img src="../assets/images/授权1.png" alt="">
+                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                                </li>
+                                <li class="col-md-4 banb-tx">
+                                    <img src="../assets/images/分享.png" alt="">
+                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                                </li>
+                                <li class="col-md-4 banb-tx">
+                                    <img src="../assets/images/模块.png" alt="">
+                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                                </li>
+                                <li class="col-md-4 banb-tx">
+                                    <img src="../assets/images/表单.png" alt="">
+                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                                </li>
+                                <li class="col-md-4 banb-tx">
+                                    <img src="../assets/images/防盗系统.png" alt="">
+                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                                </li>
+                                <li class="col-md-4 banb-tx">
+                                    <img src="../assets/images/水印相机.png" alt="">
+                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                                </li>
+                                <li class="col-md-4 banb-tx">
+                                    <img src="../assets/images/白名单.png" alt="">
+                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                                </li>
+
+
                             </ul>
                         </div>
                         <div class="tab-pane fade " id="edition2">
-                            <ul class="abs-content">
-                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
-                                <li>2、可按文件夹上传文件夹</li>
-                                <li>3、后台空间管理、磁盘预警、空间清理</li>
-                                <li>4、系统各服务状态（重启服务）</li>
-                                <li>5、产看用户权限，方便管理公司员工</li>
-                                <li>6、AD域功能正常使用</li>
-                                <li>7、日志导出</li>
-                            </ul>
+
                         </div>
                         <div class="tab-pane fade" id="edition3">
-                            <ul class="abs-content">
-                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
-                                <li>2、可按文件夹上传文件夹</li>
-                                <li>3、后台空间管理、磁盘预警、空间清理</li>
-                                <li>4、系统各服务状态（重启服务）</li>
-                                <li>5、产看用户权限，方便管理公司员工</li>
-                                <li>6、AD域功能正常使用</li>
-                                <li>7、日志导出</li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="edition4">
-                            <ul class="abs-content">
-                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
-                                <li>2、可按文件夹上传文件夹</li>
-                                <li>3、后台空间管理、磁盘预警、空间清理</li>
-                                <li>4、系统各服务状态（重启服务）</li>
-                                <li>5、产看用户权限，方便管理公司员工</li>
-                                <li>6、AD域功能正常使用</li>
-                                <li>7、日志导出</li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="edition5">
-                            <ul class="abs-content">
-                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
-                                <li>2、可按文件夹上传文件夹</li>
-                                <li>3、后台空间管理、磁盘预警、空间清理</li>
-                                <li>4、系统各服务状态（重启服务）</li>
-                                <li>5、产看用户权限，方便管理公司员工</li>
-                                <li>6、AD域功能正常使用</li>
-                                <li>7、日志导出</li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="edition6">
-                            <ul class="abs-content">
-                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
-                                <li>2、可按文件夹上传文件夹</li>
-                                <li>3、后台空间管理、磁盘预警、空间清理</li>
-                                <li>4、系统各服务状态（重启服务）</li>
-                                <li>5、产看用户权限，方便管理公司员工</li>
-                                <li>6、AD域功能正常使用</li>
-                                <li>7、日志导出</li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="edition7">
-                            <ul class="abs-content">
-                                <li>1、可接受、屏蔽消息，默认为主动获取消息</li>
-                                <li>2、可按文件夹上传文件夹</li>
-                                <li>3、后台空间管理、磁盘预警、空间清理</li>
-                                <li>4、系统各服务状态（重启服务）</li>
-                                <li>5、产看用户权限，方便管理公司员工</li>
-                                <li>6、AD域功能正常使用</li>
-                                <li>7、日志导出</li>
-                                <li class="zip">
-                                    <img src="../assets/images/zip.png" class="pull-left" alt="">
-                                    <p class="pull-right">yliyun-263-office.tar.gz</p>
-                                </li>
-                            </ul>
+
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="col-md-6 col-sm-6 guide-pa">
-                <div class="subTitle">
-                    <h5>解决问题</h5>
-                </div>
-                <h4>基础的数据存储需求</h4>
-                <div class="storage"><img src="../assets/images/storage.png" alt=""></div>
             </div>
         </div>
     </div>
