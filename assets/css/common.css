@@ -2,12 +2,8 @@ body{
     background-color: #f7f7f7 !important;
     font-family: 微软雅黑;
 }
-.gtco-container{
-    max-width: 94%;
-    position: relative;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.container{
+    min-width: 90%;
 }
 h3{
     text-align: center;
@@ -16,48 +12,7 @@ h3{
     font-family: 微软雅黑 !important;
 }
 /*  */
-#active2 {
-
-    .index-wrap & {
-      > li:first-child > a {
-        color: #ffffff;
-        
-      }
-    }
-
-    .about-wrap & {
-      > li:nth-child() > a {
-        color: #ffffff;
-       
-      }
-    }
-    .product-wrap & {
-      > li:nth-child(2) > a {
-        color: #ffffff;  
-      }
-    }
-
-    .productPrice-wrap & {
-      > li:nth-child(3) > a {
-        color: #ffffff;  
-      }
-    }
-
-    .cooperationCase-wrap & {
-      > li:nth-child(4) > a {
-        color: #ffffff;   
-      }
-    }
-
-    .us-wrap & {
-      > li:nth-child(5) > a {
-        color: #ffffff;
-        
-      }
-    }
-
-}
-
+/*  */
 /* nav */
 .navbar-default{
     background-color: #f7f7f7 !important;

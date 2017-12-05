@@ -258,13 +258,7 @@ a.carousel-control.right span{
     text-decoration:none;
 }
 .vrsionDisplay{
-    background-image: url(../images/渐变蒙版.png);
-}
-.gtco-container2{
-    max-width: 94%;
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 35px;
+    background-image: url(../images/bg-pPrice.png);
 }
 .content{
      padding: 40px 55px !important; 
@@ -274,16 +268,16 @@ a.carousel-control.right span{
 .freeAdmission img{
     height: 123px;
     width: 123px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .package,
 .enterprise,
 .freeAdmission{
     text-align: center;
-    background-image: url(../images/bg.png);  
+    background-color: rgba(240, 248, 255,0.8);
 }
 .vrsionDisplay p{
-    margin: 20px;
+    margin: 10px;
     font-size: 12px;
 }
 .vrsionDisplay h3{
@@ -297,13 +291,13 @@ a.carousel-control.right span{
     padding: 5px 20px;
     font-size: 24px;
 }
-.enterprise span{
+/* .enterprise span{
     border: 1px solid #60c76e;
     color: #60c76e;
     cursor: pointer;
-}
+} */
 .vrsionDisplay button{
-    background-color: #61baff;
+    background-color: #3b95da;
     color: white;
     border: 1px solid #61baff;
     padding: 5px 27px;
@@ -313,7 +307,7 @@ a.carousel-control.right span{
     margin-bottom: 20px;
 }
 .vrsionDisplay button:hover{
-    box-shadow: 0px 1px 10px #30a5ff;
+    box-shadow: 0px 1px 10px #2499f3;
 }
 /* 弹窗 */
 .black_overlay {
@@ -373,9 +367,9 @@ a.carousel-control.right span{
 }
 /*自安装窗口  */
 .tc-block{
-    margin-left: 4%;
-    margin-right: 4%;
-    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white; 
 }
 .tc-content{
     width: 74%;
@@ -384,7 +378,7 @@ a.carousel-control.right span{
 .tc-content span{
     position: absolute;
     right: -25px;
-    top: 50%;
+    top: 45%;
     border: 1px solid #fff;
     padding: 8px;
     font-size: 30px;
@@ -393,6 +387,9 @@ a.carousel-control.right span{
     background-color: white;
     box-shadow: 0px 0px 4px #7e7d7d;
 }
+.tc-content h2{
+    font-size: 24px;
+}
 .tc-weixin{
     width: 65%;
 }
@@ -400,9 +397,15 @@ a.carousel-control.right span{
     text-align: left;
     font-size: 16px;
 }
+.tc-row{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .tc-step{
     padding: 30px 0;
     border-right:1px solid #06ca68;
+    box-shadow: 1px 2px 9px #d1d1d1;
+    box-sizing: border-box;
 }
 /*版本特性  */
 .guide{
@@ -448,6 +451,7 @@ a.carousel-control.right span{
 .banb-text{
     font-size: 20px;
     font-weight: bold;
+    display: inline;
 }
 .banb-tx{
     display: inline-block;
@@ -519,6 +523,7 @@ h4{
 /*  */
 .bg-anli{
     background-image: url(../images/anli-bg.png);
+    min-width: 750px;
 }
 .frame{
     border:7px solid; 
@@ -573,8 +578,8 @@ h2.anli-h2{
 }
 .synopses-conten h2{
     position: relative;
-    top: 100px;
-    margin-bottom: 30px;
+    top: 80px;
+    /* margin-bottom: 30px; */
 }
 h2.h3{
     font-size: 24px;
@@ -589,7 +594,7 @@ h2.h3{
 }
 .synopses-conten p{
     position: relative;
-    top: 120px;
+    top: 100px;
     font-size: 16px;
     line-height: 35px;
 }
@@ -667,16 +672,45 @@ h4 p{
     color: white;
     text-align: center;
 }
+.bg-white{
+    background-color: white;
+}
 .lw-problem{
-    width: 60%;
-    margin-left:  20%;
+    padding: 0 20%;
+}
+.painPoint{
+    background-color: #f7f7f7;
 }
 .lw-h3{
     font-weight: bold;
-
+    margin: 0;
+    height: 66px;
+    line-height: 66px;
+     background-color: white; 
 }
 .lw-text{
     margin: 45px 0;
+}
+.bg-ash{
+    padding: 0 !important;
+
+}
+.bg-ash p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+}
+
+.shaer{
+    position: absolute;
+    top: 20%;
+    right: -60%;
+}
+.shaer p{
+    margin: 0;
+    width: 100%;
+    background-color: white;
 }
 
 
@@ -689,6 +723,11 @@ h4 p{
     padding-top: 60px;
     padding-bottom: 60px;
     box-shadow: 1px -22px 15px #f4efef;
+}
+.ding-cont{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* box-shadow: 1px -22px 15px #f4efef; */
 }
 .ding-h2{
     margin-top: 15rem;
@@ -704,4 +743,33 @@ h4 p{
 }
 .ding-content img{
     width: 80%;
+}
+.ding-cont img{
+    width: 80%;
+}
+/*协作办公  */
+.thumbnail{
+    padding: 30px;
+}
+.thumbnail img{
+    padding: 25px;
+    border:1px dashed #bbbcc0;
+}
+.thumbnail p{
+    width: 80%;
+    margin-left: 10%;
+}
+.xz-bg{
+    padding: 0;
+}
+.xz-bg img{
+    width: 100%;
+}
+.xz-bg-ash{
+    background-color: #bbbcc0;
+}
+.xz-bg-ash>p{
+    line-height: 5;
+    width: 70%;
+    margin-left: 15%;
 }

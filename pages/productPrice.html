@@ -9,72 +9,74 @@
 <body>
     <!-- nav -->
     <link rel="import" href="../templates/nav.html?__inline" />
-   <!--  -->
-    <div class="gtco-container2">
-        <div class="vrsionDisplay">
-            <div class="row content">
-                <div class="col-md-4">
-                    <div class="freeAdmission">
-                        <img src="../assets/images/免费版.png" alt="">
-                        <h3>免费版本</h3>
-                        <span>FRRE</span>
+    <!--  -->
+    <div class="container vrsionDisplay">
 
-                        <p>包含所有功能</p>
-                        <p>单机、自助部署</p>
-                        <p>10个账户，永久免费</p>
-                        <p><a href="">免费版本有其他限制吗</a></p>
-                        <p><a href="">已经安装点击获得永久授权</a></p>
+        <div class="row content">
+            <div class="col-md-4">
+                <div class="freeAdmission">
+                    <img src="../assets/images/免费版.png" alt="">
+                    <h3>免费版本</h3>
+                    <span>FRRE</span>
 
-                        <button id="btn-fadeToggle">自助安装</button>
-                    </div>
+                    <p>包含所有功能</p>
+                    <p>单机、自助部署</p>
+                    <p>10个账户，永久免费</p>
+                    <p><a href="">免费版本有其他限制吗</a></p>
+                    <p><a href="">已经安装点击获得永久授权</a></p>
+
+                    <button id="btn-fadeToggle">自助安装</button>
                 </div>
-                <div class="col-md-4">
-                    <div class="enterprise">
-                        <img src="../assets/images/企业版.png" alt="">
-                        <h3>企业版本</h3>
-                        <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';
+            </div>
+            <div class="col-md-4">
+                <div class="enterprise">
+                    <img src="../assets/images/企业版.png" alt="">
+                    <h3>企业版本</h3>
+                    <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';
                      document.getElementById('fade').style.display='block'">申请</span>
 
-                        <p>按账号数收费、多种部署方式</p>
-                        <p>支持企业级定制、包含所有功能</p>
-                        <p>专业售后团队维护、开放平台API</p>
-                        <br>
-                        <p></p><br>
+                    <p>按账号数收费、多种部署方式</p>
+                    <p>支持企业级定制、包含所有功能</p>
+                    <p>专业售后团队维护、开放平台API</p>
+                    <br>
+                    <p></p><br>
 
-                        <a href=""><button>获取</button></a>
-                    </div>
+                    <a href=""><button>获取</button></a>
                 </div>
-                <div class="col-md-4">
-                    <div class="package">
-                        <img src="../assets/images/套餐.png" alt="">
-                        <h3>专家安装套餐</h3>
-                        <span>￥998</span>
-
-                        <p>专业工程师部署</p>
-                        <p>手册、文档、文件管理规范</p>
-                        <p>包含一年VIP服务、高枕无忧</p>
-                        <p>赠送20个永久免费账户</p>
-                        <p>仅需998元、获取原价300元大礼包</p>
-
-                        <a href=""><button>获取</button></a>
-                    </div>
-                </div>
-
             </div>
-            <!-- 弹出的窗口 -->
-            <div id="popup" class="white_content">
-                <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='none';
+            <div class="col-md-4">
+                <div class="package">
+                    <img src="../assets/images/套餐.png" alt="">
+                    <h3>专家安装套餐</h3>
+                    <span>￥998</span>
+
+                    <p>专业工程师部署</p>
+                    <p>手册、文档、文件管理规范</p>
+                    <p>包含一年VIP服务、高枕无忧</p>
+                    <p>赠送20个永久免费账户</p>
+                    <p>仅需998元、获取原价300元大礼包</p>
+
+                    <a href=""><button>获取</button></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- 弹出的窗口 -->
+        <div id="popup" class="white_content">
+            <span href="javascript:void(0)" onclick="document.getElementById('popup').style.display='none';
                 document.getElementById('fade').style.display='none'">关闭窗口</span>
 
-            </div>
-            <div id="fade" class="black_overlay"></div>
         </div>
-        <!--自助安装窗口  -->
+        <div id="fade" class="black_overlay"></div>
+    </div>
+    <!--自助安装窗口  -->
+    <div class="container">
         <div class="tc-block" id="tc" style="display:none">
+           <div class="arrow"></div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 text-center tc-step">
                     <div class="tc-content">
-                        <h2>关注获取下载密码</h2>
+                        <h2 class="h3">关注获取下载密码</h2>
                         <img class="tc-weixin" src="../assets/images/weixin.png" alt="">
                         <p class="text-left">关注公众号获取密码、下载链接、最新版本</p>
                         <span class="glyphicon glyphicon-chevron-right"></span>
@@ -82,7 +84,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 text-center tc-step">
                     <div class="tc-content">
-                        <h2>查看安装手册并测试</h2>
+                        <h2 class="h3">查看安装手册并测试</h2>
                         <img src="../assets/images/测试.png" alt="">
                         <p>下载查看安装包，完成后进行文件上传、下载测试。默认登录账户密码admin,yliyun123</p>
                         <span class="glyphicon glyphicon-chevron-right"></span>
@@ -90,21 +92,20 @@
                 </div>
                 <div class="col-md-4 col-sm-4 text-center tc-step" style="border-right:0px solid">
                     <div class="tc-content">
-                        <h2>申请永久授权</h2>
+                        <h2 class="h3">申请永久授权</h2>
                         <img src="../assets/images/授权.png" alt="">
                         <p>填写表格申请10个账号的永久授权</p>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
     <!-- guide -->
-     <div class="gtco-container">
+    <div class="container">
         <h2 class="h3">版本特性</h2>
         <div class="guide">
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-1 col-sm-2 col-xs-3">
                     <ul id="myTab" class="nav nav-tabs inline-block">
                         <li class="active tabe"><a href="#edition1" data-toggle="tab">3.6</a></li>
                         <li class="tabe"><a href="#edition2" data-toggle="tab">3.5</a></li>
@@ -117,41 +118,37 @@
                         <li class="tabe"><a href="#edition9" data-toggle="tab">2.0</a></li>
                     </ul>
                 </div>
-                <div class="col-md-11">
+                <div class="col-md-11 col-sm-10 col-xs-9">
                     <div id="myTabContent" class="inline-block abs">
-                        <div class="tab-pane fade active in" id="edition1">
-                            <ul class="row tx-content">
-                                <li class="col-md-4 banb-tx">
-                                    <img src="../assets/images/授权1.png" alt="">
-                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
-                                </li>
-                                <li class="col-md-4 banb-tx">
-                                    <img src="../assets/images/分享.png" alt="">
-                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
-                                </li>
-                                <li class="col-md-4 banb-tx">
-                                    <img src="../assets/images/模块.png" alt="">
-                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
-                                </li>
-                                <li class="col-md-4 banb-tx">
-                                    <img src="../assets/images/表单.png" alt="">
-                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
-                                </li>
-                                <li class="col-md-4 banb-tx">
-                                    <img src="../assets/images/防盗系统.png" alt="">
-                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
-                                </li>
-                                <li class="col-md-4 banb-tx">
-                                    <img src="../assets/images/水印相机.png" alt="">
-                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
-                                </li>
-                                <li class="col-md-4 banb-tx">
-                                    <img src="../assets/images/白名单.png" alt="">
-                                    <h3 class="banb-text">开放共享空间多级授权功能</h3>
-                                </li>
-
-
-                            </ul>
+                        <div class="row tab-pane fade active in" id="edition1">
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <img class="center-block" src="../assets/images/授权1.png" alt="">
+                                <h3 class="banb-text">开放共享空间多级授权功能</h3>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <img class="center-block" src="../assets/images/分享.png" alt="">
+                                <h3 class="banb-text">优化我的分享模块</h3>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <img class="center-block" src="../assets/images/模块.png" alt="">
+                                <h3 class="banb-text">增加独立的系统模块</h3>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <img class="center-block" src="../assets/images/表单.png" alt="">
+                                <h3 class="banb-text">客户端新增开启启动配置，修改注册表</h3>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <img class="center-block" src="../assets/images/防盗系统.png" alt="">
+                                <h3 class="banb-text">防盗链功能升级</h3>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <img class="center-block" src="../assets/images/水印相机.png" alt="">
+                                <h3 class="banb-text">增加功能水印</h3>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <img class="center-block" src="../assets/images/白名单.png" alt="">
+                                <h3 class="banb-text">增加白名单功能</h3>
+                            </div>
                         </div>
                         <div class="tab-pane fade " id="edition2">
 
