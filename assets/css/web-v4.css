@@ -747,13 +747,13 @@ h4 p{
 .ding-cont img{
     width: 80%;
 }
+
 /*协作办公  */
+.xz-video{
+    width: 100%;
+}  
 .thumbnail{
     padding: 30px;
-}
-.thumbnail img{
-    padding: 25px;
-    border:1px dashed #bbbcc0;
 }
 .thumbnail p{
     width: 80%;
@@ -764,9 +764,6 @@ h4 p{
 }
 .xz-bg img{
     width: 100%;
-}
-.xz-bg-ash{
-    background-color: #bbbcc0;
 }
 .xz-bg-ash>p{
     line-height: 5;
