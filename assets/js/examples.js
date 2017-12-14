@@ -3,7 +3,7 @@ var examples = [
         id: 1,
         name: "实现全权限管理",
         type: 1,
-        typeName: '',
+        typeName: '特使是',
         typeInfo: "教育行业",
         customer: '龙湾',
         summary: '一粒云',
@@ -15,6 +15,7 @@ var examples = [
         id: 2,
         name: "实现全权限管理",
         type: 1,
+        typeName: '特使是',
         typeInfo: "教育行业",
         customer: '龙湾',
         summary: '一粒云',
@@ -24,9 +25,10 @@ var examples = [
     },
     {
         id: 3,
-        name: "实现全权限管理",
-        type: 1,
-        typeInfo: "教育行业",
+        name: "实现全权限管理2",
+        type: 2,
+        typeName: '特使是',
+        typeInfo: "制造行业",
         customer: '龙湾',
         summary: '一粒云',
         users: 1000,
@@ -35,9 +37,9 @@ var examples = [
     },
     {
         id: 4,
-        name: "实现全权限管理",
-        type: 1,
-        typeInfo: "教育行业",
+        name: "实现全权限管理2",
+        type: 2,
+        typeInfo: "制造行业",
         customer: '龙湾',
         summary: '一粒云',
         users: 1000,
@@ -46,9 +48,20 @@ var examples = [
     },
     {
         id: 5,
-        name: "实现全权限管理",
-        type: 1,
-        typeInfo: "教育行业",
+        name: "实现全权限管理3",
+        type: 3,
+        typeInfo: "制造行业",
+        customer: '龙湾',
+        summary: '一粒云',
+        users: 1000,
+        use1: '知识沉淀',
+        use2: '高效查询'
+    },
+    {
+        id: 5,
+        name: "实现全权限管理3",
+        type: 3,
+        typeInfo: "制造行业",
         customer: '龙湾',
         summary: '一粒云',
         users: 1000,
@@ -59,14 +72,31 @@ var examples = [
 ];
 
 
+
 var filterEx = undefined;
 
 function getExams(num) {
 
     if (num) {
+
         // todo  filter the type value num
 
         //    filterEx = filter (examples);
+
+        filterEx = [];
+        $("#coo_cont").empty();
+
+
+        for (var i = 0; i < examples.length; i++) {
+
+            if(examples[i].type == num){
+
+                filterEx.push(examples[i]);
+            }
+
+        }
+
+
 
     } else {
         filterEx = examples;
@@ -77,31 +107,32 @@ function getExams(num) {
 }
 
 
-function insertExam(filterEx) {
+function insertExam(exa) {
+
 
     for (var i = 0; i < exa.length; i++) {
 
         var html =
-            '<a  href=' + exa.url + '  class="col-md-4">' +
+            '<div  href=' + exa[i].url + '  class="col-md-4">' +
             '<div class="panel panel-default coo-panel">' +
             '<div class="panel-heading">' +
             ' <a href="">' +
-            '<h3>' + exa.typeName + '</h3>' +
+            '<h3>' + exa[i].typeName + '</h3>' +
             '</a>' +
             '</div>' +
             '<div class="panel-body">' +
-            '<a href=""><span>' + typeInfo + '</span><span>|</span>' +
-            '<span>' + customer + '</span></a>' +
-            '<a href=""><h4>' + name + '</h4></a>' +
-            '<a href=""><p>' + summary + '</p></a>' +
+            '<a href=""><span>' +exa[i].typeInfo + '</span><span>|</span>' +
+            '<span>' + exa[i].customer + '</span></a>' +
+            '<a href=""><h4>' + exa[i].name + '</h4></a>' +
+            '<a href=""><p>' + exa[i].summary + '</p></a>' +
             '</div>' +
             '<div class="panel-footer">' +
-            '<span>' + users + '</span>' +
-            '<span class="pull-right">' + use1 + '</span>' +
-            '<span class="pull-right mar">' + use2 + '</span>' +
+            '<span>' + exa[i].users + '</span>' +
+            '<span class="pull-right">' + exa[i].use1 + '</span>' +
+            '<span class="pull-right mar">' + exa[i].use2 + '</span>' +
             '</div>' +
             '</div>' +
-            '</a>';
+            '</div>';
 
 
 
@@ -111,3 +142,10 @@ function insertExam(filterEx) {
     }
 
 }
+
+
+$(document).ready(function(){
+    console.log("start ---------");
+
+    getExams(0);
+});
