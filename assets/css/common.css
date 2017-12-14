@@ -1,4 +1,4 @@
- html{
+html{
     font-size: 10px;
 } 
 body{
@@ -15,115 +15,240 @@ h3{
     font-family: 微软雅黑 !important;
 }
 /*  */
- /* @media only screen and (min-width: 980px) and (max-width:990px){
+@media only screen and (min-width: 980px) and (max-width:981px){
     html {
-        font-size: 15px !important;
+        font-size: 22px !important;
+    }
+    .container{
+        width: 96% !important;
+    }
+    /* nav */
+    .head-right{
+        display: none !important;
     }
     .head ul{
-        margin-left: 20px !important;
+        float: right !important;
+    }
+    nav.head{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1001;
     }
     .head ul li a{
-        font-size: 1.3rem !important;
-    }
-    .banb-text{
         font-size: 1.7rem !important;
     }
-    .carousel-inner h3{
-        font-size: 4.5rem !important;
-    }
-    .more a{
-        font-size: 1.3rem !important;
-    }
-    .ding-h2{
-        font-size: 3rem !important;
-    }
-    .foot-links a{
-        font-size: 1.2rem !important;
-    }
-    .ding-h3{
-        font-size: 2.3rem !important;
-    }
-    .ding-main p{
-        font-size: 1.1rem !important;
+    .product2,
+    .vrsionDisplay,
+    .bg-anli,
+    .synopses-bg,
+    .slider,
+    .ding,
+    .xz,
+    .bg-lw{
+        margin-top: 95px !important;
     }
 
-}   */
-
-@media screen and (max-width: 767px) {
-    /* html{
-        font-size: 10px !important;
-    } */
-    /*手机端  */
-    /*nav  */
-    .nav-logo{
-        display: inline;
-        line-height: 4
-    }
-    .nav-logo img{
-        width: 110px;
-    }
-    .nav-text{
-        display: inline-block;
-        line-height: 3;
-    }
-    .nav-ul li{
-        display: inline-block;
-        font-size: 1.4rem;
-        list-style-type: none;
-    }
-    .head{
-         display: none; 
-    }
     /* about */
     .theHeadlines{
         display: none;
     }
-    .item img{
-        min-height: 200px;
-    }
-    .carousel-inner h3{
-        font-size: 3rem !important;
-        top: 10px !important;
-    }
-    /*  */
-
     .horn img{
-        height: 70px;
-        width: 70px;
+        width:240px;
+        height: 240px;
     }
-
-    /*footer  */
+    .slider{
+        padding-right:35px;
+    }
+    .exhibition-main p{
+        font-size: 1.4rem;
+    }
+    .e-content{
+        display: none;
+    }
+    .e-content2{
+        display: block !important;
+    }
+    .case-h3{
+        display: block !important;
+    }
+    .c-zz{
+        padding-top: 35px;
+    }
+    /*foot  */
     .foot{
         display: none !important;
     }
     .footer2{
         display: block !important;
     }
-    .container{
-        width: 100% !important;
+    .f-img{
+        max-width: 670px !important;
+        height: 115px !important;
     }
-    /* .head-right {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-        box-shadow: 1px 1px 1px rgba(50,50,50,0.0) !important;
+    .f-img img{
+        height: 100px !important;
+    }
+    .f-img p{
+        font-size: 1rem !important;
+    }
+    /* .head ul{
+        margin-left: 20px !important;
     }
     .head ul li a{
-        display: inline-block;
+        font-size: 1.3rem !important;
     } */
-    
-    
-    /*悬浮区  */
-    .suspension{
+    .banb-text{
+        font-size: 1.7rem !important;
+    }
+    .carousel-inner h3{
+        font-size: 3.5rem !important;
+    }
+    .more a{
+        font-size: 1.3rem !important;
+    }
+    .foot-links a{
+        font-size: 1.2rem !important;
+    }
+    /*产品  */
+    .product{
         display: none;
     }
+    .product2{
+        display: block !important;
+    }
+    /*产品价格  */
+    .freeAdmission p{
+        font-size: 1.8rem !important;
+    }
+    .vrsionDisplay a {
+        font-size: 1.5rem;
+    }
+    /*ding  */
+    .ding-h2{
+        font-size: 2.3rem !important;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .ding-h3{
+        font-size: 2rem !important;
+    }
+    .ding-main p{
+        font-size: 1.4rem !important;
+    }
+    .learnMore{
+        height: auto;
+    }
+    .learnMore h4 p{
+        padding-top: 22px;
+        color: #525252;
+    }
+    .us>h5{
+        font-size: 1.4rem;
+    }
+    /*合作案例  */
+    .anli-bg-content{
+        padding: 0px !important;
+    }
+    .frame{
+        border:0 solid !important;
+    }
+    .th a{
+        padding-left: 0 !important;
+        padding-right:0 !important;
+    }
+    .panel-footer{
+        height: 60px !important;
+    }
+    .panel-body a span{
+        font-size: 1.6rem;
+    }
+    .panel-footer span{
+        font-size: 1.5rem;
+    }
+    .coo-panel p,
+    .panel-footer span{
+        color: #525252 !important;
+    }
+    /*关于我们  */
+    .synopses-conten h2{
+        top: 40px !important;
+    }
+    .synopses-conten p{
+        top: 60px !important;
+        font-size: 1.4rem !important;
+    }
+    /*long  */
+    .lw-h2{
+        font-size: 2rem !important;
+    }
+    .lw-h3{
+        font-size: 1.6rem !important;
+    }
+    .lw-bg-content{
+        line-height: 336px;
+    }
+    .lw-h2{
+        line-height: 336px;
+    }
+    /*float  */
+    .suspension{
+        height: 300px !important;
+        width: 80px !important;
+    }
+    .up, 
+    .pre-sale, 
+    .customer-service{
+        height: 99px !important;
+    }
+    .suspension img, 
+    .suspension span{
+        top: 15px !important;
+        left: 7px !important;
+        height: 64px !important;
+        width: 64px !important;
+    }
+    .text-prompt{
+        height: 64px !important;
+        width: 64px !important;
+        bottom: 42px !important;
+        left: 7px !important;
+        font-size: 20px !important;
+    }
+    .up>a>img{
+        height: 20px!important;
+        width: 36px!important;
+        top: 35px!important;
+        left: 23px!important;
+    }
+    .text-prompt1{
+        height: 64px !important;
+        width: 64px !important;
+        bottom: 3px !important;
+        left: 10px !important;
+        font-size: 20px !important;
+    }
+    .division{
+        width: 47px !important;
+    }
+}   
+
+@media screen and (max-width: 768px) {
+     /* html{
+        font-size: 10px !important;
+    }  */
+    
 }
+
+
+
+
 /*  */
 /* nav */
 .navbar-default{
     background-color: #f7f7f7 !important;
     border-color: #f7f7f7 !important;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 .navbar-brand{
     padding:0 !important;
@@ -162,6 +287,28 @@ h3{
     text-decoration: none;
     color: #06ca68;;
 }
+/*  */
+
+/* .nav-logo{
+    display: inline;
+    line-height: 4
+}
+.nav-logo img{
+    width: 110px;
+}
+.nav-text{
+    display: inline-block;
+    line-height: 3;
+}
+.nav-ul{
+    line-height: 80px;
+}
+.nav-ul li{
+    display: inline-block;
+    font-size: 1.4rem;
+    list-style-type: none;
+    margin: 0 4px;
+} */
 /* 底部 */
 .foot{
     background-color: #323232;
@@ -282,8 +429,8 @@ h3{
     background-color:#0261cc;
 }
 .f-img{
-    max-width: 284px;
-    height: 96px;
+    max-width: 520px;
+     height: 96px; 
     color: white;
 }
 .f-img img{

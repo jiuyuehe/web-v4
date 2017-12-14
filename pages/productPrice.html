@@ -22,8 +22,8 @@
                     <p>包含所有功能</p>
                     <p>单机、自助部署</p>
                     <p>10个账户，永久免费</p>
-                    <p><a href="">免费版本有其他限制吗</a></p>
-                    <p><a href="">已经安装点击获得永久授权</a></p>
+                    <p><a href="#">免费版本有其他限制吗</a></p>
+                    <p><a href="#">已经安装点击获得永久授权</a></p>
 
                     <button id="btn-fadeToggle">自助安装</button>
                 </div>
@@ -41,7 +41,7 @@
                     <br>
                     <p></p><br>
 
-                    <a href=""><button>获取</button></a>
+                    <a href="#"><button>获取</button></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -56,7 +56,7 @@
                     <p>赠送20个永久免费账户</p>
                     <p>仅需998元、获取原价300元大礼包</p>
 
-                    <a href=""><button>获取</button></a>
+                    <a href="#"><button>获取</button></a>
                 </div>
             </div>
 
@@ -121,39 +121,39 @@
                     <div id="myTabContent" class="inline-block abs">
                         <div class="row tab-pane fade active in" id="edition1">
                             <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
-                            <a href=""><img class="" src="../assets/images/pr-sy.png" alt=""><br>
+                                <a href="#"><img class="" src="../assets/images/pr-sy.png" alt=""><br>
                                  <h3 class="banb-text">增加功能水印</h3>
                             </a>
                             </div>
-                           
+
                             <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
-                                <a href=""><img class="" src="../assets/images/pr-fx.png" alt=""><br>
+                                <a href="#"><img class="" src="../assets/images/pr-fx.png" alt=""><br>
                                 <h3 class="banb-text">优化我的分享模块</h3></a>
                             </div>
                             <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
-                                <a href=""><img class="" src="../assets/images/pr-mk.png" alt=""><br>
-                                <h3 class="banb-text">增加独立的系统<br>模块</h3></a>
+                                <a href="#"><img class="" src="../assets/images/pr-mk.png" alt=""><br>
+                                <h3 class="banb-text">增加独立的系统模块</h3></a>
                             </div>
-                            
+
                             <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
-                                <a href=""><img class="" src="../assets/images/pr-fd.png" alt=""><br>
+                                <a href="#"><img class="" src="../assets/images/pr-fd.png" alt=""><br>
                                 <h3 class="banb-text">防盗链功能升级</h3></a>
                             </div>
-                            
+
                             <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
-                                <a href=""><img class="" src="../assets/images/pr-bmd.png" alt=""><br>
+                                <a href="#"><img class="" src="../assets/images/pr-bmd.png" alt=""><br>
                                 <h3 class="banb-text">增加白名单功能</h3></a>
                             </div>
-                             <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
-                                <a href=""><img class="" src="../assets/images/pr-sqx.png" alt=""><br>
-                                <h3 class="banb-text">开放共享空间多<br>级授权功能</h3></a>
+                            <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
+                                <a href="#"><img class="" src="../assets/images/pr-sqx.png" alt=""><br>
+                                <h3 class="banb-text">开放共享空间多级授权功能</h3></a>
                             </div>
                             <div class="col-md-4 col-sm-4 col-xs-6 banb-tx">
-                                <a href=""><img class="" src="../assets/images/pr-bd.png" alt=""><br>
-                                <h3 class="banb-text">客户端新增开启启动配置，修改注册表</h3></a>
+                                <a href="#"><img class="" src="../assets/images/pr-bd.png" alt=""><br>
+                                <h3 class="banb-text">客户端新增开启启动配置，<br>修改注册表</h3></a>
                             </div>
                         </div>
-                        
+
                         <div class="tab-pane fade " id="edition2">
 
                         </div>
@@ -169,5 +169,14 @@
     <link rel="import" href="../templates/footer.html?__inline" />
     <link rel="import" href="../templates/ft.html?__inline" />
 </body>
+<!--鼠标的进入，移出事件  -->
+<script>
+    $(document).ready(function () {
+        $("#btn-fadeToggle").click(function () {
+            $("#tc").fadeToggle("slow");
+        });
+    });
+
+</script>
 
 </html>

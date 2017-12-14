@@ -40,7 +40,8 @@ ol.carousel-indicators li{
 }
 a.carousel-control.left span,
 a.carousel-control.right span{
-    font-size: 3.5rem;
+    /*字体图标  */
+    font-size: 35px;
     color: #f7f7f7;
     opacity: 1;
 }
@@ -99,6 +100,9 @@ a.carousel-control.right span{
     text-decoration: none;
 }
 /*展示区  */
+.e-content2{
+    display: none;
+}
 .exhibition{
     margin-top: 10px;
     background-color: #fff;
@@ -118,11 +122,13 @@ a.carousel-control.right span{
 .exhibition-main a img:hover{
     box-shadow: 1px 3px 5px 4px rgba(50,50,50,0.3);
 }
-.exhibition-bg{
-    overflow: hidden;
-}
+
 .case{
     padding: 0 !important;
+}
+.case-h3{
+    display: none;
+    font-weight: 700;
 }
 .case>.col-md-6.a{
     margin-top: 35px;
@@ -453,7 +459,7 @@ a.carousel-control.right span{
     color: white !important;
 }
 .nav>li>a{
-    padding: 20px 40px !important;
+    padding: 20px 40px;
 }
 .banb{
     text-align: center;
@@ -487,7 +493,6 @@ a.carousel-control.right span{
     padding: 0;
 }
 .tab-page{
-    min-width: 520px;
     position: relative;
     margin-top: 45px;
 }
@@ -522,7 +527,8 @@ a.carousel-control.right span{
      padding-top: 50px;
 }
 h4{
-    margin: 55px 0 !important;
+    margin: 40px 0 !important;
+    font-size: 1.8rem;
 }
 .product p{
     margin-left: 30px;
@@ -538,6 +544,36 @@ h4{
 /* .container.product img:hover{
     background-color: #353030;
 } */
+/*  */
+.product2{
+    display: none;
+}
+.p-head{
+    display: block;
+    text-align: center;
+}
+.p-head p{
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.6rem !important;
+}
+.p-content{
+    height: 350px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;;
+}
+.p-content h5{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px 0;
+}
+.p-content-p p{
+    color: #525252 !important;
+    font-size: 1.5rem;
+}
 
 /*合作案例  */
 /*  */
@@ -552,7 +588,7 @@ h4{
     text-align: center;
     color: white;
     font-size: 1.4rem;
-    padding: 165px;
+    padding: 130px;
 }
 h2.anli-h2{
     font-size: 2.4rem;
@@ -594,12 +630,13 @@ h2.anli-h2{
 }
 .panel-body p{
     font-family: 微软雅黑;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #b4b4b4;
 }
 .panel-footer{
     background-color: white !important;
     color: #b4b4b4 !important;
+    height: 40px;
 }
 .panel-footer span{
     font-size: 1.4rem;
@@ -647,6 +684,9 @@ h2.h3{
 .us-bg{
     background-color: white;
     padding: 80px 0 20px 0;
+}
+.us h5{
+    font-size: 1.4rem;
 }
 .media{
     max-width: 70%;
@@ -707,19 +747,20 @@ h4 p{
 }
 /* lw */
 .bg-lw{
-    background-image:url(../images/bg-lw.png);
+     background-image:url(../images/bg-lw.png); 
 }
 .lw-bg-content{
     width: 60%;
     margin-left: 20%;
-    line-height: 392px;
+    line-height: 336px;
 }
 .lw-logo img{
     width: 200px;
 }
 .lw-h2{
-    line-height: 392px;
+    line-height: 336px;
     color: white;
+    font-size: 3rem;
     text-align: center;
 }
 .bg-white{
@@ -736,16 +777,24 @@ h4 p{
     margin: 0;
     height: 66px;
     line-height: 66px;
-     background-color: white; 
+    background-color: white; 
 }
 .lw-text{
     margin: 45px 0;
+}
+.lw-text h5{
+    font-size: 1.7rem;
+    margin:26px auto;
+}
+.lw-text p{
+    font-size: 1.4rem;
 }
 .bg-ash{
     padding: 0 !important;
 
 }
 .bg-ash p{
+    font-size: 1.5rem;
     width: 80%;
     margin-left: 10%;
     margin-top: 20px;
