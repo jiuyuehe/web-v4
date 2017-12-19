@@ -29,7 +29,7 @@ ol.carousel-indicators li{
     width: 100%;
     text-align: center;
     color: #fbfffc;
-    font-size: 5.2rem;
+    font-size: 5rem;
 } 
 .carousel-control.left,
 .carousel-control.right{
@@ -90,7 +90,7 @@ a.carousel-control.right span{
 .more a{
     float: right;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.4rem !important;
     font-family: 微软雅黑;
     color: #0c1014;
     line-height: 56px;
@@ -275,9 +275,9 @@ a.carousel-control.right span{
 .package img,
 .enterprise img,
 .freeAdmission img{
-    height: 123px;
-    width: 123px;
-    margin-top: 40px;
+    height: 99px;
+    width: 99px;
+    margin-top: 20px;
 }
 .package,
 .enterprise,
@@ -287,28 +287,28 @@ a.carousel-control.right span{
 }
 .vrsionDisplay p{
     margin: 10px;
-    font-size: 1.6rem;
+    height: 140px;
+    line-height: 24px;
+    font-size: 1.4rem;
+
 }
 .vrsionDisplay h3{
-    font-size: 3.9rem;
+    font-size: 2.6rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .vrsionDisplay span{
-    border: 1px solid #ed1c24;
-    color: #ed1c24;
+    border: 1px solid #06ca67;
+    color: #06ca67;
     padding: 5px 20px;
     font-size: 2.4rem;
     display: inline-block;
+    margin: 10px auto;
 }
 .vrsionDisplay a{
     font-size: 1.4rem;
 }
-/* .enterprise span{
-    border: 1px solid #60c76e;
-    color: #60c76e;
-    cursor: pointer;
-} */
 .vrsionDisplay button{
     background-color: #3b95da;
     color: white;
@@ -449,6 +449,7 @@ a.carousel-control.right span{
 }
 .nav>li>a{
     font-size: 1.5rem;
+    padding: 26px 40px;
 }
 .active a{
     border:0px solid !important;
@@ -458,9 +459,6 @@ a.carousel-control.right span{
     border-radius: 0px !important;
     color: white !important;
 }
-.nav>li>a{
-    padding: 20px 40px;
-}
 .banb{
     text-align: center;
 }
@@ -469,6 +467,7 @@ a.carousel-control.right span{
     color: #0c1014;
     font-weight: bold;
     display: inline-block;
+    max-width:160px; 
 }
 .banb-text:hover{
     color: #2499f3;
@@ -530,6 +529,10 @@ h4{
     margin: 40px 0 !important;
     font-size: 1.8rem;
 }
+.product h4{
+    display: inline-block;
+    color: #525252;
+}
 .product p{
     margin-left: 30px;
     margin-right: 30px;
@@ -553,7 +556,6 @@ h4{
     text-align: center;
 }
 .p-head p{
-    text-align: left;
     width: 70%;
     margin-left: 15%;
     font-size: 1.6rem !important;
@@ -625,12 +627,12 @@ h2.anli-h2{
     font-weight: 300;
 }
 .panel-body h4{
-     font-size: 2.8rem; 
+     font-size: 2rem; 
     margin:15px 0 !important;
 }
 .panel-body p{
     font-family: 微软雅黑;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     color: #b4b4b4;
 }
 .panel-footer{
@@ -652,7 +654,7 @@ h2.anli-h2{
 }
 .synopses-conten{
     width: 70%;
-    height: 455px;
+    height: 433px;
     margin-left: 15%;
     font-weight: bold;
     color:white;
@@ -746,6 +748,9 @@ h4 p{
     background-color: #388bec;
 }
 /* lw */
+#lw{
+    min-width: 750px;
+}
 .bg-lw{
      background-image:url(../images/bg-lw.png); 
 }
@@ -763,9 +768,9 @@ h4 p{
     font-size: 3rem;
     text-align: center;
 }
-.bg-white{
+/* .bg-white{
     background-color: white;
-}
+} */
 .lw-problem{
     padding: 0 20%;
 }
@@ -836,18 +841,18 @@ h4 p{
 }
 .ding-h3{
     margin-bottom: 25px;
-    color: #06ca68;
+    color: #555555;
     font-size: 2.8rem;
     font-weight: bold;
 }
 .d-tb{
-    line-height:20;
+    line-height:35;
 }
 .ding-content img{
-    width: 80%;
+    width: 100%;
 }
 .ding-cont img{
-    width: 80%;
+    width: 100%;
 }
 .ding-main p{
     font-size: 1.4rem;
@@ -863,6 +868,9 @@ h4 p{
 .thumbnail p{
     width: 80%;
     margin-left: 10%;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 30px;
 }
 /* .xz-bg{
     padding: 0;
@@ -874,4 +882,20 @@ h4 p{
     line-height: 3;
     width: 70%;
     margin-left: 15%;
+}
+ /* video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+} 
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); 
+    overflow: hidden;
+} */
+
+.product>.function>.col-md-4{
+    height: 400px;
 }

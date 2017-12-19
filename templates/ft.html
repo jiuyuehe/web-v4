@@ -1,13 +1,13 @@
 <div class="suspension">
     <div class="pre-sale">
-        <a href="#"><img src="../assets/images/f-sq.png" alt="">
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=380627112&site=qq&menu=yes"><img src="../assets/images/f-sq.png" alt="">
             <div class="text-prompt">售前<br>QQ</div>
         </a>
     </div>
     <div class="division"></div>
-    <div class="customer-service">
-        <a href="#"><img src="../assets/images/f-sh.png" alt="">
-            <div class="text-prompt">售后<br>QQ</div>
+    <div class="customer-service" id="float-form">
+        <a><img src="../assets/images/f-sh.png" alt="">
+            <div class="text-prompt">填写<br>表单</div>
         </a>
     </div>
     <div class="division"></div>
@@ -16,6 +16,10 @@
         <div class="text-prompt1">返回<br>顶部</div>
     </a>
     </div>
+</div>
+<div class="float-form" id="form">
+    <span id="close">&times</span>
+
 </div>
 
 <!-- jQuery -->
@@ -27,3 +31,17 @@
 
 
 <script src="../assets/js/examples.js"></script>
+
+
+<!-- float -->
+<script>
+    $(document).ready(function () {
+        $("#float-form").click(function () {
+            $("#form").slideToggle(1000);
+        });
+        $("#close").click(function () {
+            $("#form").fadeOut(1000);
+        });
+    });
+
+</script>

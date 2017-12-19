@@ -48,10 +48,19 @@ h3{
     .bg-lw{
         margin-top: 95px !important;
     }
+    .xz-bg-ash>p {
+        line-height: 2;
+        width: 85%;
+        font-size: 1.5rem;
+        margin-left: 10%;
+    }
 
     /* about */
     .theHeadlines{
         display: none;
+    }
+    .slide img{
+        height: 420px !important;
     }
     .horn img{
         width:240px;
@@ -68,9 +77,14 @@ h3{
     }
     .e-content2{
         display: block !important;
+        margin-top: 110px !important;
+    }
+    .case{
+        margin-top: 50px !important;
     }
     .case-h3{
         display: block !important;
+        margin-top: 50px !important;
     }
     .c-zz{
         padding-top: 35px;
@@ -114,8 +128,19 @@ h3{
     .product{
         display: none;
     }
+    .p-head p{
+        width: 80% !important;
+        margin-left: 10% !important;
+        font-size: 1.5rem!important;
+    }
     .product2{
         display: block !important;
+    }
+    .p-head img{
+        width: 30%;
+    }
+    .security{
+        margin-top: 150px;
     }
     /*产品价格  */
     .freeAdmission p{
@@ -124,6 +149,10 @@ h3{
     .vrsionDisplay a {
         font-size: 1.5rem;
     }
+    .vrsionDisplay p{
+        height: 230px;
+        line-height: 46px;
+    }
     /*ding  */
     .ding-h2{
         font-size: 2.3rem !important;
@@ -131,7 +160,7 @@ h3{
         margin-bottom: 20px;
     }
     .ding-h3{
-        font-size: 2rem !important;
+        font-size: 1.7rem !important;
     }
     .ding-main p{
         font-size: 1.4rem !important;
@@ -147,6 +176,14 @@ h3{
         font-size: 1.4rem;
     }
     /*合作案例  */
+    .bg-anli{
+        margin-top: 355px;
+        height: 355px !important;
+    }
+    .anli-h2{
+        font-size: 1.6rem !important;
+        margin-top: 115px !important;
+    }
     .anli-bg-content{
         padding: 0px !important;
     }
@@ -179,14 +216,21 @@ h3{
         font-size: 1.4rem !important;
     }
     /*long  */
+    .lw-problem{
+        padding: 0 10%;
+    }
     .lw-h2{
         font-size: 2rem !important;
     }
     .lw-h3{
         font-size: 1.6rem !important;
     }
+    .shaer{
+        display: none;
+    }
+    .caption
     .lw-bg-content{
-        line-height: 336px;
+        line-height: 336px !important;
     }
     .lw-h2{
         line-height: 336px;
@@ -231,12 +275,28 @@ h3{
     .division{
         width: 47px !important;
     }
+    .float-form{
+       top: 92px !important;
+    }
 }   
 
-@media screen and (max-width: 768px) {
-     /* html{
-        font-size: 10px !important;
-    }  */
+@media screen and (max-width: 1092px) {
+    .d-cont{
+        text-align: center;
+    }
+    .ding-h2{
+        margin: 0 auto !important;
+        text-align: center;
+
+    }
+    .ding-h3{
+        display:inline-block;
+        text-align: center;
+    }
+    .ding-p{
+        text-align: center;
+    }
+
     
 }
 
@@ -249,6 +309,7 @@ h3{
     background-color: #f7f7f7 !important;
     border-color: #f7f7f7 !important;
     padding: 20px 0;
+    margin-bottom: 0px !important;
 }
 .navbar-brand{
     padding:0 !important;
@@ -332,6 +393,8 @@ h3{
 .foot-links li{
     line-height: 28px;
     width: fit-content;
+    color: #aeaeae;
+    list-style: none;
 }
 .foot-links a{
     font-size: 1.4rem;
@@ -345,11 +408,9 @@ h3{
 .ul li{
     list-style: none;
 }
-.td a{
-    color: #f1f1f1;
-    list-style: none;
-}
 .td{
+    color: #f7f7f7 !important;
+    list-style: none;
     height: 56px;
     line-height: 0px; 
 }
@@ -368,10 +429,10 @@ h3{
     color: #919191;
     font-size: 1.2rem;
 }
-.weixin span:hover,
+/* .weixin span:hover,
 .qq span:hover{
     color: #f1f1f1;
-}
+} */
 .qq a:hover,
 .weixin a:hover{
     text-decoration: none !important;
@@ -510,6 +571,7 @@ h3{
     z-index: -1;
 }
 .division{
+    display: none;
     height: 1px;
     width: 28px;
     text-align: center;
@@ -530,9 +592,28 @@ h3{
 }
 .text-prompt1:hover,
 .text-prompt:hover{
+    cursor: pointer;
     opacity: 1;
     text-decoration: none;
     color: black;
+}
+.float-form{
+    display: none;
+    position:fixed;
+    width: 40%;
+    height: 70%;
+    right: 0;
+    top: 0;
+    background-color: wheat;
+    z-index: 1000;
+}
+#close{
+    display: inline-block;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 /* 弹窗 */
 .black_overlay {
