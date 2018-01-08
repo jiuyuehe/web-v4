@@ -15,6 +15,7 @@
 /* 轮播 */
 .carousel-indicators{
     bottom: 14px !important;
+    z-index: 1 !important;
 }
 ol.carousel-indicators li{
     background: #06ca68;
@@ -64,6 +65,10 @@ a.carousel-control.right span{
 .theHeadlines-right{
     padding: 0 !important;
 }
+.frturn a{
+    font-size: 1.8rem;
+     line-height: 3;
+}
 .new img{
     height: 25px;
     width: 120px;
@@ -93,7 +98,6 @@ a.carousel-control.right span{
 } 
 .more a{
     float: right;
-    font-weight: bold;
     font-size: 1.4rem !important;
     font-family: 微软雅黑;
     color: #0c1014;
@@ -125,7 +129,7 @@ a.carousel-control.right span{
     cursor: pointer;
 }
 .exhibition-main a img:hover{
-    box-shadow: 1px 3px 5px 4px rgba(50,50,50,0.3);
+    box-shadow: 1px 3px 5px 4px rgba(160,160,160,0.3);
 }
 
 .case{
@@ -264,7 +268,7 @@ a.carousel-control.right span{
     right: 38%;
     font-size: 1.5rem;
     border: 1px solid;
-    padding: 0 7px;  
+    padding: 1% 2%;  
 } 
 /*产品价格  */
 /* vrsionDisplay */
@@ -326,6 +330,60 @@ a.carousel-control.right span{
 }
 .vrsionDisplay button:hover{
     box-shadow: 0px 1px 10px #2499f3;
+}
+.coo-ol li {
+    display: block;
+    height: 60px !important;
+    width: 110px !important;
+    border-radius: 0;
+    background-color: white !important;
+    color: #06ca68;
+    text-indent: 0;
+    line-height: 4;
+}
+.lb-coo>.coo-ol>active {
+    height: 50px !important;
+    width: 100px !important;
+    background-color: #06ca68 !important;
+    color: white;
+}
+.coo-ol .active {
+    background-color: #06ca68 !important;
+    color: #fff !important;
+}
+.coo-ol {
+    width: 20%;
+    position: relative;
+    padding-left: 0;
+    left: 30%;
+    float: left;
+    top: 0;
+}
+.lb-coo {
+    position: relative;
+}
+.lb-coo-proj {
+    float: left;
+    left: 20%;
+    width: 80% !important;
+    position: relative;
+}
+.m-product {
+    text-align: center;
+    margin: 20px 0;
+}
+.m-product-con {
+    height: 70px;
+}
+.banb- {
+    line-height: 4;
+    font-size: 20px;
+    margin-top: 7%;
+    background-color: black;
+    color: white;
+}
+.banb- li {
+    list-style: none;
 }
 /* 弹窗 */
 .black_overlay {
@@ -453,17 +511,19 @@ a.carousel-control.right span{
 .tabe a{
     margin-right:0px !important;
 }
-.nav>li>a{
+#myTab>li>a{
     font-size: 1.5rem;
     padding: 26px 40px;
+    background-color: white;
 }
 .active a{
     border:0px solid !important;
 }
-.active>a{
-    background-color: #06ca68 !important;
-    border-radius: 0px !important;
-    color: white !important;
+#myTab>.active>a{
+    background-color: #fff!important;
+    border-radius: 0!important;
+    color: #16cd6f!important;
+    border-top: 5px solid #16cd6f !important;
 }
 .banb{
     text-align: center;
@@ -715,7 +775,7 @@ h2.h3{
 .learnMore{
     background-color: white;
     height: 220px;
-    padding: 15px;
+    padding: 20px 35px;
     overflow: hidden;
     margin-top: 20px;
 }
@@ -724,6 +784,9 @@ h2.h3{
     cursor: pointer;
     padding: 14px;
     border-bottom: 10px solid #06ca68;
+}
+.panel-body.learnMore a:hover{
+    text-decoration: none;
 }
 /* .learnMore a:hover{
     text-decoration: none;
@@ -739,6 +802,10 @@ h4 p,
 }
 h4 a{
     line-height: 110px;
+}
+h4>p>a{
+    color: #717171;
+    line-height: 2;
 }
 h4 p{
     padding-top: 45px;
@@ -902,7 +969,7 @@ h4 p{
     width: 70%;
     margin-left: 15%;
 }
- /* video::-internal-media-controls-download-button {
+  video::-internal-media-controls-download-button {
     display:none;
 }
 
@@ -913,7 +980,7 @@ video::-webkit-media-controls-enclosure {
 video::-webkit-media-controls-panel {
     width: calc(100% + 30px); 
     overflow: hidden;
-} */
+} 
 
 .product>.function>.col-md-4{
     height: 400px;
@@ -926,12 +993,15 @@ video::-webkit-media-controls-panel {
  .k-summ,
  .k-structure,
 .k-card{
-    width: 100%;
-    position: relative; 
+    padding: 0;
 } 
+/* .k-structure,
+.k-card{
+    padding-top: 50px;
+}
 .k-summ{
     margin-bottom: 100px;
-}
+} */
 .k-summ img,
 .k-structure img,
 .k-card img{
@@ -941,8 +1011,8 @@ video::-webkit-media-controls-panel {
 .k-summ-main,
 .k-structure-main,
 .k-card-main{
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0; */
 }
 .k-summ-main h4{
     display: block;
@@ -953,6 +1023,10 @@ video::-webkit-media-controls-panel {
     width: 60%;
     margin-left: 20%;
     color: white !important;
+    font-size: 1.5rem;
+}
+.k-st-cont p{
+    margin-bottom: 50px;
 }
 .k-summ-main img{
     width: 90%;
@@ -969,7 +1043,7 @@ video::-webkit-media-controls-panel {
     width: 70%;
 } */
 .k-structure-main{
-    top: 40%;
+    top: 30%;
     width: 100%;
 }
 .knowLedge h3{
@@ -984,7 +1058,6 @@ video::-webkit-media-controls-panel {
 
 }
 .k-card-main{
-    top: 46% !important;
     width: 100%;
 }
  .k-card-img{
@@ -1039,7 +1112,7 @@ video::-webkit-media-controls-panel {
 }
 .cloud-span{
     display: inline-block !important;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     font-weight: 700;
     margin-left: 5px;
 }
@@ -1084,6 +1157,9 @@ video::-webkit-media-controls-panel {
 .m-ent-img img{
     width: 100%;
 }
+.n-ent-img{
+    text-align: center;
+}
 .m-prog-title p{
     width: 50%;
     font-size: 1.8rem;
@@ -1124,16 +1200,24 @@ video::-webkit-media-controls-panel {
     font-size: 1.7rem;
 }
 .m-exp-img{
-    margin: 50px auto;
+    margin: 40px auto;
 }
+.n-exp-img img,
 .m-exp-img img{
     width: 100%;
 }
+.n-exp-img ul,
 .m-exp-img ul{
     list-style: none;
     line-height: 3;
     font-size: 1.5rem;
+    padding: 0;
 }
+.m-exp-img ul li,
+.n-exp-img ul li{
+    font-size: 1.4rem;
+}
+.n-exp-img ul li span,
 .m-exp-img ul li span{
     border: 1px solid #007afe;
     padding: 3px 9px;
@@ -1143,8 +1227,14 @@ video::-webkit-media-controls-panel {
     margin-right: 30px;
     font-size: 16px;
 }
-.m-exp-yd-img{
+.explain2{
     display: none;
+}
+.m-exp-yd-img{
+    margin: 50px auto;
+}
+.m-exp-yd-img img{
+    width: 100%;
 }
 .m-prog-content{
     margin: 10% 0;
@@ -1154,4 +1244,131 @@ video::-webkit-media-controls-panel {
 }
 #coo{
     min-width: 580px;
+}
+/*  */
+.machine{
+    /* display: none; */
+    height: 0;
+    transition:height 0.5s;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    background-color: #edf4fa;
+    z-index: 16;
+    width: 90%;
+    left: 5%;
+    top: 75px;
+}
+#prod:hover .machine{
+    /* height: auto; */
+    height: 420px;
+}
+.machine-main{
+    width: 80%;
+    margin-left:10%;
+}
+.m-product-img{
+    position: relative;
+}
+.m-product-con{
+    padding-bottom: 20px;
+}
+.m-product-con span{
+    color: #06ca68;
+    font-size: 2rem;
+}
+.m-product-con h5{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2;
+    margin: 0;
+    cursor: pointer;
+}
+.m-product-con h5:hover{
+    color: #06ca68;
+}
+.m-product img{
+    bottom: 0;
+    cursor: pointer;
+}
+/*NAS  */
+.n-sto-main{
+    text-align: center;
+}
+.n-sto-main h3{
+    font-size: 2.3rem;
+}
+.n-sto-main p{
+    font-size: 1.5rem;
+}
+.n-parameter span{
+    font-size: 1.8rem;
+}
+.n-parameter{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    cursor: pointer;
+}
+.n-parameter span{
+    font-size: 1.6rem;
+    margin: 0 20px;
+}
+.n-parameter span:hover{
+    border-bottom: 5px solid #06ca68;
+}
+.n-exp-img-span{
+    padding: 4px 5px !important;
+}
+.k-card-cont h3{
+    margin-top: 20%;
+}
+.k-card-zsk-zh{
+    margin-top: -20%;
+}
+.k-card-zsk-zh img:hover{
+    z-index: 3!important;
+}
+.k-structure-cont td{
+    padding:3%;
+    display: inline-block;
+    border:0;
+}
+.k-structure-cont th{
+    padding: 3%;
+    background-color: #43c6c7;
+    display: inline-block;
+    border: 0;
+    color: white;
+}
+.k-structure-cont tr{
+    border-top: 1px solid;
+}
+.k-structure-cont table,
+.k-structure-cont tbody,
+.k-structure-cont tr{
+    display: block;
+}
+.k-know img{
+    /* width: 100%; */
+    position: absolute; 
+    z-index: -1;
+}
+.k-summ,
+.k-structure,
+.k-card{
+    position: relative !important;
+} 
+.k-img-bg{
+    position: absolute;
+}
+.k-structure,
+.k-card{
+    margin: 50px auto;
+}
+.k-card-img-top{
+    box-shadow: 1px 2px 12px #b4b0b0;
+}
+.k-card-ing-bottom:hover{
+    box-shadow: 1px 2px 12px #b4b0b0;
 }
