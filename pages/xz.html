@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html class="about-wrap">
+<html class="fun-wrap">
 
 <head>
     <title>协作办公</title>
     <link rel="import" href="../templates/h.html?__inline" />
 </head>
 
-<body>
+<body id="xz">
     <link rel="import" href="../templates/nav.html?__inline" />
-
+    <div class="container frturn">
+        <a href="fun.html">
+            <返回到功能</a>
+    </div>
     <div class="container xz">
-        <video class="xz-video" src="../assets/video/胡歌.mkv" controls="controls" autoplay="autoplay">
+        <video id="myVideo" class="xz-video" src="../assets/video/xz-sp.mp4" controls="controls" autoplay="autoplay">
             您的浏览器不支持播放
         </video>
     </div>
@@ -28,7 +31,7 @@
                 <h2 class="h3">企业常见业务流程</h2>
                 <div class="thumbnail">
                     <img src="../assets/images/qiye-bg.png" alt="">
-                    <p>一粒云盘让企业流程更科学，更有逻辑性</p>
+                    <p class="t-hu" src="yliyun">一粒云盘让企业流程更科学，更有逻辑性</p>
                 </div>
             </div>
         </div>
@@ -50,12 +53,5 @@
     <link rel="import" href="../templates/footer.html?__inline" />
     <link rel="import" href="../templates/ft.html?__inline" />
 </body>
-<!--Disable Downloads  -->
-<!-- <script>
-    $(".xz-video").bind('contextmenu', function () {
-        return false;
-    })
-
-</script> -->
 
 </html>
