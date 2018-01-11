@@ -1,14 +1,12 @@
 <div class="suspension">
     <div class="pre-sale">
-        <a href="http://wpa.qq.com/msgrd?v=3&uin=363762477&site=qq&menu=yes"><img src="../assets/images/f-sq.png" alt="">
+        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=363762477&site=qq&menu=yes"><img src="../assets/images/f-sq.png" alt="">
             <div class="text-prompt">售前<br>QQ</div>
         </a>
     </div>
     <div class="division"></div>
     <div class="customer-service" id="float-form">
-        <a><img src="../assets/images/f-sh.png" alt="">
-            <div class="text-prompt">填写<br>表单</div>
-        </a>
+        <div class="text-">填写<br>表单</div>
     </div>
     <div class="division"></div>
     <div class="up">
@@ -43,5 +41,10 @@
             $("#form").fadeOut(1000);
         });
     });
+    document.getElementsByTagName("body")[0].onscroll = function () {
+        if (document.getElementsByTagName("body")[0].scrollTop > 600) {
+            alert("");
+        }
+    }
 
 </script>
