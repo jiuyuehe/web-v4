@@ -256,8 +256,8 @@ var us = [
     },
     {
         type: 5,
-        target: "_self",
-        href: "#",
+        target: "_blank",
+        href: "http://www.yliyun.com/blog/2015/11/05/qu-dao-shang-wu-he-zuo/",
         name: "合作渠道",
         img: "../assets/images/us/u-qd.png",
         summary: "用工匠的精神打磨产品，做您坚实的技术后盾，期待您的加入。",

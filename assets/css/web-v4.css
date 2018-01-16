@@ -1,7 +1,7 @@
 /*滑块  */
 .slider{
     padding: 0 !important;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .btn1{
     padding: 0;
@@ -67,7 +67,7 @@ a.carousel-control.right span{
     padding: 0 !important;
 }
 .frturn{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .frturn a{
     font-size: 1.8rem;
@@ -279,20 +279,27 @@ a.carousel-control.right span{
 .vrsionDisplay a:hover{
     text-decoration:none;
 }
-.prp_explain img{
+.prp_explain_img img{
     width: 100%;
+}
+.prp_explain_img{
+    margin-top: 7%;
 }
 .vrsionDisplay{
     background-image: url(../images/prp/bg-1.png);
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .content{
      padding: 40px 55px !important; 
 }
 .prp_explain{
     margin-top: 50px;
+    padding: 0 45px;
 }
-
+.prp_explain_p p{
+    font-size: 1.6rem;
+    line-height: 32px;
+}
 .prp_explain button{
     position: absolute;
     top: 0;
@@ -300,22 +307,33 @@ a.carousel-control.right span{
     border: 0;
     display: block;
     background: #fff;
-    padding: 20px;
+    padding: 10px 15px;
     left: 35%;
     top: 30%;
+    line-height: 100%;
+    text-align: center;
+    font-size: 1.8rem;
 }
 .white_paper{
     margin-top: 50px;
     background-color: white;
+    padding: 0 90px;
 }
 .white_paper_r{
-    line-height: 8;
+    line-height: 9;
 }
 .white_paper_l{
     line-height: 7;
 }
+.white_paper_l p{
+    font-size: 3rem;
+    line-height: 4;
+}
 .white_paper_r button{
     background-color: #06ca68;
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
 }
 .white_paper_r p{
     font-size: 3rem;
@@ -336,7 +354,7 @@ a.carousel-control.right span{
 }
 .vrsionDisplay p{
     margin: 10px;
-    height: 140px;
+    height: 190px;
     line-height: 24px;
     font-size: 1.4rem;
 
@@ -368,9 +386,9 @@ a.carousel-control.right span{
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.vrsionDisplay button:hover{
+/* .vrsionDisplay button:hover{
     box-shadow: 0px 1px 10px #2499f3;
-}
+} */
 .coo-ol li {
     display: block;
     height: 60px !important;
@@ -690,7 +708,7 @@ h4{
 .bg-anli{
     background-image: url(../images/coo/anli-bg.png);
     min-width: 750px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .frame{
     border:7px solid; 
@@ -763,7 +781,7 @@ h2.anli-h2{
 }
 .synopses-bg{
      background-image: url(../images/bg-gy.png); 
-     margin-top: 40px;
+     margin-top: 30px;
 }
 .synopses-conten{
     width: 70%;
@@ -947,7 +965,7 @@ h4 p{
 /*ding  */
 .ding{
     background-color: white;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .ding-content{
     padding-top: 60px;
@@ -965,9 +983,12 @@ h4 p{
     font-size: 3.5rem;
     font-weight: bold;
 }
+.dz{
+    margin-top: 30%;
+}
 .ding-h3{
     margin-bottom: 25px;
-    color: #555555;
+    color: #06ca67;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -1011,6 +1032,10 @@ h4 p{
     line-height: 3;
     width: 70%;
     margin-left: 15%;
+    margin-top: 3%;
+}
+.xz-bg-ash{
+   margin-top: 3%;
 }
   video::-internal-media-controls-download-button {
     display:none;
@@ -1068,6 +1093,9 @@ video::-webkit-media-controls-panel {
     color: white !important;
     font-size: 1.5rem;
 }
+.k-card{
+    margin-top: 10%;
+}
 .k-st-cont p{
     margin-bottom: 50px;
 }
@@ -1096,8 +1124,8 @@ video::-webkit-media-controls-panel {
 .knowLedge p{
     color: #3d3d3d;
     font-size: 2rem;
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 15%;
+    width: 70%;
 
 }
 .k-card-main{
@@ -1132,7 +1160,7 @@ video::-webkit-media-controls-panel {
 }
 .Product-show{
     background-color: white;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .cloud{
     padding: 0 5%;
@@ -1373,6 +1401,9 @@ video::-webkit-media-controls-panel {
 .k-card-zsk-zh img:hover{
     z-index: 3!important;
 }
+.k-structure-cont table{
+    border-top: 0;
+}
 .k-structure-cont td{
     padding:3%;
     display: inline-block;
@@ -1424,8 +1455,11 @@ video::-webkit-media-controls-panel {
 }
 .fun_stor_{
     position: relative;
-    top: 20%;
+    top: 16%;
     width: 100%;
+}
+.fun_stor_cont_anti{
+    margin-top: 20%;
 }
 .fun_stor_img{
     padding-top: 20px;
@@ -1442,19 +1476,11 @@ video::-webkit-media-controls-panel {
     color: #7f7f7f;
     font-size: 1.6rem;
 }
-.fun_juisd_cont_anti,
-.fun_secu_cont_anti,
-.fun_stor_cont_anti{
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 90px;
-    margin-bottom: 30px;
-}
-.fun_juisd_cont_img img,
+ .fun_juisd_cont_img img,
 .fun_secu_cont_img img,
 .fun_stor_cont_img img{
     width: 100%;
-}
+} 
 .fun_stor_cont,
 .fun_secu_cont,
 .fun_juisd{
@@ -1471,8 +1497,18 @@ video::-webkit-media-controls-panel {
 .fun_stor h4{
     margin: 20px auto;
 }
+
+.fun_juris{
+    padding: 0;
+}
 .fun_juris img{
     width: 100%;
+}
+.fun_secu_cont_anti{
+    margin-top: 25%;
+}
+.fun_secu_cont_bottom_anti{
+    margin-top: 14%;
 }
 /*fun_security  */
 .fun_secu{
@@ -1511,9 +1547,14 @@ video::-webkit-media-controls-panel {
     width: 50%;
     margin-left: 25%;
 }
+.fun_juisd_cont_bottom_h3{
+    margin-top: 30%;
+}
+.fun_juisd_cont_top{
+    margin-top: 11%;
+}
 .fun_stor_cont_h3 h3,
-.fun_secu_cont_h3 h3,
-.fun_juisd_cont_h3 h3{
+.fun_secu_cont_h3 h3,{
     font-weight: bold;
     font-size: 3.0rem;
 }

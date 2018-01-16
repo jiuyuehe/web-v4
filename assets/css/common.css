@@ -147,11 +147,28 @@ h3{
         margin-top: 90px;
     }
     .vrsionDisplay p{
-        height: 230px;
+        height: 400px;
         line-height: 46px;
     }
     .tc-block{
         display: none !important;
+    }
+    .package,
+    .enterprise,
+    .freeAdmission{
+        margin-top: 100px;
+    }
+    .prp_explain_p p{
+        line-height: 60px;
+    }
+    .white_paper_r{
+        text-align: center;
+    }
+    .white_paper_r button{
+        font-size: 1.8rem;
+    }
+    .white_paper_l p{
+        font-size: 1.6rem;
     }
     /*ding  */
     .ding-h2{
@@ -553,7 +570,7 @@ h3{
 .navbar-default{
     background-color: #f7f7f7 !important;
     border-color: #f7f7f7 !important;
-    padding: 15px 0;
+    padding: 10px 0;
     margin-bottom: 0px !important;
     position: fixed;
     top: 0;
@@ -577,19 +594,19 @@ h3{
     color: #61ca66 !important;
 } 
 .head-right{
-    margin-top: 3px;
+    margin-top: 14px;
     float: right;
     display: block;
-    padding: 10px;
+    padding: 6px 40px;
     border: 1px solid #06ca68;
     box-sizing: border-box;
     border-radius: 100px;
     background-color: #06ca68;
 }
-.head-right:hover{
+ .head-right:hover{
       box-shadow: 1px 1px 4px 2px rgba(220,220,220,0.6);
-      padding: 11px !important;
-}
+      padding: 6px 41px !important;
+} 
 .head-right a{
     color: #fff;
     font-size: 1.6rem;
@@ -618,18 +635,22 @@ h3{
     margin-left: 42px;
 }
 .foot-logo img{
-    margin-top: 42px;
+    margin-top: 30px;
     display: block;
 }
  .foot-in{
-    margin-left: 28px !important;
+    padding: 0 40px;
     margin-top: 28px !important;
 } 
 .foot-links{
     padding: 0;
 }
+[disabled]:hover{
+    cursor: no-drop;
+    color: #aeaeae !important;
+}
 .foot-links li{
-    line-height: 28px;
+    line-height: 25px;
     width: fit-content;
     color: #aeaeae;
     list-style: none;
@@ -649,7 +670,7 @@ h3{
 .td{
     color: #f7f7f7 !important;
     list-style: none;
-    height: 56px;
+    height: 45px;
     line-height: 0px; 
 }
 .tb span{
@@ -678,7 +699,7 @@ h3{
     text-decoration: none !important;
 }
 .foot-bottom{
-    padding-bottom: 2em;
+    padding-bottom: 16px;
 }
 .foot-bottom-left{
     font-size: 1.4rem;
