@@ -1,6 +1,7 @@
 /*滑块  */
 .slider{
     padding: 0 !important;
+    margin-top: 40px;
 }
 .btn1{
     padding: 0;
@@ -64,6 +65,9 @@ a.carousel-control.right span{
 .theHeadlines-left,
 .theHeadlines-right{
     padding: 0 !important;
+}
+.frturn{
+    margin-top: 40px;
 }
 .frturn a{
     font-size: 1.8rem;
@@ -275,11 +279,47 @@ a.carousel-control.right span{
 .vrsionDisplay a:hover{
     text-decoration:none;
 }
+.prp_explain img{
+    width: 100%;
+}
 .vrsionDisplay{
-    background-image: url(../images/bg-pPrice.png);
+    background-image: url(../images/prp/bg-1.png);
+    margin-top: 40px;
 }
 .content{
      padding: 40px 55px !important; 
+}
+.prp_explain{
+    margin-top: 50px;
+}
+
+.prp_explain button{
+    position: absolute;
+    top: 0;
+    background-color: rgba(255,255,255,0);
+    border: 0;
+    display: block;
+    background: #fff;
+    padding: 20px;
+    left: 35%;
+    top: 30%;
+}
+.white_paper{
+    margin-top: 50px;
+    background-color: white;
+}
+.white_paper_r{
+    line-height: 8;
+}
+.white_paper_l{
+    line-height: 7;
+}
+.white_paper_r button{
+    background-color: #06ca68;
+}
+.white_paper_r p{
+    font-size: 3rem;
+    line-height: 3;
 }
 .package img,
 .enterprise img,
@@ -394,7 +434,7 @@ a.carousel-control.right span{
     width: 100%;
     height: 100%;
     background-color: black;
-    z-index: 1001;
+    z-index: 1;
     -moz-opacity: 0.8;
     opacity: .80;
     filter: alpha(opacity=88);
@@ -592,13 +632,14 @@ a.carousel-control.right span{
      padding-top: 50px;
 }
 h4{
-    margin: 40px 0 !important;
+    margin: 40px 0;
     font-size: 1.8rem;
 }
 .product h4{
     display: inline-block;
     color: #525252;
     font-size: 2.5rem;
+    margin: 20px 0 30px 0;
 }
 .product p{
     margin-left: 30px;
@@ -647,8 +688,9 @@ h4{
 /*合作案例  */
 /*  */
 .bg-anli{
-    background-image: url(../images/anli-bg.png);
+    background-image: url(../images/coo/anli-bg.png);
     min-width: 750px;
+    margin-top: 40px;
 }
 .frame{
     border:7px solid; 
@@ -721,6 +763,7 @@ h2.anli-h2{
 }
 .synopses-bg{
      background-image: url(../images/bg-gy.png); 
+     margin-top: 40px;
 }
 .synopses-conten{
     width: 70%;
@@ -738,7 +781,7 @@ h2.h3{
     font-size: 2.4rem;
     font-weight: bold;
     color: #717171;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -780,7 +823,7 @@ h2.h3{
     margin-top: 20px;
 }
 .learnMore:hover{
-    box-shadow: 0px 2px 10px #0e0e0e;
+    box-shadow: 0px 2px 10px #b3b1b1;
     cursor: pointer;
     padding: 14px;
     border-bottom: 10px solid #06ca68;
@@ -904,7 +947,7 @@ h4 p{
 /*ding  */
 .ding{
     background-color: white;
-
+    margin-top: 40px;
 }
 .ding-content{
     padding-top: 60px;
@@ -1089,6 +1132,7 @@ video::-webkit-media-controls-panel {
 }
 .Product-show{
     background-color: white;
+    margin-top: 40px;
 }
 .cloud{
     padding: 0 5%;
@@ -1371,4 +1415,110 @@ video::-webkit-media-controls-panel {
 }
 .k-card-ing-bottom:hover{
     box-shadow: 1px 2px 12px #b4b0b0;
+}
+
+/*fun_storage  */
+.fun_stor{
+    background-image:url(../images/fun_st/bg1.png);
+    padding: 50px 0;
+}
+.fun_stor_{
+    position: relative;
+    top: 20%;
+    width: 100%;
+}
+.fun_stor_img{
+    padding-top: 20px;
+}
+.fun_stor_img img{
+    width: auto;
+    opacity: 1;
+}
+.fun_stor_h4 h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.fun_stor_p p{
+    color: #7f7f7f;
+    font-size: 1.6rem;
+}
+.fun_juisd_cont_anti,
+.fun_secu_cont_anti,
+.fun_stor_cont_anti{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.fun_juisd_cont_img img,
+.fun_secu_cont_img img,
+.fun_stor_cont_img img{
+    width: 100%;
+}
+.fun_stor_cont,
+.fun_secu_cont,
+.fun_juisd{
+    padding: 0 50px;
+}
+.fun-jurisdiction,
+.fun_security,
+.fun_storage{
+    margin-top: 50px;
+    background-color: white;
+    padding: 50px 0;
+}
+.fun_secu h4,
+.fun_stor h4{
+    margin: 20px auto;
+}
+.fun_juris img{
+    width: 100%;
+}
+/*fun_security  */
+.fun_secu{
+    background-image: url(../images/fun_se/bg1.png);
+}
+#secu .pad{
+    padding: 50px 55px;
+}
+.bottom_s{
+    background-color: white;
+    padding:70px 20px;
+    padding: 70px 30px 0 30px;
+}
+.bottom_s_p p{
+    height: 130px;
+}
+
+/*fun_jurisdiction  */
+.fun_juris{
+    position: relative;
+}
+.fun_juris_cont{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.fun_juris_cont_h2 h2{
+    font-size: 3.7rem;
+    font-weight: bold;
+}
+
+.fun_juris_cont_p p{
+    font-size: 1.6rem;
+    width: 50%;
+    margin-left: 25%;
+}
+.fun_stor_cont_h3 h3,
+.fun_secu_cont_h3 h3,
+.fun_juisd_cont_h3 h3{
+    font-weight: bold;
+    font-size: 3.0rem;
+}
+.fun_stor_cont_p,
+.fun_secu_cont_p p,
+.fun_juisd_cont_p p{
+    font-size: 1.6rem;
 }
