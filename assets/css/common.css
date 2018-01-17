@@ -1,6 +1,6 @@
 html{
     font-size: 10px;
-} 
+}
 body{
     background-color: #f7f7f7 !important;
     font-family: 微软雅黑;
@@ -11,7 +11,7 @@ body{
 }
 h3{
     text-align: center;
-    font-size:2.4rem; 
+    font-size:2.4rem;
     cursor: pointer;
     font-family: 微软雅黑 !important;
 }
@@ -291,12 +291,12 @@ h3{
         height: 300px !important;
         width: 80px !important;
     }
-    .up, 
-    .pre-sale, 
+    .up,
+    .pre-sale,
     .customer-service{
         height: 99px !important;
     }
-    .suspension img, 
+    .suspension img,
     .suspension span{
         top: 15px !important;
         left: 7px !important;
@@ -520,11 +520,11 @@ h3{
     .m-sto-main img{
         margin-top: 35px;
     }
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 @media only screen and (max-width: 991px){
     .tc-block{
@@ -571,7 +571,7 @@ h3{
         padding: 40px 10px !important;
     }
     .foot-bottom{
-        text-align: center; 
+        text-align: center;
     }
 }
 
@@ -592,7 +592,7 @@ h3{
     padding:0 !important;
 }
 .head ul{
-     margin-left: 20%; 
+     margin-left: 20%;
 }
 .head ul li a{
     font-family: 微软雅黑;
@@ -603,7 +603,7 @@ h3{
 }
 .head ul li a:hover{
     color: #61ca66 !important;
-} 
+}
 .head-right{
     margin-top: 14px;
     float: right;
@@ -617,7 +617,7 @@ h3{
  .head-right:hover{
       box-shadow: 1px 1px 4px 2px rgba(220,220,220,0.6);
       padding: 6px 41px !important;
-} 
+}
 .head-right a{
     color: #fff;
     font-size: 1.6rem;
@@ -652,7 +652,7 @@ h3{
  .foot-in{
     padding: 0 40px;
     margin-top: 28px !important;
-} 
+}
 .foot-links{
     padding: 0;
 }
@@ -673,7 +673,7 @@ h3{
 }
 .foot-links a:hover{
     color: #f1f1f1;
-    text-decoration: none; 
+    text-decoration: none;
 }
 .ul li{
     list-style: none;
@@ -682,7 +682,7 @@ h3{
     color: #f7f7f7 !important;
     list-style: none;
     height: 45px;
-    line-height: 0px; 
+    line-height: 0px;
 }
 .tb span{
     border: 1px solid;
@@ -748,7 +748,7 @@ h3{
 }
 .popover-content a{
     color: blue;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 .popover-content a:hover{
     color: blue;
@@ -773,7 +773,7 @@ h3{
 }
 .f-img{
     max-width: 520px;
-     height: 96px; 
+     height: 96px;
     color: white;
 }
 .f-img img{
@@ -827,7 +827,7 @@ h3{
     width: 35px !important;
     top: 35px !important;
     left: 18px !important;
-} 
+}
 .text-{
     opacity: 1 !important;
     top: 20px;
@@ -924,15 +924,15 @@ h3{
 .white_content {
     display: none;
     position: fixed;
-    top: 25%;
+    top: 5%;
     left: 25%;
     width: 55%;
-    height: 55%;
+    height: 82%;
     padding: 20px;
     z-index: 1002;
-    overflow: auto;
     border: 1px solid orange;
     background-color: white;
+    overflow: hidden;
 }
 .white_content span{
     float: right;
@@ -958,7 +958,7 @@ h3{
 }
 .popover-content a{
     color: blue;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 .popover-content a:hover{
     color: blue;

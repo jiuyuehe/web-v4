@@ -190,7 +190,7 @@ var examples = [
     },
     {
         id: 14,
-        name: "科研数据的全省范围共享，数据分布式存储",
+        name: "全省科研数据分布式存储共享",
         type: 1,
         href: '#',
         typeName: '政府机关',
@@ -231,7 +231,7 @@ var examples = [
     },
     {
         id: 22,
-        name: "虚拟化桌面与云盘结合隔离数据存储",
+        name: "虚拟桌面与云盘分离数据存储",
         type: 2,
         href: '#',
         typeName: "教育行业",
@@ -249,7 +249,7 @@ var examples = [
         href: '#',
         typeName: "教育行业",
         typeInfo: "高教",
-        customer: '安徽三联学院交通工程学院实验室',
+        customer: '安徽三联学院交通工程学院',
         summary: '一粒云很好点解决了我们校区资料的共享问题，存储问题，并且增加了移动办公这个应用，符合目前我校信息化的技术要求',
         users: 300,
         use1: '云盘应用',
@@ -1255,7 +1255,7 @@ function insertExam(exa) {
             '<a href="#"><span>' + exa[i].typeInfo + '</span></a><span>|</span>' +
             '<a href="' + exa[i].href + '"><span>' + exa[i].typeName + '</span></a>' +
             '<a href="' + exa[i].href + '"><h4>' + exa[i].name + '</h4></a>' +
-            '<a href="' + exa[i].href + '"><p>' + exa[i].summary + '</p></a>' +
+            '<a href="' + exa[i].href + '"><p class="ex-sum">' + exa[i].summary + '</p></a>' +
             '</div>' +
             '<div class="panel-footer">' +
             '<span>' + exa[i].users + '以上用户</span>' +

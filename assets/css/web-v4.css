@@ -564,19 +564,6 @@ a.carousel-control.right span {
     filter: alpha(opacity=88);
 }
 
-.white_content {
-    display: none;
-    position: fixed;
-    top: 25%;
-    left: 25%;
-    width: 55%;
-    height: 55%;
-    padding: 20px;
-    z-index: 1002;
-    overflow: auto;
-    border: 1px solid orange;
-    background-color: white;
-}
 
 .white_content span {
     float: right;
@@ -908,6 +895,13 @@ h2.anli-h2 {
 
 .coo-panel a:hover {
     text-decoration: none;
+}
+
+.panel-body .ex-sum {
+
+    max-height: 40px;
+    overflow: hidden;
+
 }
 
 .panel-body a span {
@@ -1889,4 +1883,17 @@ video::-webkit-media-controls-panel {
 .fun_secu_cont_p p,
 .fun_juisd_cont_p p {
     font-size: 1.6rem;
+}
+
+.prp-info{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.prp-info .title{
+    font-weight: bold;
+}
+
+.prp-info li span{
+    font-weight: bold;
 }
