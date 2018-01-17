@@ -127,7 +127,7 @@ a.carousel-control.right span{
     text-align: center;
     font-size: 1.3rem;
     font-family: 微软雅黑;
-    line-height: 45px;
+    margin-top: 30px;
 }
 .exhibition-main a{
     cursor: pointer;
@@ -274,6 +274,9 @@ a.carousel-control.right span{
     border: 1px solid;
     padding: 1% 2%;  
 } 
+.case-right a{
+    bottom: 25% !important;
+}
 /*产品价格  */
 /* vrsionDisplay */
 .vrsionDisplay a:hover{

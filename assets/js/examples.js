@@ -120,7 +120,7 @@ var exh = [
         href: "xz.html",
         src: "../assets/images/a/a-xz.png",
         name: "协作办公",
-        summary: "实现钉钉用户免登云盘，并能一键导入组织架构，避免重复工作。",
+        summary: "多人协同编辑友好，版本管理精细，可一键发送大文件给客户",
         p: "点击了解详情>"
     },
     {
@@ -128,7 +128,7 @@ var exh = [
         href: "knowLedge.html",
         src: "../assets/images/a/a-zsk.png",
         name: "知识库",
-        summary: "实现钉钉用户免登云盘，并能一键导入组织架构，避免重复工作。",
+        summary: "常见与客户沟通的技巧，经典案例的解决方案",
         p: "点击了解详情>"
     },
 ]
