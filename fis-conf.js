@@ -15,7 +15,7 @@ fis.match('*', {
     release: false,
     __RESOURCE_MAP: true,
     deploy: fis.plugin('local-deliver', {
-        to: 'c:/web-v4/^'
+        to: './dist'
     })
 })
     .match("/app/(**).{js,coffee}", {

@@ -7,9 +7,13 @@
     "bootstrap": "^3.3.7",
     "jquery": "^1.12.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prd": "http-server ./dist  -P http://192.168.0.130",
+    "fis": "fis release -wL"
   },
   "repository": {
     "type": "git",
