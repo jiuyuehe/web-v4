@@ -140,7 +140,7 @@ var examples = [
         id: 1,
         name: "实现全权限管理快速查询海量资料",
         type: 1,
-        href: 'longwan.html',
+        href: '#',
         typeName: '教育行业',
         typeInfo: "教育行业",
         customer: '龙湾教育局',
@@ -1019,91 +1019,7 @@ function getcon3(num) {
         $("#cont3").append(html);
     }
  }
-// function getcon4(num) {
-//     for (var i = 0; i < cont4.length; i++) {
 
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont4[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont4[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont4").append(html);
-
-//     }
-// }
-// function getcon5(num) {
-//     for (var i = 0; i < cont5.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont5[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont5[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont5").append(html);
-
-//     }
-// }
-// function getcon6(num) {
-//     for (var i = 0; i < cont6.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont6[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont6[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont6").append(html);
-
-//     }
-// }
-// function getcon7(num) {
-//     for (var i = 0; i < cont7.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont7[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont7[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont7").append(html);
-
-//     }
-// }
-// function getcon8(num) {
-//     for (var i = 0; i < cont8.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont8[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont8[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont8").append(html);
-
-//     }
-// }
 //s-nas
 function getprog(num) {
     for (var i = 0; i < prog.length; i++) {
@@ -1218,14 +1134,6 @@ $(document).ready(function () {
     getPri(0);
     getsNas(0);
     getnotes(0);
-    // getcon1(0);
-    // getcon2(0);
-    // getcon3(0);
-    // getcon4(0);
-    // getcon5(0);
-    // getcon6(0);
-    // getcon7(0);
-    // getcon8(0);
     getprog(0);
     getnas(0);
     getexh(0);

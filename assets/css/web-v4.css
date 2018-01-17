@@ -312,7 +312,7 @@ a.carousel-control.right span{
     top: 30%;
     line-height: 100%;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 .white_paper{
     margin-top: 50px;
@@ -326,12 +326,12 @@ a.carousel-control.right span{
     line-height: 7;
 }
 .white_paper_l p{
-    font-size: 3rem;
-    line-height: 4;
+    font-size: 2.5rem;
+    line-height: 5;
 }
 .white_paper_r button{
     background-color: #06ca68;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     text-align: left;
 }
@@ -352,12 +352,23 @@ a.carousel-control.right span{
     text-align: center;
     background-color: rgba(240, 248, 255,0.9);
 }
-.vrsionDisplay p{
+.package_p,
+.freeA_p,
+.enterprise_p{
     margin: 10px;
-    height: 190px;
+    height: 230px;
     line-height: 24px;
     font-size: 1.4rem;
-
+}
+.package_p p,
+.freeA_p p,
+.enterprise_p p{
+    margin:5px 0 !important;
+    border-bottom: 1px dashed rgba(4,5,6,0.3);
+}
+.standard a{
+    color: white;
+    font-size: 1.8rem !important;
 }
 .vrsionDisplay h3{
     font-size: 2.6rem;
@@ -386,9 +397,13 @@ a.carousel-control.right span{
     border-radius: 5px;
     margin-bottom: 20px;
 }
-/* .vrsionDisplay button:hover{
-    box-shadow: 0px 1px 10px #2499f3;
-} */
+#btn-fadeToggle{
+    display: inline-block;
+}
+.standard{
+    display: none;
+}
+/*coo  */
 .coo-ol li {
     display: block;
     height: 60px !important;
@@ -541,6 +556,7 @@ a.carousel-control.right span{
     box-shadow: 1px 2px 9px #d1d1d1;
     box-sizing: border-box;
 }
+
 /*版本特性  */
 .guide{
     background-color: white;
@@ -1532,7 +1548,7 @@ video::-webkit-media-controls-panel {
 }
 .fun_juris_cont{
     position: absolute;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     display: inline-block;

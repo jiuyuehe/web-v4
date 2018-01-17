@@ -146,8 +146,10 @@ h3{
         font-size: 1.5rem !important;
         margin-top: 90px;
     }
-    .vrsionDisplay p{
-        height: 400px;
+    .package_p,
+    .freeA_p,
+    .enterprise_p{
+        height: 420px;
         line-height: 46px;
     }
     .tc-block{
@@ -163,9 +165,6 @@ h3{
     }
     .white_paper_r{
         text-align: center;
-    }
-    .white_paper_r button{
-        font-size: 1.8rem;
     }
     .white_paper_l p{
         font-size: 1.6rem;
@@ -525,6 +524,18 @@ h3{
     
     
     
+    
+}
+@media only screen and (max-width: 991px){
+    .tc-block{
+        display: none !important;
+    }
+    #btn-fadeToggle{
+        display: none;
+    }
+    .standard{
+        display: inline-block;
+    }
 }
 @media only screen and (max-width: 940px) {
     .head ul{
