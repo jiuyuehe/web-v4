@@ -137,82 +137,381 @@ var exh = [
 // examples
 var examples = [
     {
-        id: 1,
-        name: "实现全权限管理快速查询海量资料",
+        id: 10,
+        name: "基于会议文档共享存储与文档同屏",
+        type: 1,
+        href: 'longwan.html',
+        typeName: '政府机关',
+        typeInfo: "事业单位",
+        customer: '深圳海关',
+        summary: '一粒云为机关领导层会议提供了电子化文档共享，基于Ipad 的同屏会议，减轻了领导审批巨多会议资料的麻烦。',
+        users: 100,
+        use1: '会议文档共享',
+        use2: '同屏同步展示'
+    },
+    {
+        id: 11,
+        name: "重要资料文件共享，大文件外发",
+        type: 1,
+        href: 'longwan.html',
+        typeName: '政府机关',
+        typeInfo: "事业单位",
+        customer: '重庆市璧山区规划局',
+        summary: '一粒云为重庆市璧山区规划局, 提供了重要资料文件集中管理共享，大文件通过链接进行外发，通过密码，时间进行链接安全设置',
+        users: 50,
+        use1: '集中存储',
+        use2: '外链分享'
+    },
+    {
+        id:12,
+        name: "企业历史文档存储与共享",
         type: 1,
         href: '#',
-        typeName: '教育行业',
-        typeInfo: "教育行业",
-        customer: '龙湾教育局',
+        typeName: "制造行业",
+        typeInfo: "国有企业",
+        customer: '山西省人力资源和社会保障厅',
         summary: '一粒云很好点解决了我们跨学校资料传递、协同工作，实现了知识点的共享，领导对老师职称评选也有直接的管理和清晰的体现...',
-        users: '1000人以上',
+        users: 50,
         use1: '知识点积累',
         use2: '高效查询'
     },
     {
-        id: 2,
-        name: "实现全权限管理快速查询海量资料",
+        id: 13,
+        name: "高效文件分发，数据加密存储",
+        type: 1,
+        href: '#',
+        typeName: '政府机关',
+        typeInfo: "事业单位",
+        customer: '石柱县公安局',
+        summary: '一粒云文件分发高效的解决了200多名民警对紧急事情的积极响应，使用一粒云防止机要文件在微信qq等互联网工具上传播',
+        users: 200,
+        use1: '文件高效分发',
+        use2: '加密储存'
+    },
+    {
+        id: 14,
+        name: "科研数据的全省范围共享，数据分布式存储",
+        type: 1,
+        href: '#',
+        typeName: '政府机关',
+        typeInfo: "事业单位",
+        customer: '广西省科技厅',
+        summary: '我们打造了“科技云”，用来做全省范围内的科研机构、人员的资料共享，能对数据进行安全管控，可控范围内分享，符合国家对网络空间共享与安全的要求',
+        users: 3000,
+        use1: '网盘应用',
+        use2: '分布式、加密储存'
+    },
+
+
+    {
+        id: 20,
+        name: "教育资料共享，教育知识库打造",
         type: 2,
         href: '#',
-        typeName: '政府/事业单位',
-        typeInfo: "政府/事业单位",
+        typeName: "教育行业",
+        typeInfo: "事业单位",
         customer: '龙湾教育局',
         summary: '一粒云很好点解决了我们跨学校资料传递、协同工作，实现了知识点的共享，领导对老师职称评选也有直接的管理和清晰的体现...',
-        users: '1000人以上',
+        users: 3500,
         use1: '知识点积累',
         use2: '高效查询'
     },
     {
-        id: 3,
-        name: "实现全权限管理快速查询海量资料",
+        id: 21,
+        name: "科研资料私有加密存储",
+        type: 2,
+        href: '#',
+        typeName: "教育行业",
+        typeInfo: "高教",
+        customer: '复旦大学深圳研究院',
+        summary: '我们用一粒云部署在我们从国外购买的智能安全服务器上，一粒云解决了数据共享的问题，同时一粒云底层对文件存储做了二次加密',
+        users: 100,
+        use1: '加密存储',
+        use2: '数据共享'
+    },
+    {
+        id: 22,
+        name: "虚拟化桌面与云盘结合隔离数据存储",
+        type: 2,
+        href: '#',
+        typeName: "教育行业",
+        typeInfo: "高教",
+        customer: '重庆师范大学',
+        summary: '利用一粒云盘以及其与vmware 虚拟桌面集成的方案，实现用户虚拟桌面数据，电脑，手机多端共享，解决了虚拟桌面存储成本过高的问题',
+        users: 1000,
+        use1: 'vmware方案',
+        use2: '数据互通'
+    },
+    {
+        id: 23,
+        name: "教育资料共享，教育知识库打造",
+        type: 2,
+        href: '#',
+        typeName: "教育行业",
+        typeInfo: "高教",
+        customer: '安徽三联学院交通工程学院实验室',
+        summary: '一粒云很好点解决了我们校区资料的共享问题，存储问题，并且增加了移动办公这个应用，符合目前我校信息化的技术要求',
+        users: 300,
+        use1: '云盘应用',
+        use2: '移动办公'
+    },
+
+    {
+        id: 24,
+        name: "教师教案共享，不再需要带U盘上课",
+        type: 2,
+        href: '#',
+        typeName: "教育行业",
+        typeInfo: "普教",
+        customer: '重庆市外语学校',
+        summary: '在购存储服务器的时候，发现了一粒云，深入测试后发现与我们的需求非常贴切，目前主要用来给老师存储教案，解决使用U盘无法共享的问题',
+        users: 300,
+        use1: '云盘应用',
+        use2: '教案共享'
+    },
+    {
+        id: 25,
+        name: "教师教案共享，在云盘中寻找资料",
+        type: 2,
+        href: '#',
+        typeName: "教育行业",
+        typeInfo: "普教",
+        customer: '重庆市求精中学',
+        summary: '机缘巧合我们发现一粒云在教育这方便做了很多尝试与工作，我们使用一粒云主要就是用来做老师的资料管理，上课时候切换帐号就能找到资料',
+        users: 100,
+        use1: '云盘应用',
+        use2: '教案共享'
+    },
+
+
+
+    {
+        id: 30,
+        name: "小康云盘成为集团的文件中心",
         type: 3,
         href: '#',
-        typeName: '制造行业',
-        typeInfo: "制造行业",
-        customer: '龙湾教育局',
-        summary: '一粒云很好点解决了我们跨学校资料传递、协同工作，实现了知识点的共享，领导对老师职称评选也有直接的管理和清晰的体现...',
-        users: '1000人以上',
-        use1: '知识点积累',
-        use2: '高效查询'
+        typeName: '大型企业',
+        typeInfo: "制造业",
+        customer: '东风小康',
+        summary: '一粒云为东风小康量身打造了一个符合集团企业管理规范，电子文档标准化储存的小康云盘，大大简化了之前的存储流程',
+        users: 5000,
+        use1: '高效审批',
+        use2: '集中存储'
     },
     {
-        id: 4,
-        name: "实现全权限管理",
+        id: 31,
+        name: "集团共享文件的权限细分管理",
+        type: 3,
+        href: '#',
+        typeName: '大型企业',
+        typeInfo: "能源行业",
+        customer: '神华国华（舟山）发电厂',
+        summary: '为企业提供强大海量文件存储，管理，共享，协作功能,支持系统管理员权限、部门管理员权限与普通用户个人权限“三权分立”的功能。',
+        users: 200,
+        use1: '集中存储',
+        use2: '精细化权限'
+    },
+    {
+        id: 32,
+        name: "规范管理企业海量知识文件",
+        type: 3,
+        href: '#',
+        typeName: "中型企业",
+        typeInfo: "制造行业",
+        customer: '浙江巨久轮毂有限公司',
+        summary: '使用一粒云盘管理企业文件，利用一粒云分布式文件系统，将原来存储在Samba上的文件全部迁移到云盘中，标准业务产品文档设立访问权限，规范化',
+        users: 300,
+        use1: '云盘应用',
+        use2: '高效查询'
+    },
+
+    {
+        id: 33,
+        name: "企业储存多重备份，规范化使用",
+        type: 3,
+        href: '#',
+        typeName: "大型企业",
+        typeInfo: "制造行业",
+        customer: '潍柴（重庆）汽车有限公司',
+        summary: '在参加一粒云重庆渠道会议中沟通后发现一粒云是符合我们企业目前对知识数据的管理理念的，我们购买了一粒云的存储一体机，来规范电子化文档的使用',
+        users: 500,
+        use1: '云盘应用',
+        use2: '规范化使用'
+    },
+    {
+        id: 34,
+        name: "产品设计方案，业务流程规范",
+        type: 3,
+        href: '#',
+        typeName: "中型企业",
+        typeInfo: "制造行业",
+        customer: '宏辉光电',
+        summary: '我们主要是用来做业务流程数据存储的，因为我们业务员多，产品多，报价多。一粒云他有一个规划业务资料的流程，按照他的流程使用，资料，人员职责非常清晰',
+        users: 300,
+        use1: '云盘应用',
+        use2: '流程管理'
+    },
+    {
+        id: 35,
+        name: "外贸业务数据共享，权限管理",
+        type: 3,
+        href: '#',
+        typeName: "制造行业",
+        typeInfo: "中型工厂",
+        customer: '绿能新源',
+        summary: '一粒云主要是性价比高，我们主要是生产外销型企业，产品种类，资料是非常多的，随着业务量增加，容易混乱。一粒云这个权限功能，分享功能是我们常用的。',
+        users: 300,
+        use1: '云盘应用',
+        use2: '权限管理'
+    },
+
+
+    {
+        id: 40,
+        name: "个人手机数据存储",
         type: 4,
         href: '#',
-        typeName: "建筑业",
-        typeInfo: "制造行业",
-        customer: '龙湾教育局',
-        summary: '一粒云很好点解决了我们跨学校资料传递、协同工作，实现了知识点的共享，领导对老师职称评选也有直接的管理和清晰的体现...',
-        users: '1000人以上',
-        use1: '知识点积累',
-        use2: '高效查询'
+        typeName: "国有企业",
+        typeInfo: "通讯行业",
+        customer: '广西联通',
+        summary: '广西联通“沃云盘”，基于一粒云基础打造，提供全端访问。为全广西省900w用户提供可靠手机相册、通讯录备份功能。稳定运行4年，整体存储空间达到数200TB。',
+        users: 9000000,
+        use1: '手机资料存储',
+        use2: '定制化'
     },
     {
-        id: 5,
-        name: "实现全权限管理",
+        id:41,
+        name: "网盘管理方式应用",
+        type: 4,
+        href: '#',
+        typeName: "制造行业",
+        typeInfo: "国有企业",
+        customer: '中集智能',
+        summary: '中集智能在IT智能化管理进行深入探索，旨在为“中集集团”提供更加先进的IT管理方式，使用私有云盘来做重要资料文件管理，是其现行的管理方式之一',
+        users: 300,
+        use1: '网盘应用',
+        use2: '集中管理'
+    },
+
+    {
+        id: 42,
+        name: "与vmware虚拟桌面方案集成",
+        type: 4,
+        href: '#',
+        typeName: "建筑行业",
+        typeInfo: "事业单位",
+        customer: '重庆建工集团股份有限公司',
+        summary: '随着虚拟桌面技术在集团内部应用，与云盘集成大大降低了数据存储的成本，同时打通了虚拟桌面数据隔离，读取不便的情况，增加移动端访问修改数据的能力',
+        users: 3000,
+        use1: '虚拟桌面集成',
+        use2: '云盘应用'
+    },
+    {
+        id: 43,
+        name: "企业资料图书库",
+        type: 4,
+        href: '#',
+        typeName: "建筑行业",
+        typeInfo: "大型企业",
+        customer: '遂资高速公路有限公司',
+        summary: '我们用一粒云打造个内部的一个资料库，我们叫智能图书馆。自动识别出被阅读，分享，下载次数最多的电子资料，统计资料的热度，重要程度。',
+        users: 300,
+        use1: '定制化',
+        use2: '云盘应用'
+    },
+
+    {
+        id: 50,
+        name: "广告类文件，合同类文件存储",
         type: 5,
         href: '#',
-        typeName: "运输/物流/仓储",
-        typeInfo: "制造行业",
-        customer: '龙湾教育局',
-        summary: '一粒云很好点解决了我们跨学校资料传递、协同工作，实现了知识点的共享，领导对老师职称评选也有直接的管理和清晰的体现...',
-        users: '1000人以上',
+        typeName: "广告传媒行业",
+        typeInfo: "小微企业",
+        customer: '神宇传媒',
+        summary: '用一粒云后改变了我们多年使用光盘存储的习惯，大大的节省了成本，大大的提高资料搜索的效率，现在用手机也可以找我们所有的资料',
+        users: 50,
         use1: '知识点积累',
         use2: '高效查询'
     },
     {
-        id: 6,
-        name: "实现全权限管理",
-        type: 6,
+        id: 51,
+        name: "广告类文件存储，设计资源共享",
+        type: 5,
         href: '#',
-        typeName: "印刷行业",
-        typeInfo: "制造行业",
-        customer: '龙湾教育局',
-        summary: '一粒云很好点解决了我们跨学校资料传递、协同工作，实现了知识点的共享，领导对老师职称评选也有直接的管理和清晰的体现...',
-        users: '1000人以上',
-        use1: '知识点积累',
+        typeName: "广告传媒行业",
+        typeInfo: "小微企业",
+        customer: '沃菲数字传媒有限公司',
+        summary: '使用了很多年的传统的共享方式，也出过很多问题，一直在寻找一个可以完全替代的传统的共享方式的解决方案，一粒云目前可以完全替代的',
+        users: 30,
+        use1: '网盘应用',
         use2: '高效查询'
+    },
+
+    {
+        id:52,
+        name: "业务文档管理，版本历史",
+        type: 5,
+        href: '#',
+        typeName: "制造行业",
+        typeInfo: "国有企业",
+        customer: '辽宁融兴房地产咨询顾问有限公司',
+        summary: '我们主要使用一粒云做业务资料的流程化处理，也是根据一粒云业务流程规范来的，目前体验还不错，我们也根据我们的业务设置了更多的权限',
+        users: 50,
+        use1: '历史版本',
+        use2: '云盘应用'
+    },
+    {
+        id:53,
+        name: "企业培训文件，机要文件的存储与管理",
+        type: 5,
+        href: '#',
+        typeName: "美容医疗行业",
+        typeInfo: "集团企业",
+        customer: '上海联美医疗管理有限公司',
+        summary: '我们主要使用一粒云做培训资料的存储，之前只用视频外发的方式，导致花了大价钱拍的视频变成他人的资源，现在使用加密分享的方式',
+        users: 100,
+        use1: '云盘应用',
+        use2: '安全分享'
+    },
+    {
+        id:54,
+        name: "云盘一体机在企业内部应用",
+        type: 5,
+        href: '#',
+        typeName: "医疗行业",
+        typeInfo: "中小企业",
+        customer: '重庆符于嘉医药有限公司',
+        summary: '我们内部使用一粒云一体机，将之前历史积累下来的数据全部导入到企业共享空间，然后根据AD域设置了权限，大大提高了安全性。',
+        users: 100,
+        use1: '云盘应用',
+        use2: '高效查询'
+    },
+    {
+        id:55,
+        name: "业务资料存储，快速收发文件",
+        type: 5,
+        href: '#',
+        typeName: "金融行业",
+        typeInfo: "大型企业",
+        customer: '西南证券',
+        summary: '一粒云用来给业务员存储客户资料，客户做金融业务的时候资料非常多，利用一粒云可以快速的分享标准的资料给客户填写打印，快速收集客户反馈的电子资料。',
+        users: 230,
+        use1: '资料扫描',
+        use2: '快速收发文件'
+    },
+
+    {
+        id: 56,
+        name: "实现业务、财务、产品资料文件的",
+        type: 5,
+        href: '#',
+        typeName: "运输/物流/仓储行业",
+        typeInfo: "中型企业",
+        customer: '斑马物流',
+        summary: '我们与一粒云合作，提出了基于云盘文件根据权限划分的业务协作流程，财务流程，产品资料分发流程。在我司广泛使用，并推广到同类公司中运用',
+        users: 150,
+        use1: '流程规划',
+        use2: '网盘应用'
     },
 
 ]
@@ -256,8 +555,8 @@ var us = [
     },
     {
         type: 5,
-        target: "_blank",
-        href: "http://www.yliyun.com/blog/2015/11/05/qu-dao-shang-wu-he-zuo/",
+        target: "_self",
+        href: "#",
         name: "合作渠道",
         img: "../assets/images/us/u-qd.png",
         summary: "用工匠的精神打磨产品，做您坚实的技术后盾，期待您的加入。",
@@ -304,7 +603,7 @@ var product = [
         src: "knowLedge.html",
         img: "../assets/images/fun/p-zsk.png",
         name: "知识库",
-        summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。 常见与客户沟通的技巧，经典案例的解决方案。"
+    summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。 常见与客户沟通的技巧，经典案例的解决方案。"
     },
     {
         type: 5,
@@ -757,7 +1056,7 @@ function getsecu(num) {
             '</div>' +
             '</div>' +
             '</div>'
-        
+
         $("#secu").append(html);
     }
 }
@@ -928,7 +1227,11 @@ function getExams(num) {
         }
 
     } else {
+        console.log(filterEx);
+        filterEx = [];
+        $("#coo_cont").empty();
         filterEx = examples;
+        console.log(filterEx);
     }
 
     insertExam(filterEx);
@@ -944,18 +1247,18 @@ function insertExam(exa) {
             '<div class="panel panel-default coo-panel">' +
             '<div class="panel-heading">' +
             '<a href="' + exa[i].href + '">' +
-            '<h3>' + exa[i].typeName + '</h3>' +
+            '<h3>' + exa[i].customer + '</h3>' +
             '</a>' +
             '</div>' +
             '<div class="panel-body">' +
             //
             '<a href="#"><span>' + exa[i].typeInfo + '</span></a><span>|</span>' +
-            '<a href="' + exa[i].href + '"><span>' + exa[i].customer + '</span></a>' +
+            '<a href="' + exa[i].href + '"><span>' + exa[i].typeName + '</span></a>' +
             '<a href="' + exa[i].href + '"><h4>' + exa[i].name + '</h4></a>' +
             '<a href="' + exa[i].href + '"><p>' + exa[i].summary + '</p></a>' +
             '</div>' +
             '<div class="panel-footer">' +
-            '<span>' + exa[i].users + '</span>' +
+            '<span>' + exa[i].users + '以上用户</span>' +
             '<span class="pull-right">' + exa[i].use1 + '</span>' +
             '<span class="pull-right mar">' + exa[i].use2 + '</span>' +
             '</div>' +
@@ -1019,7 +1322,91 @@ function getcon3(num) {
         $("#cont3").append(html);
     }
  }
+// function getcon4(num) {
+//     for (var i = 0; i < cont4.length; i++) {
 
+//         var html =
+//             '<div class="col-md-4 col-sm-4 m-product">' +
+//             '<div class="m-product-img">' +
+//             '<img class="center-block" src="' + cont4[i].img + '" alt="">' +
+//             '</div>' +
+//             '<div class="m-product-con">' +
+//             '<h5>' + cont4[i].name + '</h5>' +
+//             '</div>' +
+//             '</div>'
+
+//         $("#cont4").append(html);
+
+//     }
+// }
+// function getcon5(num) {
+//     for (var i = 0; i < cont5.length; i++) {
+
+//         var html =
+//             '<div class="col-md-4 col-sm-4 m-product">' +
+//             '<div class="m-product-img">' +
+//             '<img class="center-block" src="' + cont5[i].img + '" alt="">' +
+//             '</div>' +
+//             '<div class="m-product-con">' +
+//             '<h5>' + cont5[i].name + '</h5>' +
+//             '</div>' +
+//             '</div>'
+
+//         $("#cont5").append(html);
+
+//     }
+// }
+// function getcon6(num) {
+//     for (var i = 0; i < cont6.length; i++) {
+
+//         var html =
+//             '<div class="col-md-4 col-sm-4 m-product">' +
+//             '<div class="m-product-img">' +
+//             '<img class="center-block" src="' + cont6[i].img + '" alt="">' +
+//             '</div>' +
+//             '<div class="m-product-con">' +
+//             '<h5>' + cont6[i].name + '</h5>' +
+//             '</div>' +
+//             '</div>'
+
+//         $("#cont6").append(html);
+
+//     }
+// }
+// function getcon7(num) {
+//     for (var i = 0; i < cont7.length; i++) {
+
+//         var html =
+//             '<div class="col-md-4 col-sm-4 m-product">' +
+//             '<div class="m-product-img">' +
+//             '<img class="center-block" src="' + cont7[i].img + '" alt="">' +
+//             '</div>' +
+//             '<div class="m-product-con">' +
+//             '<h5>' + cont7[i].name + '</h5>' +
+//             '</div>' +
+//             '</div>'
+
+//         $("#cont7").append(html);
+
+//     }
+// }
+// function getcon8(num) {
+//     for (var i = 0; i < cont8.length; i++) {
+
+//         var html =
+//             '<div class="col-md-4 col-sm-4 m-product">' +
+//             '<div class="m-product-img">' +
+//             '<img class="center-block" src="' + cont8[i].img + '" alt="">' +
+//             '</div>' +
+//             '<div class="m-product-con">' +
+//             '<h5>' + cont8[i].name + '</h5>' +
+//             '</div>' +
+//             '</div>'
+
+//         $("#cont8").append(html);
+
+//     }
+// }
 //s-nas
 function getprog(num) {
     for (var i = 0; i < prog.length; i++) {
@@ -1134,6 +1521,14 @@ $(document).ready(function () {
     getPri(0);
     getsNas(0);
     getnotes(0);
+    // getcon1(0);
+    // getcon2(0);
+    // getcon3(0);
+    // getcon4(0);
+    // getcon5(0);
+    // getcon6(0);
+    // getcon7(0);
+    // getcon8(0);
     getprog(0);
     getnas(0);
     getexh(0);
