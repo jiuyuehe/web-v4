@@ -448,19 +448,6 @@ var examples = [
     },
 
     {
-        id:52,
-        name: "业务文档管理，版本历史",
-        type: 5,
-        href: '#',
-        typeName: "制造行业",
-        typeInfo: "国有企业",
-        customer: '辽宁融兴房地产咨询顾问有限公司',
-        summary: '我们主要使用一粒云做业务资料的流程化处理，也是根据一粒云业务流程规范来的，目前体验还不错，我们也根据我们的业务设置了更多的权限',
-        users: 50,
-        use1: '历史版本',
-        use2: '云盘应用'
-    },
-    {
         id:53,
         name: "企业培训文件，机要文件的存储与管理",
         type: 5,
@@ -512,6 +499,19 @@ var examples = [
         users: 150,
         use1: '流程规划',
         use2: '网盘应用'
+    },
+    {
+        id:52,
+        name: "业务文档管理，版本历史",
+        type: 5,
+        href: '#',
+        typeName: "制造行业",
+        typeInfo: "国有企业",
+        customer: '辽宁融兴房地产咨询顾问有限公司',
+        summary: '我们主要使用一粒云做业务资料的流程化处理，也是根据一粒云业务流程规范来的，目前体验还不错，我们也根据我们的业务设置了更多的权限',
+        users: 50,
+        use1: '历史版本',
+        use2: '云盘应用'
     },
 
 ]
@@ -578,6 +578,7 @@ var product = [
     {
         type: 1,
         src: "fun_storage.html",
+        img2:"../assets/images/fun/p-cc1.png",
         img: "../assets/images/fun/p-cc.png",
         name: "海量存储",
         summary: "员工存储量一目了然，空间预警。 基于组织架构的存储，部门文件归类明确。"
@@ -586,6 +587,7 @@ var product = [
     {
         type: 2,
         src: "fun_jurisdiction.html",
+        img2: "../assets/images/fun/p-qx1.png",
         img: "../assets/images/fun/p-qx.png",
         name: "精细权限",
         summary: "下载权限，限制员工离职无法带走公司资料。 基于组织架构的存储，外部人员无法加入。 精细权限划分，便于管理。"
@@ -594,6 +596,7 @@ var product = [
     {
         type: 3,
         src: "xz.html",
+        img2: "../assets/images/fun/p-xz1.png",
         img: "../assets/images/fun/p-xz.png",
         name: "便捷协作",
         summary: "一键发送大文件给客户"
@@ -601,6 +604,7 @@ var product = [
     {
         type: 4,
         src: "knowLedge.html",
+        img2: "../assets/images/fun/p-zsk1.png",
         img: "../assets/images/fun/p-zsk.png",
         name: "知识库",
     summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。 常见与客户沟通的技巧，经典案例的解决方案。"
@@ -608,6 +612,7 @@ var product = [
     {
         type: 5,
         src: "fun_security.html",
+        img2: "../assets/images/fun/p-aq1.png",
         img: "../assets/images/fun/p-aq.png",
         name: "安全加密",
         summary: "为了保护您企业数据的安全，我们底层采用自研分布式文件系统分块、加密、压缩存储。 对账号密码等信息进行AES、SHA256双重加密传输。应用访问协议支持HTTPS。"
@@ -615,6 +620,7 @@ var product = [
     {
         type: 6,
         src: "ding.html",
+        img2: "../assets/images/fun/p-dz1.png",
         img: "../assets/images/fun/p-dz.png",
         name: "集成与定制",
         summary: "从技术角度出发支持您的需求。 针对您工作中特有的问题，提供专业的解决方案。"
@@ -626,7 +632,7 @@ var product = [
 var product2 = [
     {
         type: 1,
-        img: "../assets/images/p-aq.png",
+        img: "../assets/images/fun/p-aq.png",
         name: "安全",
         typeName1: "防误删",
         typeName2: "防泄露",
@@ -640,8 +646,8 @@ var product2 = [
 
     },
     {
-        type: 1,
-        img: "../assets/images/p-qx.png",
+        type: 2,
+        img: "../assets/images/fun/p-qx.png",
         name: "权限",
 
         typeName1: "多级管理员",
@@ -657,8 +663,8 @@ var product2 = [
 
     },
     {
-        type: 1,
-        img: "../assets/images/p-xz.png",
+        type: 3,
+        img: "../assets/images/fun/p-xz.png",
         name: "协作",
 
         typeName1: "发送大文件给客户",
@@ -673,8 +679,8 @@ var product2 = [
 
     },
     {
-        type: 1,
-        img: "../assets/images/p-zsk.png",
+        type: 4,
+        img: "../assets/images/fun/p-zsk.png",
         name: "知识库",
 
         typeName1: "发送大文件给客户",
@@ -689,8 +695,8 @@ var product2 = [
 
     },
     {
-        type: 1,
-        img: "../assets/images/p-cc.png",
+        type: 5,
+        img: "../assets/images/fun/p-cc.png",
         name: "存储",
 
         typeName1: "空间预警机制",
@@ -705,8 +711,8 @@ var product2 = [
 
     },
     {
-        type: 1,
-        img: "../assets/images/p-dz.png",
+        type: 6,
+        img: "../assets/images/fun/p-dz.png",
         name: "定制",
 
         typeName1: "空间预警机制",
@@ -1067,8 +1073,11 @@ function getPro(num) {
 
         var html =
             '<div class="col-md-4">' +
-            '<a href="' + product[i].src + '">' +
-            '<img src="' + product[i].img + '" alt=""><br>' +
+            '<a href="' + product[i].src + '" class="">' +
+            '<div class="product_img">'+
+            '<img src="' + product[i].img2 + '" alt="" class="product_img_top"><br>' +
+            '<img src="' + product[i].img + '" alt="" class="product_img_bottom"><br>' +
+            '</div><br>'+
             '<h4>' + product[i].name + '</h4>' +
             '</a>' +
             '<p>' + product[i].summary + '</p>' +
@@ -1322,91 +1331,7 @@ function getcon3(num) {
         $("#cont3").append(html);
     }
  }
-// function getcon4(num) {
-//     for (var i = 0; i < cont4.length; i++) {
 
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont4[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont4[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont4").append(html);
-
-//     }
-// }
-// function getcon5(num) {
-//     for (var i = 0; i < cont5.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont5[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont5[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont5").append(html);
-
-//     }
-// }
-// function getcon6(num) {
-//     for (var i = 0; i < cont6.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont6[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont6[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont6").append(html);
-
-//     }
-// }
-// function getcon7(num) {
-//     for (var i = 0; i < cont7.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont7[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont7[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont7").append(html);
-
-//     }
-// }
-// function getcon8(num) {
-//     for (var i = 0; i < cont8.length; i++) {
-
-//         var html =
-//             '<div class="col-md-4 col-sm-4 m-product">' +
-//             '<div class="m-product-img">' +
-//             '<img class="center-block" src="' + cont8[i].img + '" alt="">' +
-//             '</div>' +
-//             '<div class="m-product-con">' +
-//             '<h5>' + cont8[i].name + '</h5>' +
-//             '</div>' +
-//             '</div>'
-
-//         $("#cont8").append(html);
-
-//     }
-// }
 //s-nas
 function getprog(num) {
     for (var i = 0; i < prog.length; i++) {

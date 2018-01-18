@@ -256,7 +256,9 @@ a.carousel-control.right span {
 .text-describe-r {
     background-color: rgba(106, 172, 64, 0.8);
 }
-
+.case-right a{
+    bottom: 25%;
+}
 .case-left a:hover,
 .case-right a:hover {
     color: rgb(203, 206, 201);
@@ -806,9 +808,23 @@ h4 {
     text-align: left;
 }
 
-/* .container.product img:hover{
-    background-color: #353030;
+.product_img{
+    text-align: center;
+    display: inline-block;
+}
+.product_img_top{
+    display: none;
+}
+.product_img:hover .product_img_top{
+     display: inline-block;
+}
+.product_img:hover .product_img_bottom{
+     display:none;
+}
+/* #product>.product_img:hover #product h4{
+    color: #06ca67;
 } */
+
 /*  */
 .product2 {
     display: none;
@@ -942,7 +958,7 @@ h2.anli-h2 {
 }
 
 .mar {
-    margin: 0 28px;
+    margin-right:10px;
 }
 
 /*关于我们  */
@@ -952,7 +968,7 @@ h2.anli-h2 {
 }
 
 .synopses-bg {
-    background-image: url(../images/bg-gy.png);
+    background-image: url(../images/us/bg-gy.png);
     margin-top: 30px;
 }
 
@@ -1010,7 +1026,7 @@ h2.h3 {
 
 .panel-body {
     /* background-color: white; */
-    /* height: 220px; */
+     height: 170px; 
     padding: 15px;
 }
 
@@ -1748,7 +1764,7 @@ video::-webkit-media-controls-panel {
 
 /*fun_storage  */
 .fun_stor {
-    background-image: url(../images/fun_st/bg1.png);
+    background-image: url(/assets/images/fun_st/bg1.png);
     padding: 50px 0;
 }
 
@@ -1845,13 +1861,13 @@ video::-webkit-media-controls-panel {
 .fun_juris {
     position: relative;
 }
-
+.fun_juisd_cont_anti{
+    margin-top: 10%;
+}
 .fun_juris_cont {
-    position: absolute;
-    top: 30%;
-    width: 100%;
     text-align: center;
-    display: inline-block;
+    background-image: url(../images/fun_ju/bg1.png);
+    padding: 120px 0;
 }
 
 .fun_juris_cont_h2 h2 {
