@@ -84,25 +84,25 @@ var mach = [
         type: 1,
         span: "CPU",
         p: "Intel四核2.3GHz",
-        src: "../assets/images/2.png"
+        src: "../assets/images/pr/2.png"
     },
     {
         type: 2,
         span: "内存容量",
         p: "2GB DDR3 RAM",
-        src: "../assets/images/3.png"
+        src: "../assets/images/pr/3.png"
     },
     {
         type: 3,
         span: "高性能",
         p: "读取450MB/S <br>写入400MB/S",
-        src: "../assets/images/4.png"
+        src: "../assets/images/pr/4.png"
     },
     {
         type: 4,
         span: "扩展性",
         p: "可扩充16个硬盘",
-        src: "../assets/images/5.png"
+        src: "../assets/images/pr/5.png"
     },
 ]
 //about
@@ -140,7 +140,7 @@ var examples = [
         id: 10,
         name: "基于会议文档共享存储与文档同屏",
         type: 1,
-        href: 'longwan.html',
+        type2: 3,
         typeName: '政府机关',
         typeInfo: "事业单位",
         customer: '深圳海关',
@@ -153,7 +153,7 @@ var examples = [
         id: 11,
         name: "重要资料文件共享，大文件外发",
         type: 1,
-        href: 'longwan.html',
+        type2: 2,
         typeName: '政府机关',
         typeInfo: "事业单位",
         customer: '重庆市璧山区规划局',
@@ -166,7 +166,7 @@ var examples = [
         id:12,
         name: "企业历史文档存储与共享",
         type: 1,
-        href: '#',
+        type2: 2,
         typeName: "制造行业",
         typeInfo: "国有企业",
         customer: '山西省人力资源和社会保障厅',
@@ -179,7 +179,7 @@ var examples = [
         id: 13,
         name: "高效文件分发，数据加密存储",
         type: 1,
-        href: '#',
+        type2: 4,
         typeName: '政府机关',
         typeInfo: "事业单位",
         customer: '石柱县公安局',
@@ -192,7 +192,7 @@ var examples = [
         id: 14,
         name: "全省科研数据分布式存储共享",
         type: 1,
-        href: '#',
+        type: 6,
         typeName: '政府机关',
         typeInfo: "事业单位",
         customer: '广西省科技厅',
@@ -207,7 +207,7 @@ var examples = [
         id: 20,
         name: "教育资料共享，教育知识库打造",
         type: 2,
-        href: '#',
+        type2: 6,
         typeName: "教育行业",
         typeInfo: "事业单位",
         customer: '龙湾教育局',
@@ -220,7 +220,7 @@ var examples = [
         id: 21,
         name: "科研资料私有加密存储",
         type: 2,
-        href: '#',
+        type2: 3,
         typeName: "教育行业",
         typeInfo: "高教",
         customer: '复旦大学深圳研究院',
@@ -233,7 +233,7 @@ var examples = [
         id: 22,
         name: "虚拟桌面与云盘分离数据存储",
         type: 2,
-        href: '#',
+        type2: 6,
         typeName: "教育行业",
         typeInfo: "高教",
         customer: '重庆师范大学',
@@ -246,7 +246,7 @@ var examples = [
         id: 23,
         name: "教育资料共享，教育知识库打造",
         type: 2,
-        href: '#',
+        type2: 4,
         typeName: "教育行业",
         typeInfo: "高教",
         customer: '安徽三联学院交通工程学院',
@@ -260,7 +260,7 @@ var examples = [
         id: 24,
         name: "教师教案共享，不再需要带U盘上课",
         type: 2,
-        href: '#',
+        type2: 4,
         typeName: "教育行业",
         typeInfo: "普教",
         customer: '重庆市外语学校',
@@ -273,7 +273,7 @@ var examples = [
         id: 25,
         name: "教师教案共享，在云盘中寻找资料",
         type: 2,
-        href: '#',
+        type2: 3,
         typeName: "教育行业",
         typeInfo: "普教",
         customer: '重庆市求精中学',
@@ -289,9 +289,9 @@ var examples = [
         id: 30,
         name: "小康云盘成为集团的文件中心",
         type: 3,
-        href: '#',
+        type2: 6,
         typeName: '大型企业',
-        typeInfo: "制造业",
+        typeInfo: "制造行业",
         customer: '东风小康',
         summary: '一粒云为东风小康量身打造了一个符合集团企业管理规范，电子文档标准化储存的小康云盘，大大简化了之前的存储流程',
         users: 5000,
@@ -302,7 +302,7 @@ var examples = [
         id: 31,
         name: "集团共享文件的权限细分管理",
         type: 3,
-        href: '#',
+        type2: 4,
         typeName: '大型企业',
         typeInfo: "能源行业",
         customer: '神华国华（舟山）发电厂',
@@ -315,7 +315,7 @@ var examples = [
         id: 32,
         name: "规范管理企业海量知识文件",
         type: 3,
-        href: '#',
+        type2: 4,
         typeName: "中型企业",
         typeInfo: "制造行业",
         customer: '浙江巨久轮毂有限公司',
@@ -329,7 +329,7 @@ var examples = [
         id: 33,
         name: "企业储存多重备份，规范化使用",
         type: 3,
-        href: '#',
+        type2: 5,
         typeName: "大型企业",
         typeInfo: "制造行业",
         customer: '潍柴（重庆）汽车有限公司',
@@ -342,7 +342,7 @@ var examples = [
         id: 34,
         name: "产品设计方案，业务流程规范",
         type: 3,
-        href: '#',
+        type2: 4,
         typeName: "中型企业",
         typeInfo: "制造行业",
         customer: '宏辉光电',
@@ -355,7 +355,7 @@ var examples = [
         id: 35,
         name: "外贸业务数据共享，权限管理",
         type: 3,
-        href: '#',
+        type2: 4,
         typeName: "制造行业",
         typeInfo: "中型工厂",
         customer: '绿能新源',
@@ -370,7 +370,7 @@ var examples = [
         id: 40,
         name: "个人手机数据存储",
         type: 4,
-        href: '#',
+        type2: 6,
         typeName: "国有企业",
         typeInfo: "通讯行业",
         customer: '广西联通',
@@ -383,7 +383,7 @@ var examples = [
         id:41,
         name: "网盘管理方式应用",
         type: 4,
-        href: '#',
+        type2: 4,
         typeName: "制造行业",
         typeInfo: "国有企业",
         customer: '中集智能',
@@ -397,7 +397,7 @@ var examples = [
         id: 42,
         name: "与vmware虚拟桌面方案集成",
         type: 4,
-        href: '#',
+        type2: 6,
         typeName: "建筑行业",
         typeInfo: "事业单位",
         customer: '重庆建工集团股份有限公司',
@@ -410,7 +410,7 @@ var examples = [
         id: 43,
         name: "企业资料图书库",
         type: 4,
-        href: '#',
+        type2: 4,
         typeName: "建筑行业",
         typeInfo: "大型企业",
         customer: '遂资高速公路有限公司',
@@ -424,7 +424,7 @@ var examples = [
         id: 50,
         name: "广告类文件，合同类文件存储",
         type: 5,
-        href: '#',
+        type2: 2,
         typeName: "广告传媒行业",
         typeInfo: "小微企业",
         customer: '神宇传媒',
@@ -437,7 +437,7 @@ var examples = [
         id: 51,
         name: "广告类文件存储，设计资源共享",
         type: 5,
-        href: '#',
+        type2: 1,
         typeName: "广告传媒行业",
         typeInfo: "小微企业",
         customer: '沃菲数字传媒有限公司',
@@ -451,7 +451,7 @@ var examples = [
         id:53,
         name: "企业培训文件，机要文件的存储与管理",
         type: 5,
-        href: '#',
+        type2: 3,
         typeName: "美容医疗行业",
         typeInfo: "集团企业",
         customer: '上海联美医疗管理有限公司',
@@ -464,7 +464,7 @@ var examples = [
         id:54,
         name: "云盘一体机在企业内部应用",
         type: 5,
-        href: '#',
+        type2: 3,
         typeName: "医疗行业",
         typeInfo: "中小企业",
         customer: '重庆符于嘉医药有限公司',
@@ -477,7 +477,7 @@ var examples = [
         id:55,
         name: "业务资料存储，快速收发文件",
         type: 5,
-        href: '#',
+        type2: 4,
         typeName: "金融行业",
         typeInfo: "大型企业",
         customer: '西南证券',
@@ -491,7 +491,7 @@ var examples = [
         id: 56,
         name: "实现业务、财务、产品资料文件的",
         type: 5,
-        href: '#',
+        type2: 3,
         typeName: "运输/物流/仓储行业",
         typeInfo: "中型企业",
         customer: '斑马物流',
@@ -504,7 +504,7 @@ var examples = [
         id:52,
         name: "业务文档管理，版本历史",
         type: 5,
-        href: '#',
+        type2: 2,
         typeName: "制造行业",
         typeInfo: "国有企业",
         customer: '辽宁融兴房地产咨询顾问有限公司',
@@ -1075,8 +1075,8 @@ function getPro(num) {
             '<div class="col-md-4">' +
             '<a href="' + product[i].src + '" class="">' +
             '<div class="product_img">'+
-            '<img src="' + product[i].img2 + '" alt="" class="product_img_top"><br>' +
-            '<img src="' + product[i].img + '" alt="" class="product_img_bottom"><br>' +
+            '<img src="' + product[i].img2 + '" alt="" class="product_img_top">' +
+            '<img src="' + product[i].img + '" alt="" class="product_img_bottom">' +
             '</div><br>'+
             '<h4>' + product[i].name + '</h4>' +
             '</a>' +
@@ -1255,16 +1255,14 @@ function insertExam(exa) {
             '<div href=' + exa[i].url + ' class="col-md-4">' +
             '<div class="panel panel-default coo-panel">' +
             '<div class="panel-heading">' +
-            '<a href="' + exa[i].href + '">' +
             '<h3>' + exa[i].customer + '</h3>' +
-            '</a>' +
             '</div>' +
             '<div class="panel-body">' +
             //
-            '<a href="#"><span>' + exa[i].typeInfo + '</span></a><span>|</span>' +
-            '<a href="' + exa[i].href + '"><span>' + exa[i].typeName + '</span></a>' +
-            '<a href="' + exa[i].href + '"><h4>' + exa[i].name + '</h4></a>' +
-            '<a href="' + exa[i].href + '"><p class="ex-sum">' + exa[i].summary + '</p></a>' +
+            '<span>' + exa[i].typeInfo + '</span><span>|</span>' +
+            '<span>' + exa[i].typeName + '</span>' +
+            '<h4>' + exa[i].name + '</h4>' +
+            '<p class="ex-sum">' + exa[i].summary + '</p>' +
             '</div>' +
             '<div class="panel-footer">' +
             '<span>' + exa[i].users + '以上用户</span>' +
@@ -1278,6 +1276,71 @@ function insertExam(exa) {
 
 
         $("#coo_cont").append(html);
+
+    }
+}
+// 
+function getEx(num) {
+
+    if (num) {
+
+        // todo  filter the type2 value num
+        //    filterEx = filter (examples);
+
+        filterEx = [];
+        $("#coo_cont2").empty();
+
+
+        for (var i = 0; i < examples.length; i++) {
+
+            if (examples[i].type2 == num) {
+
+                filterEx.push(examples[i]);
+            }
+
+        }
+
+    } else {
+        console.log(filterEx);
+        filterEx = [];
+        $("#coo_cont2").empty();
+        filterEx = examples;
+        console.log(filterEx);
+    }
+
+    insertEx(filterEx);
+}
+
+function insertEx(exa) {
+
+
+    for (var i = 0; i < exa.length; i++) {
+
+        var html =
+            '<div href=' + exa[i].url + ' class="col-md-4">' +
+            '<div class="panel panel-default coo-panel">' +
+            '<div class="panel-heading">' +
+            '<h3>' + exa[i].customer + '</h3>' +
+            '</div>' +
+            '<div class="panel-body">' +
+            //
+            '<span>' + exa[i].typeInfo + '</span><span>|</span>' +
+            '<span>' + exa[i].typeName + '</span>' +
+            '<h4>' + exa[i].name + '</h4>' +
+            '<p class="ex-sum">' + exa[i].summary + '</p>' +
+            '</div>' +
+            '<div class="panel-footer">' +
+            '<span>' + exa[i].users + '以上用户</span>' +
+            '<span class="pull-right">' + exa[i].use1 + '</span>' +
+            '<span class="pull-right mar">' + exa[i].use2 + '</span>' +
+            '</div>' +
+            '</div>' +
+            '</div>'
+
+
+
+
+        $("#coo_cont2").append(html);
 
     }
 }
@@ -1440,6 +1503,7 @@ $(document).ready(function () {
     console.log("start ---------");
 
     getExams(0);
+    getEx(0)
     getUs(0);
     getPro(0);
     getPro2(0);
