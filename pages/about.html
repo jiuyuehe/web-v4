@@ -21,19 +21,24 @@
             <!-- 轮播（Carousel）项目 -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <a href="xz.html"><img src="../assets/images/a/xz1.png" alt="First slide"></a>
+                    <a href="xz.html"><img src="../assets/images/a/xz1.png" alt=""></a>
 
                     <h3></h3>
 
                 </div>
                 <div class="item">
-                    <a href="xz.html"><img src="../assets/images/a/xz2.png" alt="Second slide"></a>
+                    <video id="myVideo" class="xz-video" src="../assets/video/xz-sp.mp4" controls="controls">
+                        您的浏览器不支持播放
+                    </video>
+                    <!-- <a href="xz.html">
+                        <img src="../assets/images/a/xz2.png" alt="">
+                    </a> -->
 
                     <h3></h3>
 
                 </div>
                 <div class="item">
-                    <a href="knowLedge.html"><img src="../assets/images/a/banner-1.png" alt="Third slide"></a>
+                    <a href="knowLedge.html"><img src="../assets/images/a/xz2.png" alt=""></a>
 
                     <h3>让您工作更轻松</h3>
 
@@ -77,21 +82,8 @@
     <div class="container exhibition">
         <div class="exhibition-main">
             <div class="row" id="exh">
-                <!-- <div class="col-md-4">
-                    <div class="e-content">
-                        <a href="ding.html"><img src="../assets/images/a-dd.png" alt=""></a>
-                        <h3><b>钉钉集成</b></h3>
-                        <p>实现钉钉用户免登云盘，并能一键导入组织架构，避免重复工作。</p>
-                    </div>
-                    <div class="e-content2">
-                        <h3><b>钉钉集成</b></h3>
-                        <p>实现钉钉用户免登云盘，并能一键导入组织架构，避免重复工作。</p>
-                        <a href="ding.html">
-                            <p>点击了解详情>></p>
-                        </a>
-                        <a href="ding.html"><img src="../assets/images/a-dd.png" alt=""></a>
-                    </div>
-                </div> -->
+               
+
             </div>
         </div>
     </div>
@@ -103,10 +95,10 @@
 
                 <div class="case-left">
                     <div class="bg-a"><img src="../assets/images/a/bg-dawid.png" alt=""></div>
-                    <div class="yany"><img src="../assets/images/a/yany.png" alt=""></div>
-                    <div class="horn"><img src="../assets/images/a/a-jy.png" alt=""></div>
+                    <div class="yany"><img src="../assets/images/a/yany.png" alt="龙湾教育局"></div>
+                    <div class="horn"><img src="../assets/images/a/a-jy.png" alt="教育行业"></div>
                     <a href="longwan.html">查看详情<span class="glyphicon glyphicon-chevron-right"></span></a>
-                    <span class="case-left-sp">龙湾教育局</span>
+                    <!---->
                 </div>
 
             </div>
@@ -114,10 +106,10 @@
             <div class="col-md-6 a c-zz">
                 <div class="case-right">
                     <div class="bg-a"><img src="../assets/images/a/bg-annie.png" alt=""></div>
-                    <div class="yany"><img src="../assets/images/a/yany3.png" alt=""></div>
-                    <div class="horn"><img src="../assets/images/a/a-zz.png" alt=""></div>
+                    <div class="yany"><img src="../assets/images/a/yany2.png" alt="东风小康"></div>
+                    <div class="horn"><img src="../assets/images/a/a-zz.png" alt="制造行业"></div>
                     <a href="coo.html#coo_cont>col-md-4:nth-child(12)">查看详情<span class="glyphicon glyphicon-chevron-right"></span></a>
-                    <span class="case-right-sp">东风小康</span>
+
                 </div>
             </div>
         </div>
@@ -127,6 +119,21 @@
     <!-- suspension -->
     <!--Bootstrap-->
     <link rel="import" href="../templates/ft.html?__inline" />
+    <script>
+        $("video").trigger("pause");
+        $("video").addClass('pause');
+        $('video').click(function () {
+            if ($(this).hasClass('pause')) {
+                $("video").trigger("play");
+                $(this).removeClass('pause');
+                $(this).addClass('play');
+            } else {
+                $("video").trigger("pause");
+                $(this).removeClass('play');
+                $(this).addClass('pause');
+            }
+        })
+    </script>
 </body>
 
 </html>

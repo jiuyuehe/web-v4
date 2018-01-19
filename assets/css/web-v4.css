@@ -3,7 +3,28 @@
     padding: 0 !important;
     margin-top: 30px;
 }
-
+.item{
+    text-align: center;
+    height: 500px;
+    background-color: black;
+}
+.carousel-inner .item video,
+.carousel-inner .item img{
+    max-width: inherit !important;
+    height: 100% !important;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    font-size: 99px;
+    display: inline-block;
+    background-color: rgba(248, 248, 248, 0);
+    opacity: 0.8;
+    cursor: pointer;
+}
+.a-video{
+    width: 100%;
+}
 .btn1 {
     padding: 0;
     position: relative;
@@ -38,11 +59,13 @@ ol.carousel-indicators li {
     text-align: center;
     color: #fbfffc;
     font-size: 5rem;
+    letter-spacing: 10px;
 }
 
 .carousel-control.left,
 .carousel-control.right {
     background-image: none !important;
+    margin: 10% 0;
 }
 
 .carousel a {
@@ -81,16 +104,6 @@ a.carousel-control.right span {
 .theHeadlines-right {
     padding: 0 !important;
 }
-
-.frturn {
-    margin-top: 30px;
-}
-
-.frturn a {
-    font-size: 1.8rem;
-    line-height: 3;
-}
-
 .new img {
     height: 25px;
     width: 120px;
@@ -268,7 +281,7 @@ a.carousel-control.right span {
     background-color: rgba(106, 172, 64, 0.8);
 }
 .case-right a{
-    bottom: 25% !important;
+    bottom: 15% !important;
 }
 .case-left a:hover,
 .case-right a:hover {
@@ -1791,6 +1804,7 @@ video::-webkit-media-controls-panel {
     padding: 50px 0;
 }
 
+
 .fun_stor_ {
     position: relative;
     top: 16%;
@@ -1935,4 +1949,20 @@ video::-webkit-media-controls-panel {
 
 .prp-info li span{
     font-weight: bold;
+}
+
+
+
+.frturn {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline;
+}
+.frturn span{
+    font-size: 1.8rem;
+    line-height: 3;
+    margin: auto 10px;
+}
+.opac{
+    opacity: 0.3;
 }
