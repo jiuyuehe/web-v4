@@ -13,7 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prd": "http-server ./dist  -P http://192.168.0.130",
-    "fis": "fis release -wL"
+    "fis": "fis release -wL",
+    "fisp": "fis release p"
   },
   "repository": {
     "type": "git",

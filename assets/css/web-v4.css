@@ -5,14 +5,16 @@
 }
 .item{
     text-align: center;
-    height: 500px;
+    height: 530px;
     background-color: black;
 }
-.carousel-inner .item video,
-.carousel-inner .item img{
-    max-width: inherit !important;
+.carousel-inner .item video{
+
     height: 100% !important;
+
 }
+
+
 .item span{
     position: absolute;
     top: 40%;
@@ -857,7 +859,7 @@ h4 {
 }
  #product>.product_img:hover #product>h4{
     color: #06ca67 !important;
-} 
+}
 
 /*  */
 .product2 {

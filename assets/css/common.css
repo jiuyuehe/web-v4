@@ -492,7 +492,21 @@ h3{
         margin-top: 0;
     }
 }
+
+
+
+@media screen and (max-width: 1500px) {
+    .item {
+        height: 400px;
+    }
+}
+
+
+
 @media screen and (max-width: 1092px) {
+    .item{
+        height: auto;
+    }
     .d-cont{
         text-align: center;
     }
@@ -551,6 +565,10 @@ h3{
 }
 
 @media only screen and (max-width: 767px){
+
+    .item{
+        height: auto;
+    }
     .navbar-default{
         min-width: 100% !important;
     }
@@ -833,7 +851,7 @@ h3{
     left: 17px !important;
 }
 .text-{
-    
+
     top: -33px;
     cursor: pointer;
 }
