@@ -52,6 +52,12 @@ body{
         font-size: 1.5rem;
         margin-left: 10%;
     }
+    .btn-main{
+        font-size: 1.6rem !important;
+    }
+    .xz-btn .h3title{
+        font-size: 1.6rem;
+    }
     .machine{
         height: 0 !important;
     }
@@ -158,6 +164,13 @@ body{
     .prp_explain_p p{
         line-height: 60px;
     }
+    .prp_explain_p ul li{
+        font-size: 1.5rem;
+    }
+    .prp-info{
+        line-height: 70px;
+        margin-bottom: 50px;
+    }
     .white_paper_r{
         text-align: center;
     }
@@ -196,6 +209,9 @@ body{
     }
     .ding-cont>.pull-right{
         float: none !important;
+    }
+    .d-cont{
+        margin-bottom: 50px;
     }
     /*us  */
     .circular{
@@ -239,6 +255,9 @@ body{
     .panel-footer span{
         font-size: 1.5rem;
     }
+    .mar{
+        margin-right: 40px;
+    }
     .coo-panel p,
     .panel-footer span{
         color: #525252 !important;
@@ -246,13 +265,31 @@ body{
     #coo_cont .col-md-4{
         margin-top: 70px;
     }
+   .coo-panel p{
+       height: 150px !important;
+   }
     /*关于我们  */
     .synopses-conten h2{
-        top: 40px !important;
+        top: 15px !important;
+    }
+    .synopses-conten{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .ylu,
+    .synopses-conten h2 span{
+        font-size: 2rem !important;
     }
     .synopses-conten p{
-        top: 60px !important;
+        top: 25px !important;
         font-size: 1.4rem !important;
+    }
+    #bg-white h2{
+        font-size: 2rem;
+    }
+    .media{
+        width: 80%;
+        margin: 50px 10%;
     }
     /*long  */
     .lw-bg-content{
@@ -362,16 +399,13 @@ body{
         left: 20%;
     }
     /*knowLedge  */
-    .m-enterprise{
-        margin-top: 90px;
+    .knowLedge{
+        margin-top: 100px;
     }
 
 
     .k-summ-main h4{
         font-size:2rem;
-    }
-    .k-summ{
-        margin-top: 100px;
     }
     .k-summ-main p{
         width: 80%;
@@ -788,24 +822,27 @@ body{
 .f-main{
     background-color:#0261cc;
 }
-.f-img{
+.f-main .f-img{
     max-width: 520px;
      height: 96px;
     color: white;
 }
-.f-img img{
+.f-main .f-img img{
     height: 80px;
     float: left;
     padding-top: 12px;
     margin-right: 10px;
 }
-.f-img h4{
+.f-main .f-img h4{
     font-size: 1.5rem;
     padding-top:22px;
     margin: 0 !important;
+    color: white;
 }
-.f-img p{
-    font-size: 1.2rem;
+.f-main .f-img p{
+    font-size: 1rem;
+    color: white !important;
+    /* width: 555px !important; */
 }
 .f-bg-h{
     background-color: #313231;
