@@ -120,7 +120,7 @@ var exh = [
         href: "xz.html",
         src: "../assets/images/a/a-xz.png",
         name: "协作办公",
-        summary: "多人协同编辑友好，版本管理精细，可一键发送大文件给客户",
+        summary: "office在线编辑，权限、版本管理精细，可一键发送大文件给客户",
         p: "点击了解详情>"
     },
     {
@@ -581,7 +581,7 @@ var product = [
         img2:"../assets/images/fun/p-cc1.png",
         img: "../assets/images/fun/p-cc.png",
         name: "海量存储",
-        summary: "员工存储量一目了然，空间预警。 基于组织架构的存储，部门文件归类明确。"
+        summary: "分布式文件存储，基于组织架构的文件夹划分，归类明确，丰富权限配置，员工存储量、空间预警一目了然。 "
 
     },
     {
@@ -590,7 +590,9 @@ var product = [
         img2: "../assets/images/fun/p-qx1.png",
         img: "../assets/images/fun/p-qx.png",
         name: "精细权限",
-        summary: "下载权限，限制员工离职无法带走公司资料。 基于组织架构的存储，外部人员无法加入。 精细权限划分，便于管理。"
+        summary: "" +
+        "三个逻辑空间划分，五种数据收集方式。" +
+        "14个精细权限划分，数据更快更便捷的收集，权限场景更简单设定；"
 
     },
     {
@@ -599,7 +601,7 @@ var product = [
         img2: "../assets/images/fun/p-xz1.png",
         img: "../assets/images/fun/p-xz.png",
         name: "便捷协作",
-        summary: "一键发送大文件给客户"
+        summary: "基于web的office文件在线编辑，基于PC的自动编辑上传，文件动态消息推送、安全外链一键发送大文件给客户。"
     },
     {
         type: 4,
@@ -607,7 +609,7 @@ var product = [
         img2: "../assets/images/fun/p-zsk1.png",
         img: "../assets/images/fun/p-zsk.png",
         name: "知识库",
-    summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。 常见与客户沟通的技巧，经典案例的解决方案。"
+    summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。多维度标签查找知识，知识入库与审批，贡献值值排行榜。"
     },
     {
         type: 5,
@@ -623,7 +625,7 @@ var product = [
         img2: "../assets/images/fun/p-dz1.png",
         img: "../assets/images/fun/p-dz.png",
         name: "集成与定制",
-        summary: "从技术角度出发支持您的需求。 针对您工作中特有的问题，提供专业的解决方案。"
+        summary: "从技术角度出发支持您的需求，支持UI皮肤，功能，扩展组建的定制。 针对您工作中特有的问题，提供专业的解决方案。"
 
     }
 
@@ -1080,7 +1082,9 @@ function getPro(num) {
             '</div><br>'+
             '<h4>' + product[i].name + '</h4>' +
             '</a>' +
-            '<p>' + product[i].summary + '</p>' +
+            '<p>' + product[i].summary + '<a href='+product[i].src +'>详情...</a>'
+
+            '</p>' +
             '</div>';
 
         $("#product").append(html);
@@ -1279,7 +1283,7 @@ function insertExam(exa) {
 
     }
 }
-// 
+//
 function getEx(num) {
 
     if (num) {
