@@ -860,7 +860,7 @@ body{
     position: fixed;
     right: 0;
     bottom: 10%;
-    height: 230px;
+    height: 320px;
     width: 60px;
     border:1px solid #fff;
     border-radius: 5px 0 0 5px;
@@ -872,6 +872,7 @@ body{
     text-decoration: none;
 }
 .up,
+.tele,
 .pre-sale,
 .customer-service{
     height: 80px;
@@ -881,6 +882,29 @@ body{
     width: 27px !important;
     top: 21px !important;
     left: 17px !important;
+}
+.fade{
+    top: 80px;
+    left: -140px;
+    display: block;
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+    display: none;
+}
+.popover.left>.arrow{
+    top: 50%;
+    left: 100%;
+}
+.pre-sale>a:hover>.fade{
+    display: block;
+}
+#tooltip{
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 1;
 }
 .text-{
 

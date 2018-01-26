@@ -592,7 +592,7 @@ var product = [
         name: "精细权限",
         summary: "" +
         "三个逻辑空间划分，五种数据收集方式。" +
-        "14个精细权限划分，数据更快更便捷的收集，权限场景更简单设定；"
+        "14个精细权限划分，数据更快更便捷的收集，权限场景更简单设定。"
 
     },
     {
@@ -609,7 +609,7 @@ var product = [
         img2: "../assets/images/fun/p-zsk1.png",
         img: "../assets/images/fun/p-zsk.png",
         name: "知识库",
-    summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。多维度标签查找知识，知识入库与审批，贡献值值排行榜。"
+    summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。多维度标签查找知识，知识入库与审批，贡献值排行榜。"
     },
     {
         type: 5,
@@ -1009,7 +1009,7 @@ var stor = [
         type: 4,
         img: "../assets/images/fun_st/4.png",
         h4: "文件挂载",
-        p: "支持sanda、window共享文件夹挂载至云盘"
+        p: "支持samba、window共享文件夹挂载至云盘"
     },
     {
         type: 5,
@@ -1505,7 +1505,7 @@ $(document).ready(function () {
     console.log("start ---------");
 
     getExams(0);
-    getEx(0)
+    getEx(0);
     getUs(0);
     getPro(0);
     getPro2(0);
