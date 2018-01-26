@@ -112,7 +112,7 @@ var exh = [
         href: "ding.html",
         src: "../assets/images/a/a-dd.png",
         name: "钉钉集成",
-        summary: "实现钉钉用户免登云盘，并能一键导入组织架构，避免重复工作。",
+        summary: "实现钉钉用户免登云盘，并能一键导入组织架构，避免重复工作",
         p: "点击了解详情>"
     },
     {
@@ -548,9 +548,9 @@ var us = [
         type: 4,
         target: "_blank",
         href: "http://wpa.qq.com/msgrd?v=3&uin=380627112&site=qq&menu=yes/",
-        name: "联系我们",
+        name: "售前与需求",
         img: "../assets/images/us/u-kf.png",
-        summary: "获取有关技术疑难问题的帮助。",
+        summary: "为您解忧，请提出您的需求和疑问。<br/> 秦经理 ：18607089604 ",
         i: "了解更多>>"
     },
     {
@@ -559,7 +559,7 @@ var us = [
         href: "#",
         name: "合作渠道",
         img: "../assets/images/us/u-qd.png",
-        summary: "用工匠的精神打磨产品，做您坚实的技术后盾，期待您的加入。",
+        summary: "用工匠的精神打磨产品，做您坚实的技术后盾，与您同行。<br/> 肖经理 : 18028723770",
         i: "了解更多>>"
     },
     {
@@ -568,7 +568,7 @@ var us = [
         href: "http://wpa.qq.com/msgrd?v=3&uin=2941390949&site=qq&menu=yes/",
         name: "售后服务",
         img: "../assets/images/us/u-sh.png",
-        summary: "获取售后服务。",
+        summary: "售后QQ 群：492758719 ，<br> 售后请联系：0755-3394-2625",
         i: "了解更多>>"
     },
 
@@ -1240,11 +1240,9 @@ function getExams(num) {
         }
 
     } else {
-        console.log(filterEx);
         filterEx = [];
         $("#coo_cont").empty();
         filterEx = examples;
-        console.log(filterEx);
     }
 
     insertExam(filterEx);

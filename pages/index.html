@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class="about-wrap">
+
+<head>
+    <title>一粒云_企业网盘</title>
+    <link rel="import" href="../templates/h.html?__inline"/>
+</head>
+
+<body id="about">
+<!-- head -->
+<link rel="import" href="../templates/nav.html?__inline"/>
+<!-- 滑块 -->
+<div class="container slider">
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="xz.html">
+                    <img src="../assets/images/a/xz1.png" alt=""></a>
+
+                <h3></h3>
+
+            </div>
+            <div class="item">
+                <video id="myVideo" class="xz-video" src="../assets/video/xz-sp.mp4" controls="controls">
+                    您的浏览器不支持播放
+                </video>
+                <!-- <a href="xz.html">
+                    <img src="../assets/images/a/xz2.png" alt="">
+                </a> -->
+
+                <h3></h3>
+
+            </div>
+            <div class="item">
+                <a href="knowLedge.html">
+                    <img src="../assets/images/a/xz2.png" alt=""></a>
+
+                <h3>让您工作更轻松</h3>
+
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev"><span
+                class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next"><span
+                class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+</div>
+<!-- advertisement -->
+<div class="container theHeadlines">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="theHeadlines-left">
+                <div class="new">
+                    <!-- <img src="../assets/images/a-tt.png" alt=""> -->
+                    <h3>一粒云头条:</h3>
+
+                    <ul class="list-inline" style="display: inline-block;">
+                        <li>
+                            <a target="_blank" href="http://www.yliyun.com/blog/2017/06/19/xiamen-ac/"
+                               class="titleName">2018-01-18
+                                | 一粒云(企业网盘)发布v3.8.0 版本 <span class="spa1">NEW</span>
+                            </a>
+                        </li>
+                        <!--<li>-->
+                            <!--<a target="_blank" href="http://www.yliyun.com/blog/2017/06/19/xiamen-ac/"-->
+                               <!--class="titleName">2017-01-20-->
+                                <!--| 一粒云(企业网盘)发布扩展组件： office 在线编辑体验 <span class="spa1">NEW</span>-->
+                            <!--</a>-->
+                        <!--</li>-->
+                        <li>
+                            <a target="_blank" href="http://www.yliyun.com/blog/">查看全部
+                                <span>></span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- exhibition -->
+<div class="container exhibition">
+    <div class="exhibition-main">
+        <div class="row" id="exh">
+
+
+        </div>
+    </div>
+</div>
+<!-- case -->
+<div class="container case">
+    <div class="row">
+        <h3 class="case-h3">经典案例</h3>
+        <div class="col-md-6 a">
+
+            <div class="case-left">
+                <div class="bg-a"><img src="../assets/images/a/bg-dawid.png" alt=""></div>
+                <div class="yany"><img src="../assets/images/a/yany.png" alt="龙湾教育局"></div>
+                <div class="horn"><img src="../assets/images/a/a-jy.png" alt="教育行业"></div>
+                <a href="longwan.html">查看详情<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <!---->
+            </div>
+
+        </div>
+
+        <div class="col-md-6 a c-zz">
+            <div class="case-right">
+                <div class="bg-a"><img src="../assets/images/a/bg-annie.png" alt=""></div>
+                <div class="yany"><img src="../assets/images/a/yany2.png" alt="东风小康"></div>
+                <div class="horn"><img src="../assets/images/a/a-zz.png" alt="制造行业"></div>
+                <a href="coo.html#coo_cont>col-md-4:nth-child(12)">查看详情<span
+                        class="glyphicon glyphicon-chevron-right"></span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- foot -->
+<link rel="import" href="../templates/footer.html?__inline"/>
+<!-- suspension -->
+<!--Bootstrap-->
+<link rel="import" href="../templates/ft.html?__inline"/>
+<script>
+    $("video").trigger("pause");
+    $("video").addClass('pause');
+    $('video').click(function () {
+        if ($(this).hasClass('pause')) {
+            $("video").trigger("play");
+            $(this).removeClass('pause');
+            $(this).addClass('play');
+        } else {
+            $("video").trigger("pause");
+            $(this).removeClass('play');
+            $(this).addClass('pause');
+        }
+    })
+</script>
+</body>
+
+</html>
