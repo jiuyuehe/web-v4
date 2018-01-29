@@ -12,7 +12,7 @@ if(window.location.pathname.indexOf('xz-office')>0){
 
     if(window.location.search && window.location.search.indexOf("word") > 0){
 
-       $('iframe').attr('src',"http://www.szchangxun.cn:8090/cloud-office/api/local/test.docx/open?app=WRITE_VIEWER&root=/home/hancom&fid=1111&user_id=lockfree"+(Math.floor(Math.random()*52 + 1)%3))
+       $('iframe').attr('src',"http://www.szchangxun.cn:8090/cloud-office/api/local/test.docx/open?app=WRITE_EDITOR&root=/home/hancom&fid=1111&user_id=lockfree"+(Math.floor(Math.random()*52 + 1)%3))
 
     }else if(window.location.search && window.location.search.indexOf("excel") > 0){
 
@@ -20,7 +20,7 @@ if(window.location.pathname.indexOf('xz-office')>0){
 
     }else{
 
-        $('iframe').attr('src',"http://www.szchangxun.cn:8090/cloud-office/api/local/test.pptx/open?app=SHOW_EDITOR&root=/home/hancom&fid=333&user_id=lockfree"+(Math.floor(Math.random()*52 + 1)%3))
+        $('iframe').attr('src',"http://www.szchangxun.cn:8090/cloud-office/api/local/test.docx/open?app=WRITE_VIEWER&root=/home/hancom&fid=1111&user_id=lockfree"+(Math.floor(Math.random()*52 + 1)%3))
 
     }
 

@@ -46,16 +46,19 @@
                     <p>含一年VIP</p>
                 </div>
 
-                <a href="https://ding.fanqier.com/f/5luy06">
-                    <button>购买服务</button>
+                <a onclick="document.getElementById('popup1').style.display='block';
+                     document.getElementById('fade1').style.display='block'">
+                    <button>登记购买</button>
                 </a>
+
+
             </div>
         </div>
         <div class="col-md-4">
             <div class="enterprise">
                 <img src="../assets/images/prp/pr-qy.png" alt="">
                 <h3>企业版</h3>
-                <span href="javascript:void(0)" >沟通</span>
+                <span >沟通</span>
                 <div class="enterprise_p">
                     <p>永久帐号体系</p>
                     <p>标准功能</p>
@@ -82,6 +85,19 @@
 
     </div>
     <div id="fade" class="black_overlay"></div>
+
+
+    <!-- 弹出的窗口 -->
+    <div id="popup1" class="white_content">
+            <span href="javascript:void(0)" onclick="document.getElementById('popup1').style.display='none';
+                document.getElementById('fade1').style.display='none'">关闭窗口</span>
+
+        <iframe style="width: 100%; height: 100%" src="https://ding.fanqier.com/f/5luy06" frameborder="0"></iframe>
+
+    </div>
+    <div id="fade1" class="black_overlay"></div>
+
+
 </div>
 <!--自助安装窗口  -->
 <div class="container">
