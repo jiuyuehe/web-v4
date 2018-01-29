@@ -118,7 +118,7 @@ var exh = [
     {
         type: 2,
         href: "xz.html",
-        src: "../assets/images/a/a-xz.png",
+        src: "../assets/images/a/a-xz.gif",
         name: "协作办公",
         summary: "office在线编辑，权限、版本管理精细，可一键发送大文件给客户",
         p: "点击了解详情>"
@@ -163,7 +163,7 @@ var examples = [
         use2: '外链分享'
     },
     {
-        id:12,
+        id: 12,
         name: "企业历史文档存储与共享",
         type: 1,
         type2: 2,
@@ -380,7 +380,7 @@ var examples = [
         use2: '定制化'
     },
     {
-        id:41,
+        id: 41,
         name: "网盘管理方式应用",
         type: 4,
         type2: 4,
@@ -448,7 +448,7 @@ var examples = [
     },
 
     {
-        id:53,
+        id: 53,
         name: "企业培训文件，机要文件的存储与管理",
         type: 5,
         type2: 3,
@@ -461,7 +461,7 @@ var examples = [
         use2: '安全分享'
     },
     {
-        id:54,
+        id: 54,
         name: "云盘一体机在企业内部应用",
         type: 5,
         type2: 3,
@@ -474,7 +474,7 @@ var examples = [
         use2: '高效查询'
     },
     {
-        id:55,
+        id: 55,
         name: "业务资料存储，快速收发文件",
         type: 5,
         type2: 4,
@@ -501,7 +501,7 @@ var examples = [
         use2: '网盘应用'
     },
     {
-        id:52,
+        id: 52,
         name: "业务文档管理，版本历史",
         type: 5,
         type2: 2,
@@ -578,7 +578,7 @@ var product = [
     {
         type: 1,
         src: "fun_storage.html",
-        img2:"../assets/images/fun/p-cc1.png",
+        img2: "../assets/images/fun/p-cc1.png",
         img: "../assets/images/fun/p-cc.png",
         name: "海量存储",
         summary: "分布式文件存储，基于组织架构的文件夹划分，归类明确，丰富权限配置，员工存储量、空间预警一目了然。 "
@@ -609,7 +609,7 @@ var product = [
         img2: "../assets/images/fun/p-zsk1.png",
         img: "../assets/images/fun/p-zsk.png",
         name: "知识库",
-    summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。多维度标签查找知识，知识入库与审批，贡献值排行榜。"
+        summary: "企业知识、经验的传承。 岗位技能需求、经验的汇聚，便于员工交接。多维度标签查找知识，知识入库与审批，贡献值排行榜。"
     },
     {
         type: 5,
@@ -1048,7 +1048,7 @@ var secu = [
 ]
 //secu
 function getsecu(num) {
-    for (var i = 0; i < secu.length; i++){
+    for (var i = 0; i < secu.length; i++) {
 
         var html =
             '<div class="col-md-4 text-center pad">' +
@@ -1076,15 +1076,15 @@ function getPro(num) {
         var html =
             '<div class="col-md-4">' +
             '<a href="' + product[i].src + '" class="">' +
-            '<div class="product_img">'+
+            '<div class="product_img">' +
             '<img src="' + product[i].img2 + '" alt="" class="product_img_top">' +
             '<img src="' + product[i].img + '" alt="" class="product_img_bottom">' +
-            '</div><br>'+
+            '</div><br>' +
             '<h4>' + product[i].name + '</h4>' +
             '</a>' +
-            '<p>' + product[i].summary + '<a href='+product[i].src +'>详情...</a>'
+            '<p>' + product[i].summary + '<a href=' + product[i].src + '>详情...</a>'
 
-            '</p>' +
+        '</p>' +
             '</div>';
 
         $("#product").append(html);
@@ -1395,7 +1395,7 @@ function getcon3(num) {
 
         $("#cont3").append(html);
     }
- }
+}
 
 //s-nas
 function getprog(num) {
@@ -1432,7 +1432,9 @@ function getexh(num) {
         var html =
             '<div class="col-md-4">' +
             '<div class="e-content">' +
+            '<div class="e-panel-body">' +
             '<a href="' + exh[i].href + '"><img src="' + exh[i].src + '" alt=""></a>' +
+            '</div>' +
             '<h3><b>' + exh[i].name + '</b></h3>' +
             '<p>' + exh[i].summary + '</p>' +
             '</div>' +
