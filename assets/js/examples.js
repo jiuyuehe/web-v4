@@ -557,7 +557,7 @@ var us = [
     {
         type: 5,
         target: "_self",
-        href: "#",
+        href: "javascript:void(0);",
         name: "合作渠道",
         img: "../assets/images/us/u-qd.png",
         summary: "用工匠的精神打磨产品，做您坚实的技术后盾，与您同行。<br/> 肖经理 : 18028723770",
@@ -566,7 +566,7 @@ var us = [
     {
         type: 6,
         target: "_blank",
-        href: "http://wpa.qq.com/msgrd?v=3&uin=2941390949&site=qq&menu=yes/",
+        href: "javascript:void(0);",
         name: "售后服务",
         img: "../assets/images/us/u-sh.png",
         summary: "售后QQ 群：492758719 ⬇ ⬇ ⬇ ，<br> 售后请联系：0755-3394-2625",
@@ -636,7 +636,7 @@ var product2 = [
     {
         type: 1,
         img: "../assets/images/fun/p-aq.png",
-        name: "安全",
+        name: "安全加密",
         typeName1: "防误删",
         typeName2: "防泄露",
         typeName3: "防盗",
@@ -651,7 +651,7 @@ var product2 = [
     {
         type: 2,
         img: "../assets/images/fun/p-qx.png",
-        name: "权限",
+        name: "精细权限",
 
         typeName1: "多级管理员",
         typeName2: "系统仪表盘",
@@ -668,7 +668,7 @@ var product2 = [
     {
         type: 3,
         img: "../assets/images/fun/p-xz.png",
-        name: "协作",
+        name: "便捷协作",
 
         typeName1: "发送大文件给客户",
         typeName2: "寻找文档latese",
@@ -700,7 +700,7 @@ var product2 = [
     {
         type: 5,
         img: "../assets/images/fun/p-cc.png",
-        name: "存储",
+        name: "海量存储",
 
         typeName1: "空间预警机制",
         typeName2: "系统存储状态",
@@ -716,7 +716,7 @@ var product2 = [
     {
         type: 6,
         img: "../assets/images/fun/p-dz.png",
-        name: "定制",
+        name: "集成与定制",
 
         typeName1: "空间预警机制",
         typeName2: "系统存储状态",
@@ -1490,7 +1490,7 @@ function getmach(num) {
 function getstor(num) {
     for (var i = 0; i < stor.length; i++) {
         var html =
-            '<div class="col-md-4 col-sm-6 text-center">' +
+            '<div class="col-md-4 col-sm-6 text-center w_cont">' +
             '<div class="fun_stor_img"><img src="' + stor[i].img + '" alt=""></div>' +
             '<div class="fun_stor_h4">' +
             '<h4>' + stor[i].h4 + '</h4>' +

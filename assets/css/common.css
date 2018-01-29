@@ -525,7 +525,14 @@ body{
         margin-top: 0;
     }
 }
-
+@media screen and (max-width: 2500px){
+    .e-panel-body{
+        height: 307px;
+    }
+    .e-panel-body img{
+        height: 100%;
+    }
+}
 @media screen and (max-width: 1575px) {
     .e-panel-body{
         height: 217px;
@@ -906,11 +913,12 @@ body{
 }
 .number{
     top: 80px;
-    left: -140px;
+    left: -160px;
     display: block;
     cursor: pointer;
     padding: 20px;
     display: none;
+    font-size: 17px;
 }
 .popover.left>.arrow{
     top: 50%;
