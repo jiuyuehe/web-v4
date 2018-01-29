@@ -1136,7 +1136,7 @@ function getPro2(num) {
             '</div>' +
             '</div>' +
             '</div>' +
-            '</div>+';
+            '</div>'
 
         $("#p-cont").append(html);
 
