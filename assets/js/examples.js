@@ -128,7 +128,7 @@ var exh = [
         href: "knowLedge.html",
         src: "../assets/images/a/a-zsk.png",
         name: "知识库",
-        summary: "常见与客户沟通的技巧，经典案例的解决方案",
+        summary: "企业常年沉淀知识积累，汇集企业全部知识力量",
         p: "点击了解详情>"
     },
 ]
@@ -515,6 +515,7 @@ var examples = [
     },
 
 ]
+
 // us
 var us = [
     {
@@ -523,7 +524,7 @@ var us = [
         href: "http://www.yliyun.com/blog/",
         name: "一粒云博客",
         img: "../assets/images/us/Blogger.png",
-        summary: "从博客中了解更多一粒云的见解。",
+        summary: "从博客中了解更多一粒云的见解。 点击查看 >>>  ",
         i: "了解更多>>"
     },
     {
@@ -532,7 +533,7 @@ var us = [
         href: "http://www.yliyun.com/blog/tag/help/",
         name: "一粒云新闻",
         img: "../assets/images/us/u-xw.png",
-        summary: "为您展示我们最新的动态，让您更了解一粒云。",
+        summary: "为您展示我们最新的动态，让您更了解一粒云。 点击查看 >>>",
         i: "了解更多>>"
     },
     {
@@ -541,7 +542,7 @@ var us = [
         href: "us.html#weixin",
         name: "一粒云公众号",
         img: "../assets/images/us/u-wx.png",
-        summary: "汇聚最新的行业信息，聚焦最前沿的技术。",
+        summary: "产品最新信息，下载，优惠活动。扫描关注下方二维码 ⬇ ⬇ ⬇",
         i: "了解更多>>"
     },
     {
@@ -568,7 +569,7 @@ var us = [
         href: "http://wpa.qq.com/msgrd?v=3&uin=2941390949&site=qq&menu=yes/",
         name: "售后服务",
         img: "../assets/images/us/u-sh.png",
-        summary: "售后QQ 群：492758719 ，<br> 售后请联系：0755-3394-2625",
+        summary: "售后QQ 群：492758719 ⬇ ⬇ ⬇ ，<br> 售后请联系：0755-3394-2625",
         i: "了解更多>>"
     },
 
@@ -1074,7 +1075,7 @@ function getPro(num) {
     for (var i = 0; i < product.length; i++) {
 
         var html =
-            '<div class="col-md-4">' +
+            '<div class="col-md-4 prs">' +
             '<a href="' + product[i].src + '" class="">' +
             '<div class="product_img">'+
             '<img src="' + product[i].img2 + '" alt="" class="product_img_top">' +

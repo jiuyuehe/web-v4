@@ -1087,7 +1087,7 @@ h2.h3 {
 .learnMore:hover {
     box-shadow: 0px 2px 10px #b3b1b1;
     cursor: pointer;
-    padding: 14px;
+    /*padding: 14px;*/
     border-bottom: 10px solid #06ca68;
 }
 
@@ -1995,4 +1995,13 @@ table{
 
 .opac {
     opacity: 0.3;
+}
+
+.prs{
+    border: 1px solid transparent;
+}
+
+.prs:hover {
+    border: 1px solid #06c364;
+    box-shadow: 1px 1px 10px 1px ;
 }
