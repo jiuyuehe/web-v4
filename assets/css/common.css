@@ -182,7 +182,7 @@ body{
         font-size: 1.6rem;
     }
     .standard{
-        display: none;
+        display: none !important;
     }
      #btn-fadeToggle{
         display: inline-block !important;
