@@ -181,6 +181,12 @@ body{
     .white_paper_l p{
         font-size: 1.6rem;
     }
+    .standard{
+        display: none;
+    }
+     #btn-fadeToggle{
+        display: inline-block !important;
+    } 
     /*ding  */
     .ding-h2{
         font-size: 2.3rem !important;
@@ -321,7 +327,7 @@ body{
     }
     /*float  */
     .suspension{
-        height: 300px !important;
+        height: 396px !important;
         width: 80px !important;
     }
     .up,
@@ -331,16 +337,19 @@ body{
     }
     .suspension img,
     .suspension span{
-        top: 15px !important;
-        left: 7px !important;
-        height: 64px !important;
-        width: 64px !important;
+        top: 26px !important;
+        left: 14px !important;
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .text-{
+        top: -27px !important;
     }
     .text-,
     .text-prompt{
-        height: 64px !important;
-        width: 64px !important;
-        bottom: 42px !important;
+        height: 60px !important;
+        width: 60px !important;
+        bottom: 28px !important;
         left: 7px !important;
         font-size: 20px !important;
     }
@@ -359,14 +368,25 @@ body{
     }
     .division{
         width: 47px !important;
+        margin: 0 15px !important;
     }
+    .number{
+        top: 101px !important;
+        left: -220px !important;
+        font-size: 25px !important;
+    }
+    
     #close{
-        font-size: 90px !important;
+        font-size: 50px !important;
+    }
+    .form-content{
+        max-width: none ;
     }
     .float-form{
-       top: 50px !important;
+       top:75px !important;
        width: 100% !important;
        height: 100% !important;
+       margin-top: 0!important;
     }
     /*porduct  */
     .Product-show{
@@ -594,7 +614,7 @@ body{
     .tc-block{
         display: none !important;
     }
-    #btn-fadeToggle{
+     #btn-fadeToggle{
         display: none;
     }
     .standard{
@@ -994,6 +1014,13 @@ body{
     opacity: 1;
     text-decoration: none;
     color: black;
+}
+#btn-fadeToggle {
+    display:none;
+}
+
+.standard {
+    display: inline-block;
 }
 /*  */
 .float-form{

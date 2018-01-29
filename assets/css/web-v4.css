@@ -508,13 +508,13 @@ a.carousel-control.right span {
     margin-bottom: 20px;
 }
 
-#btn-fadeToggle {
-    display: inline-block;
+ #btn-fadeToggle {
+    display:none;
 }
 
 .standard {
-    display: none;
-}
+    display: inline-block;
+} 
 
 /*coo  */
 .coo-ol li {
