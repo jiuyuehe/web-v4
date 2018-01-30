@@ -28,9 +28,10 @@
 
                 </div>
                 <div class="item">
-                    <video id="myVideo" class="xz-video" src="../assets/video/xz-sp.mp4" controls="controls">
+                    <video id="myVideo" preload="none" class="xz-video" src="../assets/video/xz-sp.mp4" controls="controls">
                         您的浏览器不支持播放
                     </video>
+                    <span class="glyphicon glyphicon-play-circle" id="play"></span>
                     <!-- <a href="xz.html">
                     <img src="../assets/images/a/xz2.png" alt="">
                 </a> -->
@@ -131,6 +132,12 @@
     <!--Bootstrap-->
     <link rel="import" href="../templates/ft.html?__inline" />
     <script>
+        $(document).ready(function () {
+            $("#play").click(function () {
+                $("#play").remove();
+                $("video").trigger("play");
+            });
+        });
         $("video").trigger("pause");
         $("video").addClass('pause');
         $('video').click(function () {

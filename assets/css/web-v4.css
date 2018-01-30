@@ -24,6 +24,9 @@
     background-color: rgba(248, 248, 248, 0);
     opacity: 0.8;
     cursor: pointer;
+    left: 50%;
+    margin-left: -4.5rem;
+    color: white;
 }
 
 .a-video {
@@ -513,7 +516,7 @@ a.carousel-control.right span {
 }
 
 .standard {
-    display: inline-block;
+    display:none;
 } 
 
 /*coo  */
