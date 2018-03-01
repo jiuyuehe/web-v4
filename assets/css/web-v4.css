@@ -1910,6 +1910,9 @@ table{
     background-image: url(../images/fun_se/bg1.png);
 }
 
+.fun_secu_img img{
+    width: 100% !important;
+}
 #secu .pad {
     padding: 50px 55px;
 }
