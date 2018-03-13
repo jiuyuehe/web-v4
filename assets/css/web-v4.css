@@ -285,7 +285,30 @@ a.carousel-control.right span {
     height: 100%;
     bottom: 0px;
 }
-
+.a-case{
+    margin-top: -50%;
+    position: relative;
+    top: 70px;
+}
+.a-case p{
+    font-size: 1.6rem;
+    color: white;
+}
+.a-btn-color{
+    color: white;
+    background-color: rgba(255, 255, 255,0);
+    border-color: rgb(255, 255, 255);
+    padding: 4px 10px;
+    border-radius: 0;
+    margin-left: 15px;
+}
+.a-case-span{
+    position: absolute;
+    right: 0;
+    padding: 5% 4%;
+    top: 0;
+    color: white;
+}
 .text-describe-l {
     background-color: rgba(13, 125, 250, 0.8);
 }
@@ -1376,12 +1399,12 @@ video::-webkit-media-controls-panel {
     width: 100%;
 }
 
-.k-summ-main,
+/* .k-summ-main,
 .k-structure-main,
 .k-card-main {
-    /* position: absolute; */
-    /* top: 0; */
-}
+    position: absolute;
+    top: 0;
+} */
 
 .k-summ-main h4 {
     display: block;
@@ -1953,8 +1976,8 @@ table{
     margin-left: 25%;
 }
 
-.fun_juisd_cont_bottom_h3 {
-}
+/* .fun_juisd_cont_bottom_h3 {
+} */
 
 .fun_juisd_cont_top {
     margin-top: 11%;
@@ -2010,4 +2033,35 @@ table{
 .prs:hover {
     border: 1px solid #06c364;
     box-shadow: 1px 1px 10px 1px ;
+}
+.a-from{
+    height: 480px;
+    background-image: url(../images/a/a-f-z.png);
+    margin-bottom: 45px;
+}
+.a-from-main{
+    width: 424px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: -121px;
+    margin-left: -212px;
+    color: white;
+
+}
+.from-cont{
+    margin-top: 45px;
+}
+.from-cont p{
+    font-size: 1.3rem;
+}
+
+.from-btn{
+    text-align: center;
+    margin-top: 75px;
+}
+.from-btn button{
+    background-color: #06ca67;
+    font-size: 1.3rem;
+    color: white !important;
 }
