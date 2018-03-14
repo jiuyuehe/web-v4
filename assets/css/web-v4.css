@@ -540,7 +540,7 @@ a.carousel-control.right span {
 
 .standard {
     display:none;
-} 
+}
 
 /*coo  */
 .coo-ol li {
@@ -2040,7 +2040,7 @@ table{
     margin-bottom: 45px;
 }
 .a-from-main{
-    width: 424px;
+    width: 500px;
     position: relative;
     left: 50%;
     top: 50%;
@@ -2053,7 +2053,7 @@ table{
     margin-top: 45px;
 }
 .from-cont p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 .from-btn{
