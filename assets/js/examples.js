@@ -53,21 +53,21 @@ var prod2 = [
     {
         type: 1,
         name: "小机器1",
-        href: "nas.html",
+        href: "nas1.html",
         src: "../assets/images/pr/小机器1.png",
         //price: "￥2000"
     },
     {
         type: 2,
         name: "小机器2",
-        href: "s-nas.html",
+        href: "nas2.html",
         src: "../assets/images/pr/小机器2.png",
         // price: "￥2000"
     },
     {
         type: 3,
         name: "小机器3",
-        href: "product.html",
+        href: "nas3.html",
         src: "../assets/images/pr/小机器3.png",
         //price: "￥2000"
     },
@@ -1201,7 +1201,7 @@ function getsNas(num) {
         var html =
             '<div class="col-md-3 col-sm-4 col-xs-4">' +
             '<ul class="pull-left">' +
-            '<li><span>' + sNas[i].span + '</span>' + sNas[i].name + '</li>' +
+            '<li><button>' + sNas[i].span + '</button>' + sNas[i].name + '</li>' +
             '</ul>' +
             '</div>';
         $("#s-notes").append(html);
@@ -1213,7 +1213,7 @@ function getnotes(num) {
         var html =
             '<div class="col-md-3 col-sm-4 col-xs-4">' +
             '<ul class="pull-left">' +
-            '<li><span>' + notes[i].span + '</span>' + notes[i].name + '</li>' +
+            '<li><button>' + notes[i].span + '</button>' + notes[i].name + '</li>' +
             '</ul>' +
             '</div>'
         $("#notes").append(html);

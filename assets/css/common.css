@@ -110,9 +110,15 @@ body {
         margin-bottom: 0;
     }
     .a-from-main{
-        width: 680px;
-        margin-top: -190px;
-        margin-left: -340px;
+        width: 680px !important;
+        margin-top: -220px !important;
+        margin-left: -340px !important;
+    }
+    .from-cont{
+        margin-top: 35px !important;
+    }
+    .from-btn{
+        margin-top: 25px !important;
     }
 
     /*foot  */
@@ -716,7 +722,6 @@ body {
     font-size: 1.6rem;
     font-weight: bold;
     /* color: #000 !important; */
-    padding: 20px 15px;
 }
 
 .head ul li a:hover {
@@ -724,7 +729,7 @@ body {
 }
 
 .head-right {
-    margin-top: 14px;
+    margin-top: 6px;
     float: right;
     display: block;
     padding: 6px 40px;
