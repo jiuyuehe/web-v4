@@ -52,27 +52,28 @@ var prog = [
 var prod2 = [
     {
         type: 1,
-        name: "小机器1",
-        href: "nas1.html",
-        src: "../assets/images/pr/小机器1.png",
-        //price: "￥2000"
-    },
-    {
-        type: 2,
-        name: "小机器2",
+        name: "s200",
         href: "nas2.html",
         src: "../assets/images/pr/小机器2.png",
         // price: "￥2000"
     },
     {
-        type: 3,
-        name: "小机器3",
-        href: "nas3.html",
-        src: "../assets/images/pr/小机器3.png",
+        type: 2,
+        name: "s400",
+        href: "nas1.html",
+        src: "../assets/images/pr/小机器1.png",
         //price: "￥2000"
     },
+    
+    // {
+    //     type: 3,
+    //     name: "小机器3",
+    //     href: "nas3.html",
+    //     src: "../assets/images/pr/小机器3.png",
+    //     //price: "￥2000"
+    // },
     {
-        type: 4,
+        type: 3,
         name: "云主机",
         href: "product.html",
         src: "../assets/images/pr/云主机.png",
